@@ -1,0 +1,13 @@
+body {
+    margin: 0;
+    padding: 1rem;
+    font-family: 'Inter', sans-serif;
+    background-color: lightblue;
+}
+
+.box {
+    padding: 1rem;
+    background-color: #fff;
+    border-radius: 3px;
+}
+

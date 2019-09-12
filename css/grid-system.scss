@@ -1,0 +1,26 @@
+$gridColumns: 6 !default;
+
+$spacer: 1rem !default;
+$spacers: (0: 0,
+        1: ($spacer * .25),
+        2: ($spacer * .5),
+        3: $spacer,
+        4: ($spacer * 1.5),
+        5: ($spacer * 3));
+
+.grid {
+  display: grid;
+  //grid-template-columns: repeat($gridColumns, 1fr);
+}
+
+@each $size, $length in $spacers {
+  .gap-#{$size} {
+    grid-gap: $length;
+  }
+}
+
+@for $i from 1 through $gridColumns {
+  .col-#{$i} {
+    grid-column-start: span #{$i};
+  }
+}

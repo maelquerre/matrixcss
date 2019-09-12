@@ -1,0 +1,53 @@
+.grid {
+  display: grid;
+}
+
+.gap-0 {
+  grid-gap: 0;
+}
+
+.gap-1 {
+  grid-gap: 0.25rem;
+}
+
+.gap-2 {
+  grid-gap: 0.5rem;
+}
+
+.gap-3 {
+  grid-gap: 1rem;
+}
+
+.gap-4 {
+  grid-gap: 1.5rem;
+}
+
+.gap-5 {
+  grid-gap: 3rem;
+}
+
+.col-1 {
+  grid-column-start: span 1;
+}
+
+.col-2 {
+  grid-column-start: span 2;
+}
+
+.col-3 {
+  grid-column-start: span 3;
+}
+
+.col-4 {
+  grid-column-start: span 4;
+}
+
+.col-5 {
+  grid-column-start: span 5;
+}
+
+.col-6 {
+  grid-column-start: span 6;
+}
+
+/*# sourceMappingURL=grid-system.css.map */
