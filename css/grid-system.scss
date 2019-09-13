@@ -1,4 +1,5 @@
 $gridColumns: 6 !default;
+$orders: 10 !default;
 
 $spacer: 1rem !default;
 $spacers: (0: 0,
@@ -10,7 +11,8 @@ $spacers: (0: 0,
 
 .grid {
   display: grid;
-  //grid-template-columns: repeat($gridColumns, 1fr);
+  grid-template-columns: repeat($gridColumns, 1fr);
+  grid-auto-rows: 1fr;
 }
 
 @each $size, $length in $spacers {
@@ -19,8 +21,40 @@ $spacers: (0: 0,
   }
 }
 
-@for $i from 1 through $gridColumns {
-  .col-#{$i} {
-    grid-column-start: span #{$i};
+@for $size from 1 through $gridColumns {
+  .col-#{$size} {
+    grid-column-end: span $size;
   }
+}
+
+@for $size from 1 through $gridColumns {
+  .row-#{$size} {
+    grid-row-end: span $size;
+  }
+}
+
+@for $size from 1 through $gridColumns {
+  .col-start-#{$size} {
+    grid-column-start: $size;
+  }
+}
+
+@for $size from 1 through $gridColumns {
+  .row-start-#{$size} {
+    grid-row-start: $size;
+  }
+}
+
+@for $order from 1 through $orders {
+  .order-#{$order} {
+    order: $order;
+  }
+}
+
+.order-first {
+  order: -999;
+}
+
+.order-last {
+  order: 999;
 }

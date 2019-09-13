@@ -1,8 +1,28 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
 body {
     margin: 0;
     padding: 1rem;
     font-family: 'Inter', sans-serif;
     background-color: lightblue;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+h1 {
+    font-size: 3rem;
+    letter-spacing: -.04em;
+}
+
+h2 {
+    font-size: 2rem;
+    letter-spacing: -.03em;
+}
+
+.section {
+    margin-bottom: 3rem;
 }
 
 .box {
@@ -10,4 +30,3 @@ body {
     background-color: #fff;
     border-radius: 3px;
 }
-
