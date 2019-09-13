@@ -8,7 +8,7 @@
   @include media-breakpoint($breakpoint, $breakpoints) {
     $infix: breakpoint-infix($breakpoint, $breakpoints);
     @each $size, $length in $spacers {
-      .ga#{$infix}-#{$size} {
+      .gap#{$infix}-#{$size} {
         grid-gap: $length;
       }
     }
