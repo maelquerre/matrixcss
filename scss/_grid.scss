@@ -27,13 +27,13 @@
     }
 
     @for $size from 1 through $gridColumns {
-      .col#{$infix}-start-#{$size} {
+      .col-start#{$infix}-#{$size} {
         grid-column-start: $size;
       }
     }
 
     @for $size from 1 through $gridColumns {
-      .row#{$infix}-start-#{$size} {
+      .row-start#{$infix}-#{$size} {
         grid-row-start: $size;
       }
     }
