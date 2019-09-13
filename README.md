@@ -1,3 +1,13 @@
 # Grid System
 
-A CSS framework based on CSS Grid Layout.
+Grid System is a CSS framework based on the CSS Grid Layout.
+
+## Getting started
+
+### Prerequisites
+
+### Installation
+
+
+### Usage
+
