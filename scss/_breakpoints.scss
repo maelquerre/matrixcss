@@ -1,6 +1,6 @@
 @function breakpoint($name, $breakpoints) {
-  $min: map-get($breakpoints, $name);
-  @return if($min != 0, $min, null);
+  $width: map-get($breakpoints, $name);
+  @return if($width != 0, $width, null);
 }
 
 @function breakpoint-infix($name, $breakpoints) {
@@ -8,9 +8,9 @@
 }
 
 @mixin media-breakpoint($name, $breakpoints) {
-  $min: breakpoint($name, $breakpoints);
-  @if $min {
-    @media (min-width: $min) {
+  $width: breakpoint($name, $breakpoints);
+  @if $width {
+    @media (min-width: $width) {
       @content;
     }
   } @else {
