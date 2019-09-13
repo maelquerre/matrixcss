@@ -1,0 +1,19 @@
+$gridColumns: 6 !default;
+$orders: 10 !default;
+
+$spacer: 1rem !default;
+$spacers: (
+  0: 0,
+  1: ($spacer * .25),
+  2: ($spacer * .5),
+  3: $spacer,
+  4: ($spacer * 1.5),
+  5: ($spacer * 3)
+) !default;
+
+$breakpoints: (
+  xs: 0,
+  s: 576px,
+  m: 768px,
+  l: 992px,
+) !default;
