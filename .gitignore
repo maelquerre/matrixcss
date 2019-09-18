@@ -3,3 +3,6 @@
 
 # IDE
 .idea
+
+# Jekyll
+_site/
