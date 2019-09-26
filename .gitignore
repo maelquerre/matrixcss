@@ -1,8 +1,6 @@
-# System
 .DS_Store
-
-# IDE
 .idea
 
-# Jekyll
 _site/
+
+serve.sh

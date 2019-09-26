@@ -1,7 +1,16 @@
-*, *::before, *::after {
-  box-sizing: border-box;
-}
+/**
+ * Grid System v1.0 (https://glascode.github.io/grid-system)
+ */
+
+// Abstract
 
 @import "variables";
-@import "breakpoints";
+@import "mixins";
+
+
+// Layouts and components
+
+@import "base";
 @import "grid";
+@import "box";
+@import "spacing";

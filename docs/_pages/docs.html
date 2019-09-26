@@ -1,6 +1,22 @@
 ---
 layout: default
-permalink: /docs
+permalink: /docs/
 ---
 
-// Big menu
+<h1>Docs</h1>
+
+<section class="grid">
+  {% for category in site.data.docs_nav %}
+  <article class="docs-category col-2">
+    <h2 class="docs-category-title">{{ category.title }}</h2>
+    <ul class="docs-category-list">
+      {% for item in category.items %}
+      {% assign link = item | downcase | replace: ' ', '-' %}
+      <li>
+        <a href="{{ site.baseurl }}/docs/{{ link }}">{{ item }}</a>
+      </li>
+      {% endfor %}
+    </ul>
+  </article>
+  {% endfor %}
+</section>

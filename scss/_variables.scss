@@ -1,5 +1,16 @@
-$columns: 6 !default;
+// Variables
+
+// Color system
+
+$white: #fff !default;
+$black: #000 !default;
+
+$red: #f03009 !default;
+
 $orders: 10 !default;
+
+
+// Spacing
 
 $spacer: 1rem !default;
 $spacers: (
@@ -11,9 +22,78 @@ $spacers: (
   5: ($spacer * 3)
 ) !default;
 
+
+// Sides
+
+$sides: (
+  a: "all",
+  t: "top",
+  l: "left",
+  r: "right",
+  b: "bottom"
+);
+
+
+// Links
+
+$link-color: $black !default;
+$link-decoration: underline rgba($black, .3);
+$link-hover-color: $red !default;
+$link-hover-decoration: underline $red !default;
+
+
+// Breakpoints
+
 $breakpoints: (
   xs: 0,
   s: 576px,
   m: 768px,
-  l: 992px,
+  l: 992px
 ) !default;
+
+
+// Columns
+
+$columns: 6 !default;
+
+
+// Components
+
+$border-radius: .4rem;
+$border-radius-s: .3rem;
+$border-radius-l: .6rem;
+
+$box-shadow: 0 2px 6px rgba(0, 0, 0, .1);
+
+
+// Typography
+
+$font-family-sans-serif: "Inter", system-ui, sans-serif !default;
+$font-family-monospaced: Menlo, monospace !default;
+
+$font-size: 1rem !default;
+
+$headings-font-sizes: (
+  h1: $font-size * 3,
+  h2: $font-size * 2,
+  h3: $font-size * 1.75,
+  h4: $font-size * 1.5,
+  h5: $font-size * 1.25,
+  h6: $font-size
+) !default;
+
+$headings-margin-bottom: $spacer / 2 !default;
+$headings-font-weight: 700 !default;
+$headings-color: null !default;
+
+
+// Buttons
+
+$btn-padding-y: .25rem !default;
+$btn-padding-x: .5rem !default;
+$btn-font-size: $font-size !default;
+
+
+// Boxes
+
+$box-background: $white;

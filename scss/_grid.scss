@@ -6,48 +6,49 @@
 
 @each $breakpoint in map-keys($breakpoints) {
   @include media-breakpoint($breakpoint, $breakpoints) {
-    $infix: breakpoint-infix($breakpoint, $breakpoints);
+    $breakpoint-infix: breakpoint-infix($breakpoint, $breakpoints);
+
     @each $size, $length in $spacers {
-      .gap#{$infix}-#{$size} {
+      .gap#{$breakpoint-infix}#{$size} {
         grid-gap: $length;
       }
     }
 
     @for $size from 1 through $columns {
-      .col#{$infix}-#{$size} {
+      .col#{$breakpoint-infix}#{$size} {
         grid-column-end: span $size;
       }
     }
 
     @for $size from 1 through $columns {
-      .row#{$infix}-#{$size} {
+      .row#{$breakpoint-infix}#{$size} {
         grid-row-end: span $size;
       }
     }
 
     @for $size from 1 through $columns {
-      .col-start#{$infix}-#{$size} {
+      .col-start#{$breakpoint-infix}#{$size} {
         grid-column-start: $size;
       }
     }
 
     @for $size from 1 through $columns {
-      .row-start#{$infix}-#{$size} {
+      .row-start#{$breakpoint-infix}#{$size} {
         grid-row-start: $size;
       }
     }
 
     @for $order from 1 through $orders {
-      .order#{$infix}-#{$order} {
+      .order#{$breakpoint-infix}#{$order} {
         order: $order;
       }
     }
 
-    .order#{$infix}-first {
+    .order#{$breakpoint-infix}-first {
       order: -999;
     }
 
-    .order#{$infix}-last {
+    .order#{$breakpoint-infix}-last {
       order: 999;
     }
   }
