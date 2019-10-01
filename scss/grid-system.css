@@ -44,6 +44,11 @@ a:hover {
   text-decoration: underline #f03009;
 }
 
+.list-unstyled {
+  list-style: none;
+  padding-left: 0;
+}
+
 .grid {
   display: grid;
   grid-template-columns: repeat(6, 1fr);
