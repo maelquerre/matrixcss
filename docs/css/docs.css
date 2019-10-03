@@ -15,6 +15,10 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+code, pre {
+  font-family: Menlo, 'Roboto Mono', monospace;
+}
+
 h1, h2, h3 {
   margin: 0 0 .5em;
 }
