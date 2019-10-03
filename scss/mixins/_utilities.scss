@@ -1,0 +1,16 @@
+// Utilities
+
+// Sides
+
+@function side($name, $sides: $sides) {
+  $side: map-get($sides, $name);
+  @return if($side != "all", $side, null);
+}
+
+@function side-infix($name) {
+  @return if(side($name) == null, "", "#{$name}");
+}
+
+@function side-suffix($name) {
+  @return if(side($name) == null, side($name), "-#{side($name)}");
+}

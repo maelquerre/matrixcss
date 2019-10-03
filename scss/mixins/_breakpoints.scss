@@ -1,13 +1,13 @@
-@function breakpoint($name, $breakpoints) {
+@function breakpoint($name, $breakpoints: $breakpoints) {
   $width: map-get($breakpoints, $name);
   @return if($width != 0, $width, null);
 }
 
-@function breakpoint-infix($name, $breakpoints) {
+@function breakpoint-infix($name, $breakpoints: $breakpoints) {
   @return if(breakpoint($name, $breakpoints) == null, "", "-#{$name}");
 }
 
-@mixin media-breakpoint($name, $breakpoints) {
+@mixin media-breakpoint($name, $breakpoints: $breakpoints) {
   $width: breakpoint($name, $breakpoints);
   @if $width {
     @media (min-width: $width) {

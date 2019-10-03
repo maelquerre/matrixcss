@@ -1,5 +1,23 @@
-$columns: 6 !default;
+// Variables
+
+// Color system
+
+$white: #fff !default;
+$black: #000 !default;
+
+$blue: #007aff !default;
+$green: #28cd41 !default;
+$orange: #ff9500 !default;
+$pink: #ff2d55 !default;
+$purple: #af52de !default;
+$red: #ff3b30 !default;
+$teal: #5ac8fa !default;
+$yellow: #ffcc00 !default;
+
 $orders: 10 !default;
+
+
+// Spacing
 
 $spacer: 1rem !default;
 $spacers: (
@@ -11,9 +29,36 @@ $spacers: (
   5: ($spacer * 3)
 ) !default;
 
+
+// Sides
+
+$sides: (
+  a: "all",
+  t: "top",
+  l: "left",
+  r: "right",
+  b: "bottom"
+);
+
+
+// Links
+
+$link-color: $black !default;
+$link-decoration: underline rgba($black, .3);
+$link-hover-color: $red !default;
+$link-hover-decoration: underline $red !default;
+
+
+// Breakpoints
+
 $breakpoints: (
   xs: 0,
   s: 576px,
   m: 768px,
-  l: 992px,
+  l: 992px
 ) !default;
+
+
+// Columns
+
+$columns: 6 !default;

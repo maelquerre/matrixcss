@@ -1,0 +1,28 @@
+// Display
+
+
+@each $breakpoint in map-keys($breakpoints) {
+  @include media-breakpoint($breakpoint) {
+    $breakpoint-infix: breakpoint-infix($breakpoint);
+
+    .block#{$breakpoint-infix} {
+      display: block;
+    }
+
+    .inline-block#{$breakpoint-infix} {
+      display: inline-block;
+    }
+
+    .inline#{$breakpoint-infix} {
+      display: inline;
+    }
+
+    .flex#{$breakpoint-infix} {
+      display: flex;
+    }
+
+    .inline-flex#{$breakpoint-infix} {
+      display: inline-flex;
+    }
+  }
+}

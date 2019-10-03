@@ -1,0 +1,9 @@
+# Site settings
+title: "Grid System"
+description: "A CSS framework based on CSS Grid Layout."
+baseurl: "/grid-system"
+
+# Build settings
+include: ["_pages"]  # include more files
+kramdown:
+  input: GFM

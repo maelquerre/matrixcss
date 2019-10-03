@@ -1,57 +1,52 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-
-    <title>Grid System</title>
-
-    <link rel="stylesheet" type="text/css"
-          href="https://rsms.me/inter/inter.css">
-
-    <link rel="stylesheet" type="text/css" href="css/index.css">
-    <link rel="stylesheet" type="text/css" href="css/grid-system.css">
-</head>
-
-<body>
-
-<h1>Grid System</h1>
+---
+layout: default
+title: Index
+permalink: /
+---
 
 <section class="section">
-    <h2>Overview</h2>
-    <div class="grid gap-2">
-        <div class="box col-6">col-6</div>
-        <div class="box col-5">col-5</div>
-        <div class="box col-1">col-1</div>
-        <div class="box col-4">col-4</div>
-        <div class="box col-2">col-2</div>
-        <div class="box col-3">col-3</div>
-        <div class="box col-3">col-3</div>
-        <div class="box col-2">col-2</div>
-        <div class="box col-2">col-2</div>
-        <div class="box col-2">col-2</div>
-        <div class="box col-1">col-1</div>
-        <div class="box col-1">col-1</div>
-        <div class="box col-1">col-1</div>
-        <div class="box col-1">col-1</div>
-        <div class="box col-1">col-1</div>
-        <div class="box col-1">col-1</div>
-    </div>
+  <h1>{{ site.title }}</h1>
+
+  <p>{{ site.description }}</p>
 </section>
 
 <section class="section">
-    <h2>Exercise</h2>
-    <div class="grid gap-2">
-        <div class="box col-6 order-first">A</div>
-        <div class="box col-6 col-m-4 col-l-6 order-2">B</div>
-        <div class="box col-6 col-m-2 col-l-3 order-3 order-m-4">C</div>
-        <div class="box col-6 col-m-2 col-l-3 order-4 order-l-5">D</div>
-        <div class="box col-6 col-m-2 col-l-3 order-5">E</div>
-        <div class="box col-6 col-m-2 col-l-3 row-l-3 order-6 order-m-3 order-l-4">F</div>
-        <div class="box col-6 order-last">G</div>
-    </div>
+  <h2>Overview</h2>
+  <div class="grid gap2">
+    <div class="box col6">col6</div>
+    <div class="box col5">col5</div>
+    <div class="box col1">col1</div>
+    <div class="box col4">col4</div>
+    <div class="box col2">col2</div>
+    <div class="box col3">col3</div>
+    <div class="box col3">col3</div>
+    <div class="box col2">col2</div>
+    <div class="box col2">col2</div>
+    <div class="box col2">col2</div>
+    <div class="box col1">col1</div>
+    <div class="box col1">col1</div>
+    <div class="box col1">col1</div>
+    <div class="box col1">col1</div>
+    <div class="box col1">col1</div>
+    <div class="box col1">col1</div>
+  </div>
 </section>
 
-</body>
-</html>
+<section class="section">
+  <h2>Examples</h2>
+
+  <p>[Code examples]</p>
+</section>
+
+<section class="section">
+  <h2>Exercise</h2>
+  <div class="grid gap2">
+    <div class="box col6 order-first">A</div>
+    <div class="box col6 col-m-4 col-l-6 order-2">B</div>
+    <div class="box col6 col-m-2 col-l-3 order-3 order-m-4">C</div>
+    <div class="box col6 col-m-2 col-l-3 order-4 order-l-5">D</div>
+    <div class="box col6 col-m-2 col-l-3 order-5">E</div>
+    <div class="box col6 col-m-2 col-l-3 row-l-3 order-6 order-m-3 order-l-4">F</div>
+    <div class="box col6 order-last">G</div>
+  </div>
+</section>

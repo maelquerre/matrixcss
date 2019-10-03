@@ -1,0 +1,27 @@
+// Base
+
+// Document
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+
+// Links
+
+a {
+  color: $link-color;
+  text-decoration: $link-decoration;
+
+  &:hover {
+    color: $link-hover-color;
+    text-decoration: $link-hover-decoration;
+  }
+}
+
+
+// Lists
+
+.list-unstyled {
+  @include list-unstyled();
+}
