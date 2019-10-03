@@ -1,48 +1,48 @@
 ---
 layout: default
-permalink: /docs/grid
+permalink: /grid
 ---
 
 # Grid
 
 ## Overview
 
-<div class="grid gap2 mb3">
-    <div class="box col6">col6</div>
-    <div class="box col5">col5</div>
-    <div class="box col1">col1</div>
-    <div class="box col4">col4</div>
-    <div class="box col2">col2</div>
-    <div class="box col3">col3</div>
-    <div class="box col3">col3</div>
-    <div class="box col2">col2</div>
-    <div class="box col2">col2</div>
-    <div class="box col2">col2</div>
-    <div class="box col1">col1</div>
-    <div class="box col1">col1</div>
-    <div class="box col1">col1</div>
-    <div class="box col1">col1</div>
-    <div class="box col1">col1</div>
-    <div class="box col1">col1</div>
+<div class="grid gap-2 mb-3">
+  <div class="box col-6">col-6</div>
+  <div class="box col-5">col-5</div>
+  <div class="box col-1">col-1</div>
+  <div class="box col-4">col-4</div>
+  <div class="box col-2">col-2</div>
+  <div class="box col-3">col-3</div>
+  <div class="box col-3">col-3</div>
+  <div class="box col-2">col-2</div>
+  <div class="box col-2">col-2</div>
+  <div class="box col-2">col-2</div>
+  <div class="box col-1">col-1</div>
+  <div class="box col-1">col-1</div>
+  <div class="box col-1">col-1</div>
+  <div class="box col-1">col-1</div>
+  <div class="box col-1">col-1</div>
+  <div class="box col-1">col-1</div>
 </div>
 
 ```html
-<div class="grid gap2">
-  <div class="box col6">col6</div>
-  <div class="box col5">col5</div>
-  <div class="box col1">col1</div>
-  <div class="box col4">col4</div>
-  <div class="box col2">col2</div>
-  <div class="box col3">col3</div>
-  <div class="box col3">col3</div>
-  <div class="box col2">col2</div>
-  <div class="box col2">col2</div>
-  <div class="box col2">col2</div>
-  <div class="box col1">col1</div>
-  <div class="box col1">col1</div>
-  <div class="box col1">col1</div>
-  <div class="box col1">col1</div>
-  <div class="box col1">col1</div>
-  <div class="box col1">col1</div>
+<div class="grid gap-2">
+  <div class="box col-6">col-6</div>
+  <div class="box col-5">col-5</div>
+  <div class="box col-1">col-1</div>
+  <div class="box col-4">col-4</div>
+  <div class="box col-2">col-2</div>
+  <div class="box col-3">col-3</div>
+  <div class="box col-3">col-3</div>
+  <div class="box col-2">col-2</div>
+  <div class="box col-2">col-2</div>
+  <div class="box col-2">col-2</div>
+  <div class="box col-1">col-1</div>
+  <div class="box col-1">col-1</div>
+  <div class="box col-1">col-1</div>
+  <div class="box col-1">col-1</div>
+  <div class="box col-1">col-1</div>
+  <div class="box col-1">col-1</div>
 </div>
 ```

@@ -7,6 +7,10 @@
   box-sizing: border-box;
 }
 
+html {
+  font-size: 15px;
+}
+
 body {
   margin: 0;
   font-family: 'Inter', sans-serif;
@@ -30,7 +34,7 @@ h1 {
 
 h2 {
   font-size: 2rem;
-  letter-spacing: -.03em;
+  letter-spacing: -.02em;
 }
 
 p {
@@ -98,10 +102,6 @@ header nav a:hover {
 header nav a.active {
   color: #000;
   font-weight: 600;
-}
-
-.section {
-  padding-bottom: 2rem;
 }
 
 .box {
