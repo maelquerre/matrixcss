@@ -6,11 +6,11 @@
 
 @import "variables";
 @import "mixins";
+@import "utilities";
 
 
 // Layouts and components
 
 @import "base";
 @import "grid";
-@import "box";
-@import "spacing";
+@import "utilities/spacing";

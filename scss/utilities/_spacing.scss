@@ -4,16 +4,17 @@
 
     @each $side in map-keys($sides) {
       $side-infix: side-infix($side);
+      $side-name: side($side);
 
       @each $size, $length in $spacers {
-        .m#{$side-infix}#{$breakpoint-infix}#{$size} {
-          margin-#{$side}: $length;
+        .m#{$side-infix}#{$breakpoint-infix}-#{$size} {
+          margin-#{$side-name}: $length;
         }
       }
 
       @each $size, $length in $spacers {
-        .p#{$side-infix}#{$breakpoint-infix}#{$size} {
-          padding-#{$side}: $length;
+        .p#{$side-infix}#{$breakpoint-infix}-#{$size} {
+          padding-#{$side-name}: $length;
         }
       }
     }

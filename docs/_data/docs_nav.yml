@@ -1,4 +1,8 @@
-- title: 'Layout'
+- title: Layout
   items:
     - Grid
     - Box Sizing
+- title: Components
+  items:
+    - Buttons
+    - Cards

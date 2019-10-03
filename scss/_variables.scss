@@ -5,7 +5,14 @@
 $white: #fff !default;
 $black: #000 !default;
 
-$red: #f03009 !default;
+$blue: #007aff !default;
+$green: #28cd41 !default;
+$orange: #ff9500 !default;
+$pink: #ff2d55 !default;
+$purple: #af52de !default;
+$red: #ff3b30 !default;
+$teal: #5ac8fa !default;
+$yellow: #ffcc00 !default;
 
 $orders: 10 !default;
 
@@ -68,7 +75,7 @@ $box-shadow: 0 2px 6px rgba(0, 0, 0, .1);
 
 // Typography
 
-$font-family-sans-serif: "Inter", system-ui, sans-serif !default;
+$font-family-sans-serif: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", sans-serif !default;
 $font-family-monospaced: Menlo, monospace !default;
 
 $font-size: 1rem !default;
@@ -92,8 +99,3 @@ $headings-color: null !default;
 $btn-padding-y: .25rem !default;
 $btn-padding-x: .5rem !default;
 $btn-font-size: $font-size !default;
-
-
-// Boxes
-
-$box-background: $white;

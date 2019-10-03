@@ -9,37 +9,37 @@
     $breakpoint-infix: breakpoint-infix($breakpoint, $breakpoints);
 
     @each $size, $length in $spacers {
-      .gap#{$breakpoint-infix}#{$size} {
+      .gap#{$breakpoint-infix}-#{$size} {
         grid-gap: $length;
       }
     }
 
     @for $size from 1 through $columns {
-      .col#{$breakpoint-infix}#{$size} {
+      .col#{$breakpoint-infix}-#{$size} {
         grid-column-end: span $size;
       }
     }
 
     @for $size from 1 through $columns {
-      .row#{$breakpoint-infix}#{$size} {
+      .row#{$breakpoint-infix}-#{$size} {
         grid-row-end: span $size;
       }
     }
 
     @for $size from 1 through $columns {
-      .col-start#{$breakpoint-infix}#{$size} {
+      .col-start#{$breakpoint-infix}-#{$size} {
         grid-column-start: $size;
       }
     }
 
     @for $size from 1 through $columns {
-      .row-start#{$breakpoint-infix}#{$size} {
+      .row-start#{$breakpoint-infix}-#{$size} {
         grid-row-start: $size;
       }
     }
 
     @for $order from 1 through $orders {
-      .order#{$breakpoint-infix}#{$order} {
+      .order#{$breakpoint-infix}-#{$order} {
         order: $order;
       }
     }
