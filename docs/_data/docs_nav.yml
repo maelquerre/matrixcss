@@ -1,8 +1,8 @@
 - title: Layout
   items:
     - Grid
-    - Box Sizing
-- title: Components
+- title: Utilities
   items:
-    - Buttons
-    - Cards
+    - Display
+    - Grid
+    - Spacing
