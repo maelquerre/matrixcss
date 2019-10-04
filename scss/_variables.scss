@@ -52,10 +52,10 @@ $link-hover-decoration: underline $red !default;
 // Breakpoints
 
 $breakpoints: (
-  xs: 0,
-  s: 576px,
-  m: 768px,
-  l: 992px
+  xl: 0,
+  l: 991px,
+  m: 767px,
+  s: 575px
 ) !default;
 
 
