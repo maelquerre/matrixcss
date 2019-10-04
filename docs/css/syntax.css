@@ -1,12 +1,13 @@
 /**
-* Syntax highlighting styles
+* Syntax highlighting
 */
+
 pre.highlight {
   margin: 0 0 1rem;
   padding: 1rem;
-  background-color: #fff;
+  background-color: #fafafa;
   border: 1px solid #ddd;
-  border-radius: .25rem;
+  border-radius: .15rem;
 }
 
 code.highlighter-rouge { /* inline code */
@@ -25,8 +26,11 @@ pre {
 }
 
 code {
-  font-weight: normal;
-  font-size: 85%;
+  font-size: .9em;
+}
+
+pre code {
+  font-size: .8em;
 }
 
 /* Comment */
@@ -175,7 +179,7 @@ code {
 
 /* Literal.String */
 .highlight .s {
-  color: #032f62;
+  color: #d85046;
 }
 
 .highlight .n {
@@ -185,7 +189,7 @@ code {
 
 /* Name.Attribute */
 .highlight .na {
-  color: #6f42c1;
+  color: #222;
 }
 
 /* Name.Builtin */
@@ -227,7 +231,7 @@ code {
 
 /* Name.Tag */
 .highlight .nt {
-  color: #22863a;
+  color: #222;
 }
 
 /* Name.Variable */

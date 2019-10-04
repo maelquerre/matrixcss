@@ -8,6 +8,12 @@
   @include media-breakpoint($breakpoint, $breakpoints) {
     $breakpoint-prefix: breakpoint-infix($breakpoint, $breakpoints);
 
+    @for $number from 1 through $columns {
+      .grid.columns#{$breakpoint-prefix}-#{$number} {
+        grid-template-columns: repeat($number, 1fr);
+      }
+    }
+
     @each $size, $length in $spacers {
       .gap#{$breakpoint-prefix}-#{$size} {
         grid-gap: $length;
@@ -19,25 +25,25 @@
     }
 
     @for $size from 1 through $columns {
-      .span#{$breakpoint-prefix}-#{$size} {
+      .c#{$breakpoint-prefix}-#{$size} {
         grid-column-end: span $size;
       }
     }
 
     @for $size from 1 through $columns {
-      .row-span#{$breakpoint-prefix}-#{$size} {
+      .r#{$breakpoint-prefix}-#{$size} {
         grid-row-end: span $size;
       }
     }
 
     @for $size from 1 through $columns {
-      .col-start#{$breakpoint-prefix}-#{$size} {
+      .c-start#{$breakpoint-prefix}-#{$size} {
         grid-column-start: $size;
       }
     }
 
     @for $size from 1 through $columns {
-      .row-start#{$breakpoint-prefix}-#{$size} {
+      .r-start#{$breakpoint-prefix}-#{$size} {
         grid-row-start: $size;
       }
     }

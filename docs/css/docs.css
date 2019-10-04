@@ -8,27 +8,28 @@
 }
 
 html {
-  font-size: 16px;
+  font-size: 15px;
   scroll-behavior: smooth;
 }
 
 body {
   margin: 0;
   font-family: 'Inter', sans-serif;
+  line-height: 1.5;
 }
 
-nav {
-  float: left;
-}
-
-main {
+main, nav {
   max-width: 1300px;
   margin: auto;
   padding-left: 5%;
   padding-right: 5%;
 }
 
-h1, h2, h3 {
+section {
+  margin-bottom: 2rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
   margin: 0 0 .5em;
 }
 
@@ -55,11 +56,10 @@ p {
   margin-bottom: 1rem;
 }
 
-.box {
+.box, .grid.demo > * {
   padding: 1rem;
-  background-color: #fff;
-  border: 1px solid #000;
-  border-radius: .25rem;
+  border: 1px solid #ccc;
+  border-radius: .15rem;
 }
 
 .docs-category h2 {
