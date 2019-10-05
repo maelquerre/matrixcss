@@ -2,6 +2,7 @@
   display: grid;
   grid-template-columns: repeat($columns, 1fr);
   grid-auto-rows: 1fr;
+  grid-gap: .5rem; // default value
 }
 
 @each $breakpoint in map-keys($breakpoints) {
@@ -20,25 +21,41 @@
       }
     }
 
-    .row#{$breakpoint-prefix} {
-      grid-column: 1 / -1;
-    }
-
+    // Column span
     @for $size from 1 through $columns {
       .c#{$breakpoint-prefix}-#{$size} {
         grid-column-end: span $size;
       }
     }
 
+    // Full row
+    .row#{$breakpoint-prefix} {
+      grid-column: 1 / -1;
+    }
+
+    // Column start
     @for $size from 1 through $columns {
-      .r#{$breakpoint-prefix}-#{$size} {
-        grid-row-end: span $size;
+      .cs#{$breakpoint-prefix}-#{$size} {
+        grid-column-start: $size;
       }
     }
 
+    // Column end
     @for $size from 1 through $columns {
-      .c-start#{$breakpoint-prefix}-#{$size} {
-        grid-column-start: $size;
+      .ce#{$breakpoint-prefix}-#{$size} {
+        grid-column-end: $size;
+      }
+    }
+
+    .c-e#{$breakpoint-prefix} {
+      grid-column-end: -1;
+    }
+
+    // Row span
+
+    @for $size from 1 through $columns {
+      .r#{$breakpoint-prefix}-#{$size} {
+        grid-row-end: span $size;
       }
     }
 
@@ -48,17 +65,19 @@
       }
     }
 
+    // Order
+
     @for $order from 1 through $orders {
-      .order#{$breakpoint-prefix}-#{$order} {
+      .o#{$breakpoint-prefix}-#{$order} {
         order: $order;
       }
     }
 
-    .order#{$breakpoint-prefix}-first {
+    .o#{$breakpoint-prefix}-first {
       order: -999;
     }
 
-    .order#{$breakpoint-prefix}-last {
+    .o#{$breakpoint-prefix}-last {
       order: 999;
     }
   }

@@ -56,10 +56,53 @@ p {
   margin-bottom: 1rem;
 }
 
-.box, .grid.demo > * {
+.grid.demo {
+  grid-template-rows: 2rem;
+}
+
+.grid.demo > * {
   padding: 1rem;
-  border: 1px solid #ccc;
-  border-radius: .15rem;
+  color: #fff;
+  background-color: #000;
+}
+
+@media (max-width: 575px) {
+  .grid.demo > * {
+    padding: .5rem;
+  }
+}
+
+.grid.demo > *:nth-child(100n+1),
+.grid.demo > *:nth-child(100n+2),
+.grid.demo > *:nth-child(100n+3),
+.grid.demo > *:nth-child(100n+4),
+.grid.demo > *:nth-child(100n+5),
+.grid.demo > *:nth-child(100n+6) {
+  padding: 0;
+  text-align: center;
+  color: rgba(0, 0, 0, .2);
+  background-color: transparent;
+}
+
+.grid.guides {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: -2rem;
+  padding: 0;
+  background-color: transparent;
+  opacity: .2;
+  overflow: hidden;
+  pointer-events: none;
+}
+
+.grid.guides > * {
+  margin-top: -1px;
+  margin-bottom: -1px;
+  grid-row: 1 / -1;
+  background-color: transparent;
+  box-shadow: inset 0 0 0 1px #000;
 }
 
 .docs-category h2 {
