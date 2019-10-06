@@ -59,6 +59,7 @@ $breakpoints: (
 ) !default;
 
 
-// Columns
+// Grid
 
-$columns: 16 !default;
+$grid-columns: 16 !default;
+$grid-gap: 1rem;

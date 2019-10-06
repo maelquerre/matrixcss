@@ -12,29 +12,35 @@ permalink: /
   </section>
 
   <section>
-    <h2 id="grid">Grid</h2>
+    <h2 id="grid">
+      <a href="#grid">Grid</a>
+    </h2>
 
     <h3>Overview</h3>
 
-    <div class="grid columns-6 gap-2 demo" style="position: relative;">
+    <div class="grid columns-6 demo" style="position: relative;">
       <div>1</div>
       <div>2</div>
       <div>3</div>
       <div>4</div>
       <div>5</div>
       <div>6</div>
-      <div class="c-1">c-1</div>
-      <div class="c-5">c-5</div>
+
       <div class="c-2">c-2</div>
-      <div class="c-4">c-4</div>
-      <div class="c-1">c-1</div>
-      <div class="cs-4 c-e">c-4-e</div>
-      <div class="c-3 r-2">c-3 r-2</div>
+      <div></div>
       <div class="c-3">c-3</div>
-      <div class="c-2">c-2</div>
-      <div class="c-1">c-1</div>
+
+      <div class="c-2--3">c-2--3</div>
+      <div></div>
+      <div class="r-3">r-3</div>
+
+      <div class="c-2 r-2">c-2 r-2</div>
+      <div class="c-4-5">c-4-5</div>
+
+      <div class="c-3">c-3</div>
+
       <div class="row">row</div>
-      <div class="grid columns-6 gap-2 guides">
+      <div class="grid columns-6 guides">
         <div>&nbsp;</div>
         <div>&nbsp;</div>
         <div>&nbsp;</div>
@@ -45,49 +51,44 @@ permalink: /
     </div>
 
     <div class="grid columns-2 mb-4">
-      <div>
-        <pre><code class="highlight">&lt;div class="grid columns-6 gap-2 mb-4 demo"&gt;
-  &lt;div class=<span class="s">"row"</span>&gt;row&lt;/div&gt;
-  &lt;div class=<span class="s">"c-1"</span>&gt;c-1&lt;/div&gt;
-  &lt;div class=<span class="s">"c-5"</span>&gt;c-5&lt;/div&gt;
+      <div class="row-m">
+        <pre><code class="highlight">&lt;div class=<span class="s">"grid columns-6"</span>&gt;
   &lt;div class=<span class="s">"c-2"</span>&gt;c-2&lt;/div&gt;
-  &lt;div class=<span class="s">"c-4"</span>&gt;c-4&lt;/div&gt;
-  &lt;div class=<span class="s">"c-3 r-2"</span>&gt;c-3&lt;br&gt;r-2&lt;/div&gt;
+  &lt;div&gt;&lt;/div&gt;
   &lt;div class=<span class="s">"c-3"</span>&gt;c-3&lt;/div&gt;
-  &lt;div class=<span class="s">"c-2"</span>&gt;c-2&lt;/div&gt;
-  &lt;div class=<span class="s">"c-1"</span>&gt;c-1&lt;/div&gt;
+  &lt;div class=<span class="s">"c-2--3"</span>&gt;c-2--3&lt;/div&gt;
+  &lt;div&gt;&lt;/div&gt;
+  &lt;div class=<span class="s">"r-3"</span>&gt;r-3&lt;/div&gt;
+  &lt;div class=<span class="s">"c-2 r-2"</span>&gt;c-2 r-2&lt;/div&gt;
+  &lt;div class=<span class="s">"c-4-5"</span>&gt;c-4-5&lt;/div&gt;
+  &lt;div class=<span class="s">"c-3"</span>&gt;c-3&lt;/div&gt;
+  &lt;div class=<span class="s">"row"</span>&gt;row&lt;/div&gt;
 &lt;/div&gt;</code></pre>
       </div>
-      <div>
-        <h4>Possible <code>c-</code> values</h4>
-        <div class="grid columns-2">
-          <div>3</div>
-          <div>start in next column,<br>span 3 columns</div>
+      <div class="row-m">
+        <div class="grid columns-4">
+          <h4 class="row">Possible values</h4>
+          <h5 class="row">Columns control</h5>
+
+          <div><code>c-2</code></div>
+          <div class="c-2-e">start at next column,<br>span 2 columns.</div>
+
+          <div><code>c-2-5</code></div>
+          <div class="c-2-e">start at column 2,<br>end at column 5.</div>
+
+          <div><code>c-2--3</code></div>
+          <div class="c-2-e">start at column 2,<br>span 3 columns.</div>
+
+          <div><code>c-2-e</code></div>
+          <div class="c-2-e">start column 2,<br>span row remainder.</div>
+
+          <h5 class="row">Rows control</h5>
+
+          <div><code>r-2</code></div>
+          <div class="c-2-e">start at current row,<br>span 2 rows.</div>
         </div>
       </div>
     </div>
-
-    <h3>Experimentations</h3>
-
-    <div class="grid columns-3 gap-2">
-      <div class="c-1"><pre><code>2-3</code></pre></div>
-      <div class="c-2">
-        <pre><code>&lt;div class="c-2-3"&gt;&lt;/div&gt;</code></pre>
-      </div>
-      <div class="c-1"><pre><code>2+3</code></pre></div>
-      <div class="c-2">
-        <pre><code>&lt;div class="cs-2 c-3"&gt;&lt;/div&gt;</code></pre>
-      </div>
-      <div class="c-1"><pre><code>2..</code></pre></div>
-      <div class="c-2">
-        <pre><code>&lt;div class="c-2 c-e"&gt;&lt;/div&gt;</code></pre>
-      </div>
-      <div class="c-1"><pre><code>2</code></pre></div>
-      <div class="c-2">
-        <pre><code>&lt;div class="c-2"&gt;&lt;/div&gt;</code></pre>
-      </div>
-    </div>
-
 
     <h3>Example</h3>
     <p>Try resizing the window to see how the grid arranges.</p>
@@ -117,7 +118,7 @@ permalink: /
 
     <div class="language-html highlighter-rouge"><pre
         class="highlight"><code><span class="nt">&lt;div</span> <span
-        class="na">class=</span><span class="s">"grid gap-2"</span><span
+        class="na">class=</span><span class="s">"grid"</span><span
         class="nt">&gt;</span>
   <span class="nt">&lt;div</span> <span class="na">class=</span><span
           class="s">"row o-first"</span><span class="nt">&gt;</span>A<span

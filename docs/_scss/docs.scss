@@ -1,3 +1,5 @@
+$red: #ff3b30;
+
 *, *::before, *::after {
   box-sizing: border-box;
 }
@@ -9,7 +11,7 @@ html {
 
 body {
   margin: 0;
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   line-height: 1.5;
 }
 
@@ -25,35 +27,39 @@ section {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  margin: 0 0 0.5rem;
+  margin: 0 0 .5rem;
   font-weight: 700;
-}
-h1[id]:hover, h2[id]:hover, h3[id]:hover, h4[id]:hover, h5[id]:hover, h6[id]:hover {
-  color: #ff3b30;
-}
-h1 > a, h2 > a, h3 > a, h4 > a, h5 > a, h6 > a {
-  display: block;
-  color: inherit;
-  text-decoration: none !important;
-  text-shadow: none;
-  background: none;
-  outline: none;
-}
-.grid > h1, .grid > h2, .grid > h3, .grid > h4, .grid > h5, .grid > h6 {
-  margin: 0;
-}
-h1:not(:first-of-type), h2:not(:first-of-type), h3:not(:first-of-type), h4:not(:first-of-type), h5:not(:first-of-type), h6:not(:first-of-type) {
-  margin-top: 1rem;
+
+  &[id]:hover {
+    color: $red;
+  }
+
+  > a {
+    display: block;
+    color: inherit;
+    text-decoration: none !important;
+    text-shadow: none;
+    background: none;
+    outline: none;
+  }
+
+  .grid > & {
+    margin: 0;
+  }
+
+  &:not(:first-of-type) {
+    margin-top: 1rem;
+  }
 }
 
 h1 {
   font-size: 3.3rem;
-  letter-spacing: -0.04em;
+  letter-spacing: -.04em;
 }
 
 h2 {
   font-size: 2.5rem;
-  letter-spacing: -0.01em;
+  letter-spacing: -.01em;
 }
 
 h3 {
@@ -85,7 +91,7 @@ p {
 }
 
 .grid.demo > * {
-  padding: 0.8rem 1rem;
+  padding: .8rem 1rem;
   color: #fff;
   background-color: #000;
 }
@@ -98,7 +104,7 @@ p {
 .grid.demo > *:nth-child(100n+6) {
   padding: 0;
   text-align: center;
-  color: rgba(0, 0, 0, 0.2);
+  color: rgba(0, 0, 0, .2);
   background-color: transparent;
 }
 
@@ -110,7 +116,7 @@ p {
   bottom: -2rem;
   padding: 0;
   background-color: transparent;
-  opacity: 0.2;
+  opacity: .2;
   overflow: hidden;
   pointer-events: none;
 }
@@ -118,7 +124,7 @@ p {
 .grid.guides > * {
   margin-top: -1px;
   margin-bottom: -1px;
-  grid-row: 1/-1;
+  grid-row: 1 / -1;
   background-color: transparent;
   box-shadow: inset 0 0 0 1px #000;
 }
@@ -136,7 +142,5 @@ p {
 }
 
 .docs-category ul li {
-  margin-bottom: 0.5rem;
+  margin-bottom: .5rem;
 }
-
-/*# sourceMappingURL=docs.css.map */

@@ -22,11 +22,6 @@ pre, code {
 pre {
   margin: 0;
   overflow: scroll;
-  font-size: .9rem;
-}
-
-pre code {
-  font-size: inherit;
 }
 
 /* Comment */
