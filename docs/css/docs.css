@@ -58,6 +58,7 @@ p {
 
 .grid.demo {
   grid-template-rows: 2rem;
+  margin-bottom: 4rem;
 }
 
 .grid.demo > * {

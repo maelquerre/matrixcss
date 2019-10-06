@@ -28,31 +28,43 @@
       }
     }
 
+    // Column precise span
+    @for $start from 1 through $columns {
+      @for $end from $start + 1 through $columns {
+        .c#{$breakpoint-prefix}-#{$start}-#{$end} {
+          grid-column: #{$start} / #{$end};
+        }
+      }
+
+      .c#{$breakpoint-prefix}-#{$start}-e {
+        grid-column: #{$start} / -1;
+      }
+    }
+
     // Full row
     .row#{$breakpoint-prefix} {
       grid-column: 1 / -1;
     }
 
-    // Column start
-    @for $size from 1 through $columns {
-      .cs#{$breakpoint-prefix}-#{$size} {
-        grid-column-start: $size;
-      }
-    }
-
-    // Column end
-    @for $size from 1 through $columns {
-      .ce#{$breakpoint-prefix}-#{$size} {
-        grid-column-end: $size;
-      }
-    }
+    //// Column start
+    //@for $size from 1 through $columns {
+    //  .cs#{$breakpoint-prefix}-#{$size} {
+    //    grid-column-start: $size;
+    //  }
+    //}
+    //
+    //// Column end
+    //@for $size from 1 through $columns {
+    //  .ce#{$breakpoint-prefix}-#{$size} {
+    //    grid-column-end: $size;
+    //  }
+    //}
 
     .c-e#{$breakpoint-prefix} {
       grid-column-end: -1;
     }
 
     // Row span
-
     @for $size from 1 through $columns {
       .r#{$breakpoint-prefix}-#{$size} {
         grid-row-end: span $size;
@@ -66,7 +78,6 @@
     }
 
     // Order
-
     @for $order from 1 through $orders {
       .o#{$breakpoint-prefix}-#{$order} {
         order: $order;
