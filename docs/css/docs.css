@@ -7,6 +7,11 @@ html {
   scroll-behavior: smooth;
 }
 
+@media (max-width: 575px) {
+  html {
+    font-size: 13px;
+  }
+}
 body {
   margin: 0;
   font-family: "Inter", sans-serif;
@@ -29,7 +34,7 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 700;
 }
 h1[id]:hover, h2[id]:hover, h3[id]:hover, h4[id]:hover, h5[id]:hover, h6[id]:hover {
-  color: #ff3b30;
+  color: #28cd41;
 }
 h1 > a, h2 > a, h3 > a, h4 > a, h5 > a, h6 > a {
   display: block;
@@ -80,16 +85,15 @@ p {
 }
 
 .grid.demo {
+  position: relative;
   grid-template-rows: 2rem;
   margin-bottom: 4rem;
 }
-
 .grid.demo > * {
-  padding: 0.8rem 1rem;
+  padding: 0.75rem 1rem;
   color: #fff;
   background-color: #000;
 }
-
 .grid.demo > *:nth-child(100n+1),
 .grid.demo > *:nth-child(100n+2),
 .grid.demo > *:nth-child(100n+3),
@@ -101,21 +105,19 @@ p {
   color: rgba(0, 0, 0, 0.2);
   background-color: transparent;
 }
-
-.grid.guides {
+.grid.demo .grid.guides {
   position: absolute;
   top: 0;
   left: 0;
   right: 0;
-  bottom: -2rem;
+  bottom: -1rem;
   padding: 0;
   background-color: transparent;
   opacity: 0.2;
   overflow: hidden;
   pointer-events: none;
 }
-
-.grid.guides > * {
+.grid.demo .grid.guides > * {
   margin-top: -1px;
   margin-bottom: -1px;
   grid-row: 1/-1;
@@ -123,20 +125,345 @@ p {
   box-shadow: inset 0 0 0 1px #000;
 }
 
-.docs-category h2 {
-  margin-bottom: 1rem;
-  font-size: 1rem;
-  text-transform: uppercase;
+.grid.example > * {
+  padding: 0.75rem 1rem;
+  border: 0.1rem solid black;
 }
 
-.docs-category ul {
-  list-style: none;
+pre.highlight {
+  margin: 0 0 1rem;
+}
+
+code.highlighter-rouge {
+  /* inline code */
+  padding: 0.2em 0.4em;
   margin: 0;
-  padding-left: 0;
+  border-radius: 3px;
 }
 
-.docs-category ul li {
-  margin-bottom: 0.5rem;
+pre, code {
+  font-family: "iaw-quattro", Menlo, monospace;
+}
+
+pre {
+  margin: 0;
+  overflow: scroll;
+}
+
+/* Comment */
+.highlight .c {
+  color: #6a737d;
+}
+
+/* Error */
+.highlight .err {
+  color: #f8f8f0;
+  background-color: #ff007f;
+}
+
+/* Keyword */
+.highlight .k, .highlight .kn {
+  color: #66d9ef;
+  font-style: italic;
+}
+
+/* Operator */
+.highlight .o {
+  color: #f92672;
+}
+
+/* Comment.Multiline */
+.highlight .cm {
+  color: #808080;
+  font-style: italic;
+}
+
+/* Comment.Preproc */
+.highlight .cp {
+  color: #24292e;
+}
+
+/* Comment.Single */
+.highlight .c1 {
+  color: #998;
+  font-style: italic;
+}
+
+/* Comment.Special */
+.highlight .cs {
+  color: #999;
+  font-weight: bold;
+  font-style: italic;
+}
+
+/* Generic.Deleted */
+.highlight .gd {
+  color: #000;
+  background-color: #fdd;
+}
+
+/* Generic.Deleted.Specific */
+.highlight .gd .x {
+  color: #000;
+  background-color: #faa;
+}
+
+/* Generic.Emph */
+.highlight .ge {
+  font-style: italic;
+}
+
+/* Generic.Error */
+.highlight .gr {
+  color: #a00;
+}
+
+/* Generic.Heading */
+.highlight .gh {
+  color: #999;
+}
+
+/* Generic.Inserted */
+.highlight .gi {
+  color: #000;
+  background-color: #dfd;
+}
+
+/* Generic.Inserted.Specific */
+.highlight .gi .x {
+  color: #000;
+  background-color: #afa;
+}
+
+/* Generic.Output */
+.highlight .go {
+  color: #888;
+}
+
+/* Generic.Prompt */
+.highlight .gp {
+  color: #555;
+}
+
+/* Generic.Strong */
+.highlight .gs {
+  font-weight: bold;
+}
+
+/* Generic.Subheading */
+.highlight .gu {
+  color: #aaa;
+}
+
+/* Generic.Traceback */
+.highlight .gt {
+  color: #a00;
+}
+
+/* Keyword.Constant */
+.highlight .kc {
+  color: #66d9ef;
+  font-style: italic;
+}
+
+/* Keyword.Declaration */
+.highlight .kd {
+  color: #66d9ef;
+  font-style: italic;
+}
+
+/* Keyword.Pseudo */
+.highlight .kp {
+  font-weight: bold;
+}
+
+/* Keyword.Reserved */
+.highlight .kr {
+  color: #66d9ef;
+  font-style: italic;
+}
+
+/* Keyword.Type */
+.highlight .kt {
+  color: #66d9ef;
+  font-style: italic;
+}
+
+/* Literal.Number */
+.highlight .m {
+  color: #099;
+}
+
+/* Literal.String */
+.highlight .s {
+  color: #ff9500;
+}
+
+.highlight .n {
+  color: #fff;
+  font-style: italic;
+}
+
+/* Name.Attribute */
+.highlight .na {
+  color: #000;
+}
+
+/* Name.Builtin */
+.highlight .nb {
+  color: #66d9ef;
+}
+
+/* Name.Class */
+.highlight .nc {
+  color: #a6e22e;
+  text-decoration: underline;
+}
+
+/* Name.Constant */
+.highlight .no {
+  color: #008080;
+}
+
+/* Name.Entity */
+.highlight .ni {
+  color: #800080;
+}
+
+/* Name.Exception */
+.highlight .ne {
+  color: #a6e22e;
+}
+
+/* Name.Function */
+.highlight .nf {
+  color: #a6e22e;
+}
+
+/* Name.Namespace */
+.highlight .nn {
+  color: #a6e22e;
+  text-decoration: underline;
+}
+
+/* Name.Tag */
+.highlight .nt {
+  color: #000;
+}
+
+/* Name.Variable */
+.highlight .nv {
+  color: #008080;
+}
+
+/* Operator.Word */
+.highlight .ow {
+  font-weight: bold;
+}
+
+/* Text.Whitespace */
+.highlight .w {
+  color: #bbb;
+}
+
+/* Literal.Number.Float */
+.highlight .mf {
+  color: #ae81ff;
+}
+
+/* Literal.Number.Hex */
+.highlight .mh {
+  color: #ae81ff;
+}
+
+/* Literal.Number.Integer */
+.highlight .mi {
+  color: #ae81ff;
+}
+
+/* Literal.Number.Oct */
+.highlight .mo {
+  color: #ae81ff;
+}
+
+/* Literal.String.Backtick */
+.highlight .sb {
+  color: #032f62;
+}
+
+/* Literal.String.Char */
+.highlight .sc {
+  color: #032f62;
+}
+
+/* Literal.String.Doc */
+.highlight .sd {
+  color: #032f62;
+}
+
+/* Literal.String.Double */
+.highlight .s2 {
+  color: #032f62;
+}
+
+/* Literal.String.Escape */
+.highlight .se {
+  color: #032f62;
+}
+
+/* Literal.String.Heredoc */
+.highlight .sh {
+  color: #032f62;
+}
+
+/* Literal.String.Interpol */
+.highlight .si {
+  color: #032f62;
+}
+
+/* Literal.String.Other */
+.highlight .sx {
+  color: #032f62;
+}
+
+/* Literal.String.Regex */
+.highlight .sr {
+  color: #009926;
+}
+
+/* Literal.String.Single */
+.highlight .s1 {
+  color: #032f62;
+}
+
+/* Literal.String.Symbol */
+.highlight .ss {
+  color: #990073;
+}
+
+/* Name.Builtin.Pseudo */
+.highlight .bp {
+  color: #a9459a;
+}
+
+/* Name.Variable.Class */
+.highlight .vc {
+  color: #008080;
+}
+
+/* Name.Variable.Global */
+.highlight .vg {
+  color: #008080;
+}
+
+/* Name.Variable.Instance */
+.highlight .vi {
+  color: #008080;
+}
+
+/* Literal.Number.Integer.Long */
+.highlight .il {
+  color: #099;
 }
 
 /*# sourceMappingURL=docs.css.map */
