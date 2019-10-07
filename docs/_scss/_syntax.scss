@@ -1,12 +1,16 @@
-/**
-* Syntax highlighting
-*/
+// Syntax highlighting
+
+// Variables
+
+$comment: #6a737d;
+$name-attribute: #000;
+$name-tag: #000;
+$string: $orange;
+
+// Layout
 
 pre.highlight {
   margin: 0 0 1rem;
-  padding: 1rem;
-  background-color: #222;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, .1);
 }
 
 code.highlighter-rouge { /* inline code */
@@ -24,9 +28,11 @@ pre {
   overflow: scroll;
 }
 
+// Elements
+
 /* Comment */
 .highlight .c {
-  color: #6a737d;
+  color: $comment;
 }
 
 /* Error */
@@ -170,7 +176,7 @@ pre {
 
 /* Literal.String */
 .highlight .s {
-  color: #f0976b;
+  color: $string;
 }
 
 .highlight .n {
@@ -180,7 +186,7 @@ pre {
 
 /* Name.Attribute */
 .highlight .na {
-  color: #ddd;
+  color: $name-attribute;
 }
 
 /* Name.Builtin */
@@ -222,7 +228,7 @@ pre {
 
 /* Name.Tag */
 .highlight .nt {
-  color: #ddd;
+  color: $name-tag;
 }
 
 /* Name.Variable */

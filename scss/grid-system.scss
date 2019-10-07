@@ -1,15 +1,7 @@
 /**
- * Grid System v1.0 (https://glascode.github.io/grid-system)
+ * Grid System v2.0 (https://glascode.github.io/grid-system)
  */
 
-// Abstract
-
 @import "variables";
-@import "mixins";
-@import "utilities";
-
-
-// Layouts and components
-
-@import "base";
-@import "layout/grid";
+@import "breakpoints.mixin";
+@import "grid";
