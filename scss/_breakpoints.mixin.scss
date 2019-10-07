@@ -10,7 +10,7 @@
 @mixin media-breakpoint($name, $breakpoints: $breakpoints) {
   $width: breakpoint($name, $breakpoints);
   @if $width {
-    @media (min-width: $width) {
+    @media (max-width: $width) {
       @content;
     }
   } @else {

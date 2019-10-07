@@ -7,42 +7,44 @@ permalink: /grid
 
 ## Overview
 
-<div class="grid gap-2 mb-3">
-  <div class="box col-6">col-6</div>
-  <div class="box col-5">col-5</div>
-  <div class="box col-1">col-1</div>
-  <div class="box col-4">col-4</div>
-  <div class="box col-2">col-2</div>
-  <div class="box col-3">col-3</div>
-  <div class="box col-3">col-3</div>
-  <div class="box col-2">col-2</div>
-  <div class="box col-2">col-2</div>
-  <div class="box col-2">col-2</div>
-  <div class="box col-1">col-1</div>
-  <div class="box col-1">col-1</div>
-  <div class="box col-1">col-1</div>
-  <div class="box col-1">col-1</div>
-  <div class="box col-1">col-1</div>
-  <div class="box col-1">col-1</div>
+<div class="grid columns-6 gap-2">
+  <div class="box row">row</div>
+  <div class="box span-1">span-1</div>
+  <div class="box span-5">span-5</div>
+  <div class="box span-2">span-2</div>
+  <div class="box span-4">span-4</div>
+  <div class="box span-3">span-3</div>
+  <div class="box span-3">span-3</div>
+  <div class="box span-2">span-2</div>
+  <div class="box span-2">span-2</div>
+  <div class="box span-2">span-2</div>
+  <div class="box span-1">span-1</div>
+  <div class="box span-1">span-1</div>
+  <div class="box span-1">span-1</div>
+  <div class="box span-1">span-1</div>
+  <div class="box span-1">span-1</div>
+  <div class="box span-1">span-1</div>
+  <div class="box span-6">span-6</div>
 </div>
 
 ```html
-<div class="grid gap-2">
-  <div class="box col-6">col-6</div>
-  <div class="box col-5">col-5</div>
-  <div class="box col-1">col-1</div>
-  <div class="box col-4">col-4</div>
-  <div class="box col-2">col-2</div>
-  <div class="box col-3">col-3</div>
-  <div class="box col-3">col-3</div>
-  <div class="box col-2">col-2</div>
-  <div class="box col-2">col-2</div>
-  <div class="box col-2">col-2</div>
-  <div class="box col-1">col-1</div>
-  <div class="box col-1">col-1</div>
-  <div class="box col-1">col-1</div>
-  <div class="box col-1">col-1</div>
-  <div class="box col-1">col-1</div>
-  <div class="box col-1">col-1</div>
+<div class="grid columns-6 gap-2">
+  <div class="box row">row</div>
+  <div class="box span-5">span-5</div>
+  <div class="box span-1">span-1</div>
+  <div class="box span-4">span-4</div>
+  <div class="box span-2">span-2</div>
+  <div class="box span-3">span-3</div>
+  <div class="box span-3">span-3</div>
+  <div class="box span-2">span-2</div>
+  <div class="box span-2">span-2</div>
+  <div class="box span-2">span-2</div>
+  <div class="box span-1">span-1</div>
+  <div class="box span-1">span-1</div>
+  <div class="box span-1">span-1</div>
+  <div class="box span-1">span-1</div>
+  <div class="box span-1">span-1</div>
+  <div class="box span-1">span-1</div>
+  <div class="box span-6">span-6</div>
 </div>
 ```

@@ -1,0 +1,84 @@
+.grid {
+  display: grid;
+  grid-template-columns: repeat($grid-columns, 1fr);
+  grid-gap: $grid-gap;
+}
+
+@each $breakpoint in map-keys($breakpoints) {
+  @include media-breakpoint($breakpoint, $breakpoints) {
+    $breakpoint-prefix: breakpoint-infix($breakpoint, $breakpoints);
+
+    @for $number from 1 through $grid-columns {
+      .grid.columns#{$breakpoint-prefix}-#{$number} {
+        grid-template-columns: repeat($number, 1fr);
+      }
+    }
+
+    @each $size, $length in $spacers {
+      .gap#{$breakpoint-prefix}-#{$size} {
+        grid-gap: $length;
+      }
+    }
+
+    // Columns
+
+    @for $size from 1 through $grid-columns {
+      .c#{$breakpoint-prefix}-#{$size} {
+        grid-column-end: span $size;
+      }
+    }
+
+    @for $start from 1 through $grid-columns {
+      @for $end from $start + 1 through $grid-columns {
+        .c#{$breakpoint-prefix}-#{$start}-#{$end} {
+          grid-column: #{$start} / #{$end + 1};
+        }
+      }
+
+      .c#{$breakpoint-prefix}-#{$start}-e {
+        grid-column: #{$start} / -1;
+      }
+    }
+
+    @for $start from 1 through $grid-columns {
+      @for $span from 1 through $grid-columns - $start {
+        .c#{$breakpoint-prefix}-#{$start}--#{$span} {
+          grid-column-start: $start;
+          grid-column-end: span $span;
+        }
+      }
+    }
+
+    .row#{$breakpoint-prefix} {
+      grid-column: 1 / -1;
+    }
+
+    // Rows
+
+    @for $size from 1 through $grid-columns {
+      .r#{$breakpoint-prefix}-#{$size} {
+        grid-row-end: span $size;
+      }
+    }
+
+    .col#{$breakpoint-prefix} {
+      grid-row: 1 / -1;
+    }
+
+    // Order
+
+    @for $order from 1 through $orders {
+      .o#{$breakpoint-prefix}-#{$order} {
+        order: $order;
+      }
+    }
+
+    .o#{$breakpoint-prefix}-first {
+      order: -999;
+    }
+
+    .o#{$breakpoint-prefix}-last {
+      order: 999;
+    }
+  }
+}

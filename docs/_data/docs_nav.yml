@@ -1,8 +1,8 @@
 - title: Layout
   items:
-    - Grid
+    - title: Grid
 - title: Utilities
   items:
-    - Display
-    - Grid
-    - Spacing
+    - title: Display
+    - title: Grid
+    - title: Spacing
