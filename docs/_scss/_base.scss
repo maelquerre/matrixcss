@@ -31,8 +31,9 @@ section {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  margin: 0 0 .5rem;
-  font-weight: 700;
+  margin: 0 0 .8rem;
+  font-weight: 600;
+  line-height: 1.2;
 
   > a {
     display: block;
@@ -52,18 +53,20 @@ h1, h2, h3, h4, h5, h6 {
   }
 
   &:not(:first-of-type) {
-    margin-top: 1rem;
+    margin-top: .5rem;
   }
 }
 
 h1 {
   font-size: 3.3rem;
   letter-spacing: -.04em;
+  font-weight: 700;
 }
 
 h2 {
   font-size: 2.5rem;
   letter-spacing: -.01em;
+  font-weight: 700;
 }
 
 h3 {
@@ -71,7 +74,7 @@ h3 {
 }
 
 h4 {
-  font-size: 1.5rem;
+  font-size: 1.75rem;
 }
 
 h5 {
@@ -92,13 +95,13 @@ p {
 .grid.demo {
   position: relative;
   grid-template-rows: 2rem;
-  margin-bottom: 4rem;
-
+  margin-bottom: 3rem;
 
   > * {
     padding: .75rem 1rem;
     color: #fff;
     background-color: #000;
+    border-radius: $border-radius;
   }
 
   > *:nth-child(100n+1),
@@ -118,7 +121,7 @@ p {
     top: 0;
     left: 0;
     right: 0;
-    bottom: -1rem;
+    bottom: -1.5rem;
     padding: 0;
     background-color: transparent;
     opacity: .2;
@@ -138,6 +141,8 @@ p {
 .grid.example {
   > * {
     padding: .75rem 1rem;
-    border: .1rem solid black;
+    background-color: #fff;
+    border-radius: $border-radius;
+    box-shadow: $box-shadow;
   }
 }

@@ -30,8 +30,9 @@ section {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  margin: 0 0 0.5rem;
-  font-weight: 700;
+  margin: 0 0 0.8rem;
+  font-weight: 600;
+  line-height: 1.2;
 }
 h1 > a, h2 > a, h3 > a, h4 > a, h5 > a, h6 > a {
   display: block;
@@ -48,17 +49,19 @@ h1 > a[href^="#"]:hover, h2 > a[href^="#"]:hover, h3 > a[href^="#"]:hover, h4 > 
   margin: 0;
 }
 h1:not(:first-of-type), h2:not(:first-of-type), h3:not(:first-of-type), h4:not(:first-of-type), h5:not(:first-of-type), h6:not(:first-of-type) {
-  margin-top: 1rem;
+  margin-top: 0.5rem;
 }
 
 h1 {
   font-size: 3.3rem;
   letter-spacing: -0.04em;
+  font-weight: 700;
 }
 
 h2 {
   font-size: 2.5rem;
   letter-spacing: -0.01em;
+  font-weight: 700;
 }
 
 h3 {
@@ -66,7 +69,7 @@ h3 {
 }
 
 h4 {
-  font-size: 1.5rem;
+  font-size: 1.75rem;
 }
 
 h5 {
@@ -87,12 +90,13 @@ p {
 .grid.demo {
   position: relative;
   grid-template-rows: 2rem;
-  margin-bottom: 4rem;
+  margin-bottom: 3rem;
 }
 .grid.demo > * {
   padding: 0.75rem 1rem;
   color: #fff;
   background-color: #000;
+  border-radius: 0.2rem;
 }
 .grid.demo > *:nth-child(100n+1),
 .grid.demo > *:nth-child(100n+2),
@@ -110,7 +114,7 @@ p {
   top: 0;
   left: 0;
   right: 0;
-  bottom: -1rem;
+  bottom: -1.5rem;
   padding: 0;
   background-color: transparent;
   opacity: 0.2;
@@ -127,22 +131,26 @@ p {
 
 .grid.example > * {
   padding: 0.75rem 1rem;
-  border: 0.1rem solid black;
+  background-color: #fff;
+  border-radius: 0.2rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
 }
 
 pre.highlight {
   margin: 0 0 1rem;
+  padding: 1rem;
+  background-color: #f2f2f7;
+  border-radius: 0.2rem;
 }
 
 code.highlighter-rouge {
   /* inline code */
-  padding: 0.2em 0.4em;
   margin: 0;
-  border-radius: 3px;
+  color: #ff9500;
 }
 
 pre, code {
-  font-family: "iaw-quattro", Menlo, monospace;
+  font-family: "SF Mono", Menlo, "Liberation Mono", monospace;
 }
 
 pre {

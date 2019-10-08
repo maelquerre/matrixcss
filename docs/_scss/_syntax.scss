@@ -11,16 +11,18 @@ $string: $orange;
 
 pre.highlight {
   margin: 0 0 1rem;
+  padding: 1rem;
+  background-color: $gray-6;
+  border-radius: $border-radius;
 }
 
 code.highlighter-rouge { /* inline code */
-  padding: 0.2em 0.4em;
   margin: 0;
-  border-radius: 3px;
+  color: $orange;
 }
 
 pre, code {
-  font-family: 'iaw-quattro', Menlo, monospace;
+  font-family: 'SF Mono', Menlo, 'Liberation Mono', monospace;
 }
 
 pre {
