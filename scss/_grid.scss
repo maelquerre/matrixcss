@@ -29,7 +29,7 @@
     }
 
     @for $start from 1 through $grid-columns {
-      @for $end from $start + 1 through $grid-columns {
+      @for $end from $start through $grid-columns {
         .c#{$breakpoint-prefix}-#{$start}-#{$end} {
           grid-column: #{$start} / #{$end + 1};
         }
