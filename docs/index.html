@@ -4,11 +4,8 @@ title: Index
 permalink: /
 ---
 
-<section>
-  <h1>{{ site.title }}</h1>
-
-  <p>{{ site.description }}</p>
-</section>
+<h1>{{ site.title }}</h1>
+<p>{{ site.description }}</p>
 
 <section id="grid" class="grid columns-6" style="column-gap: 3rem;">
   <h2 class="row"><a href="#grid">Grid</a></h2>
@@ -39,12 +36,12 @@ permalink: /
 
       <div class="row">row</div>
       <div class="grid columns-6 guides">
-        <div>&nbsp;</div>
-        <div>&nbsp;</div>
-        <div>&nbsp;</div>
-        <div>&nbsp;</div>
-        <div>&nbsp;</div>
-        <div>&nbsp;</div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
       </div>
     </div>
   </div>
@@ -70,24 +67,24 @@ permalink: /
     <h5>Columns control</h5>
 
     <div class="grid columns-4">
-      <div><code>c-2</code></div>
+      <div><code class="highlighter-rouge">c-2</code></div>
       <div class="c-2-e">start at next column,<br>span 2 columns.</div>
 
-      <div><code>c-2-5</code></div>
+      <div><code class="highlighter-rouge">c-2-5</code></div>
       <div class="c-2-e">start at column 2,<br>end at column 5.</div>
 
-      <div><code>c-2-e</code></div>
+      <div><code class="highlighter-rouge">c-2-e</code></div>
       <div class="c-2-e">start column 2,<br>end at last column.</div>
 
-      <div><code>c-2--3</code></div>
+      <div><code class="highlighter-rouge">c-2--3</code></div>
       <div class="c-2-e">start at column 2,<br>span 3 columns.</div>
 
       <h5 class="row">Rows control</h5>
 
-      <div><code>r-2</code></div>
+      <div><code class="highlighter-rouge">r-2</code></div>
       <div class="c-2-e">start at current row,<br>span 2 rows.</div>
 
-      <div><code>row</code></div>
+      <div><code class="highlighter-rouge">row</code></div>
       <div class="c-2-e">span a full row.</div>
     </div>
   </div>
@@ -97,9 +94,9 @@ permalink: /
   </h3>
 
   <p class="c-3 row-s">{{ site.title }} has a desktop-first approach with its responsive breakpoints selectors.
-    Set a responsive selector among <code class="highlighter-rouge">s</code>,
+    Set a responsive selector among <code class="highlighter-rouge">l</code>,
     <code class="highlighter-rouge">m</code> and
-    <code class="highlighter-rouge">l</code>.
+    <code class="highlighter-rouge">s</code>.
   </p>
 
   <div class="c-1-3 row-s">

@@ -1,7 +1,9 @@
 # Site settings
 title: "Grid System"
 description: "Yet another minimal CSS framework. Based on CSS Grid Layout."
+url: "https://glascode.github.io"
 baseurl: "/grid-system"
+repository: "https://github.com/glascode/grid-system"
 
 # Build settings
 include: ["_pages"]  # include more files
