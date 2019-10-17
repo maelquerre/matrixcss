@@ -107,7 +107,6 @@ a:hover {
   padding: 0.75rem 1rem;
   color: #fff;
   background-color: #111;
-  border-radius: 0.5rem;
 }
 .grid.demo > *:nth-child(100n+1),
 .grid.demo > *:nth-child(100n+2),

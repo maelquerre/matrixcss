@@ -6,6 +6,5 @@ baseurl: "/grid-system"
 repository: "https://github.com/glascode/grid-system"
 
 # Build settings
-include: ["_pages"]  # include more files
 kramdown:
   input: GFM

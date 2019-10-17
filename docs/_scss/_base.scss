@@ -34,7 +34,7 @@ h1, h2, h3, h4, h5, h6 {
   margin: 0 0 .8rem;
   font-weight: 600;
   line-height: 1.2;
-  color: #111;
+  color: $black;
 
   > a {
     display: block;
@@ -114,9 +114,8 @@ a {
 
   > * {
     padding: .75rem 1rem;
-    color: #fff;
-    background-color: #111;
-    border-radius: $border-radius;
+    color: $white;
+    background-color: $black;
   }
 
   > *:nth-child(100n+1),
@@ -127,7 +126,7 @@ a {
   > *:nth-child(100n+6) {
     padding: 0;
     text-align: center;
-    color: rgba(#111, .3);
+    color: rgba($black, .3);
     background: none;
     border: 0;
   }
@@ -153,14 +152,14 @@ a {
     margin-bottom: -1px;
     grid-row: 1 / -1;
     background-color: transparent;
-    border: 1px dashed #111;
+    border: 1px dashed $black;
   }
 }
 
 .grid.example {
   > * {
     padding: .75rem 1rem;
-    background-color: #fff;
+    background-color: $white;
     border-radius: $border-radius;
     box-shadow: $box-shadow;
   }
