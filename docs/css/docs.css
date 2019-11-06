@@ -167,7 +167,7 @@ code.highlighter-rouge {
 }
 
 pre, code {
-  font-family: "IBM Plex Mono", Menlo, Consolas, "Liberation Mono", monospace;
+  font-family: Menlo, Consolas, "DejaVu Sans Mono", monospace;
 }
 
 pre {
