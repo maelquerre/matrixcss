@@ -1,83 +1,83 @@
 .grid {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
-  grid-gap: $grid-gap;
+  grid-gap: $gap;
 }
 
-@each $breakpoint in map-keys($breakpoints) {
-  @include media-breakpoint($breakpoint, $breakpoints) {
-    $breakpoint-prefix: breakpoint-infix($breakpoint, $breakpoints);
+@each $breakpoint in map_keys($breakpoints) {
+  @include media($breakpoint, $breakpoints) {
+    $infix: infix($breakpoint, $breakpoints);
 
-    @for $number from 1 through $grid-columns {
-      .grid.columns#{$breakpoint-prefix}-#{$number} {
+    @for $number from 1 through $columns {
+      .grid.columns#{$infix}-#{$number} {
         grid-template-columns: repeat($number, 1fr);
       }
     }
 
     @each $size, $length in $spacers {
-      .gap#{$breakpoint-prefix}-#{$size} {
+      .gap#{$infix}-#{$size} {
         grid-gap: $length;
       }
     }
 
-    // Columns
+    // Columns control
 
-    @for $size from 1 through $grid-columns {
-      .c#{$breakpoint-prefix}-#{$size} {
+    @for $size from 1 through $columns {
+      .c#{$infix}-#{$size} {
         grid-column-end: span $size;
       }
     }
 
-    @for $start from 1 through $grid-columns {
-      @for $end from $start through $grid-columns {
-        .c#{$breakpoint-prefix}-#{$start}-#{$end} {
+    @for $start from 1 through $columns {
+      @for $end from $start through $columns {
+        .c#{$infix}-#{$start}-#{$end} {
           grid-column: #{$start} / #{$end + 1};
         }
       }
 
-      .c#{$breakpoint-prefix}-#{$start}-e {
+      .c#{$infix}-#{$start}-e {
         grid-column: #{$start} / -1;
       }
     }
 
-    @for $start from 1 through $grid-columns {
-      @for $span from 1 through $grid-columns - $start {
-        .c#{$breakpoint-prefix}-#{$start}--#{$span} {
+    @for $start from 1 through $columns {
+      @for $span from 1 through $columns - $start {
+        .c#{$infix}-#{$start}--#{$span} {
           grid-column-start: $start;
           grid-column-end: span $span;
         }
       }
     }
 
-    .row#{$breakpoint-prefix} {
+    .row#{$infix} {
       grid-column: 1 / -1;
     }
 
-    // Rows
+    // Rows control
 
-    @for $size from 1 through $grid-columns {
-      .r#{$breakpoint-prefix}-#{$size} {
+    @for $size from 1 through $columns {
+      .r#{$infix}-#{$size} {
         grid-row-end: span $size;
       }
     }
 
-    .col#{$breakpoint-prefix} {
+    .col#{$infix} {
       grid-row: 1 / -1;
     }
 
-    // Order
+    // Order control
 
     @for $order from 1 through $orders {
-      .o#{$breakpoint-prefix}-#{$order} {
+      .o#{$infix}-#{$order} {
         order: $order;
       }
     }
 
-    .o#{$breakpoint-prefix}-first {
+    .o#{$infix}-first {
       order: -999;
     }
 
-    .o#{$breakpoint-prefix}-last {
+    .o#{$infix}-last {
       order: 999;
     }
   }

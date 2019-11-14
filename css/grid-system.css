@@ -1334,6 +1334,26 @@
   order: 10;
 }
 
+.o-11 {
+  order: 11;
+}
+
+.o-12 {
+  order: 12;
+}
+
+.o-13 {
+  order: 13;
+}
+
+.o-14 {
+  order: 14;
+}
+
+.o-15 {
+  order: 15;
+}
+
 .o-first {
   order: -999;
 }
@@ -2668,6 +2688,26 @@
 
   .o-l-10 {
     order: 10;
+  }
+
+  .o-l-11 {
+    order: 11;
+  }
+
+  .o-l-12 {
+    order: 12;
+  }
+
+  .o-l-13 {
+    order: 13;
+  }
+
+  .o-l-14 {
+    order: 14;
+  }
+
+  .o-l-15 {
+    order: 15;
   }
 
   .o-l-first {
@@ -4006,6 +4046,26 @@
     order: 10;
   }
 
+  .o-m-11 {
+    order: 11;
+  }
+
+  .o-m-12 {
+    order: 12;
+  }
+
+  .o-m-13 {
+    order: 13;
+  }
+
+  .o-m-14 {
+    order: 14;
+  }
+
+  .o-m-15 {
+    order: 15;
+  }
+
   .o-m-first {
     order: -999;
   }
@@ -5340,6 +5400,26 @@
 
   .o-s-10 {
     order: 10;
+  }
+
+  .o-s-11 {
+    order: 11;
+  }
+
+  .o-s-12 {
+    order: 12;
+  }
+
+  .o-s-13 {
+    order: 13;
+  }
+
+  .o-s-14 {
+    order: 14;
+  }
+
+  .o-s-15 {
+    order: 15;
   }
 
   .o-s-first {

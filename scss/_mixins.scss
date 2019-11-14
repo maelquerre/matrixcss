@@ -1,5 +1,5 @@
 @function breakpoint($name, $breakpoints: $breakpoints) {
-  $width: map-get($breakpoints, $name);
+  $width: map_get($breakpoints, $name);
   @return if($width != 0, $width, null);
 }
 

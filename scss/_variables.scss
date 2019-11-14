@@ -2,8 +2,8 @@
 
 // Grid
 
-$grid-columns: 15 !default;
-$grid-gap: 1rem;
+$columns: 15 !default;
+$gap: 1rem;
 
 
 // Spacing
@@ -21,13 +21,13 @@ $spacers: (
 
 // Orders
 
-$orders: 10 !default;
+$orders: $columns !default;
 
 
 // Breakpoints
 
 $breakpoints: (
-  xl: 0,
+  default: 0,
   l: 991px,
   m: 767px,
   s: 575px
