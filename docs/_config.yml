@@ -1,8 +1,8 @@
 # Site settings
-title: "Grid System"
+title: "Matrix"
 description: "Yet another minimal CSS framework. Based on CSS Grid Layout."
 url: "https://glascode.github.io"
-baseurl: "/grid-system"
+baseurl: "/matrix"
 repository: "https://github.com/glascode/grid-system"
 
 # Build settings

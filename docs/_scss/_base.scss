@@ -8,14 +8,18 @@ html {
 
 body {
   margin: 0;
-  padding: 2rem 5% 0;
+  padding: 2rem 0 0;
   font-family: 'Inter', sans-serif;
   line-height: 1.5;
-  color: #333;
+  color: $foreground;
+  background-color: $background;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 main, footer {
-  max-width: 1100px;
+  width: 90%;
+  max-width: 900px;
   margin: auto;
 }
 
@@ -27,7 +31,6 @@ h1, h2, h3, h4, h5, h6 {
   margin: 0 0 .8rem;
   font-weight: 600;
   line-height: 1.2;
-  color: $black;
 
   > a {
     display: block;
@@ -53,7 +56,7 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 {
   font-size: 3.3rem;
-  letter-spacing: -.045em;
+  letter-spacing: -.04em;
   font-weight: 700;
 }
 
@@ -97,7 +100,6 @@ a {
   }
 }
 
-
 // Grid
 
 .grid.demo {
@@ -107,8 +109,8 @@ a {
 
   > * {
     padding: .75rem 1rem;
-    color: $white;
-    background-color: $black;
+    color: $foreground;
+    background-color: lighten($background, 15%);;
     border-radius: $border-radius;
   }
 
@@ -120,7 +122,7 @@ a {
   > *:nth-child(100n+6) {
     padding: 0;
     text-align: center;
-    color: rgba($black, .3);
+    color: rgba($foreground, .3);
     background: none;
     border: 0;
   }
@@ -146,14 +148,14 @@ a {
     margin-bottom: -1px;
     grid-row: 1 / -1;
     background-color: transparent;
-    border: 1px dashed $black;
+    border: 1px dashed $foreground;
   }
 }
 
 .grid.example {
   > * {
     padding: .75rem 1rem;
-    background-color: $white;
+    background-color: lighten($background, 15%);
     border-radius: $border-radius;
     box-shadow: $box-shadow;
   }

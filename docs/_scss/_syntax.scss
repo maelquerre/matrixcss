@@ -5,20 +5,21 @@
 $comment: #6a737d;
 $name-attribute: #000;
 $name-tag: #000;
-$string: $pink;
+$string: $teal;
 
 // Layout
 
 pre.highlight {
   margin: 0 0 1rem;
   padding: 1rem;
-  background-color: $gray-1;
-  border: 1px solid $gray-2;
+  background-color: lighten($background, 8%);
 }
 
 code.highlighter-rouge { /* inline code */
   margin: 0;
-  color: $pink;
+  padding-left: 1px;
+  padding-right: 1px;
+  background-color: lighten($background, 8%);
 }
 
 pre, code {
