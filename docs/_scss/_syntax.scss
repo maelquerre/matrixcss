@@ -5,7 +5,7 @@
 $comment: #6a737d;
 $name-attribute: #000;
 $name-tag: #000;
-$string: $teal;
+$string: $accent;
 
 // Layout
 
@@ -23,7 +23,7 @@ code.highlighter-rouge { /* inline code */
 }
 
 pre, code {
-  font-family: Menlo, Consolas, 'DejaVu Sans Mono', monospace;
+  font-family: 'IBM Plex Mono', Menlo, 'DejaVu Sans Mono', monospace;
 }
 
 pre {

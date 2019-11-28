@@ -13,8 +13,6 @@ body {
   line-height: 1.5;
   color: $foreground;
   background-color: $background;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 }
 
 main, footer {
@@ -110,7 +108,8 @@ a {
   > * {
     padding: .75rem 1rem;
     color: $foreground;
-    background-color: lighten($background, 15%);;
+    background-color: darken($background, 10%);
+    border: 2px solid darken($background, 20%);
     border-radius: $border-radius;
   }
 
@@ -155,7 +154,7 @@ a {
 .grid.example {
   > * {
     padding: .75rem 1rem;
-    background-color: lighten($background, 15%);
+    background-color: darken($background, 15%);
     border-radius: $border-radius;
     box-shadow: $box-shadow;
   }

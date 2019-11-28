@@ -19,11 +19,6 @@ $spacers: (
 ) !default;
 
 
-// Orders
-
-$orders: $columns !default;
-
-
 // Breakpoints
 
 $breakpoints: (
@@ -32,3 +27,8 @@ $breakpoints: (
   m: 767px,
   s: 575px
 ) !default;
+
+
+// Orders
+
+$orders: $columns !default;

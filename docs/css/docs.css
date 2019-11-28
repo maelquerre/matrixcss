@@ -11,10 +11,8 @@ body {
   padding: 2rem 0 0;
   font-family: "Inter", sans-serif;
   line-height: 1.5;
-  color: #fff;
-  background-color: #111;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  color: #111;
+  background-color: #fff;
 }
 
 main, footer {
@@ -102,9 +100,10 @@ a:hover {
 }
 .grid.demo > * {
   padding: 0.75rem 1rem;
-  color: #fff;
-  background-color: #373737;
-  border-radius: 0.4rem;
+  color: #111;
+  background-color: #e6e6e6;
+  border: 2px solid #cccccc;
+  border-radius: 0.3rem;
 }
 .grid.demo > *:nth-child(100n+1),
 .grid.demo > *:nth-child(100n+2),
@@ -114,7 +113,7 @@ a:hover {
 .grid.demo > *:nth-child(100n+6) {
   padding: 0;
   text-align: center;
-  color: rgba(255, 255, 255, 0.3);
+  color: rgba(17, 17, 17, 0.3);
   background: none;
   border: 0;
 }
@@ -138,13 +137,13 @@ a:hover {
   margin-bottom: -1px;
   grid-row: 1/-1;
   background-color: transparent;
-  border: 1px dashed #fff;
+  border: 1px dashed #111;
 }
 
 .grid.example > * {
   padding: 0.75rem 1rem;
-  background-color: #373737;
-  border-radius: 0.4rem;
+  background-color: #d9d9d9;
+  border-radius: 0.3rem;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
 }
 
@@ -159,7 +158,7 @@ footer p:last-child {
 pre.highlight {
   margin: 0 0 1rem;
   padding: 1rem;
-  background-color: #252525;
+  background-color: white;
 }
 
 code.highlighter-rouge {
@@ -167,11 +166,11 @@ code.highlighter-rouge {
   margin: 0;
   padding-left: 1px;
   padding-right: 1px;
-  background-color: #252525;
+  background-color: white;
 }
 
 pre, code {
-  font-family: Menlo, Consolas, "DejaVu Sans Mono", monospace;
+  font-family: "IBM Plex Mono", Menlo, "DejaVu Sans Mono", monospace;
 }
 
 pre {
@@ -326,7 +325,7 @@ pre {
 
 /* Literal.String */
 .highlight .s {
-  color: #5ac8fa;
+  color: #0084ff;
 }
 
 .highlight .n {
