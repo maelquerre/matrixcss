@@ -47,19 +47,20 @@ permalink: /
   </div>
 
   <div class="row">
-        <pre class="highlight"><code>&lt;div class=<span
-            class="s">"grid columns-6"</span>&gt;
-  &lt;div class=<span class="s">"c-2"</span>&gt;c-2&lt;/div&gt;
-  &lt;div&gt;&lt;/div&gt;
-  &lt;div class=<span class="s">"c-3"</span>&gt;c-3&lt;/div&gt;
-  &lt;div class=<span class="s">"c-2--3"</span>&gt;c-2--3&lt;/div&gt;
-  &lt;div&gt;&lt;/div&gt;
-  &lt;div class=<span class="s">"r-3"</span>&gt;r-3&lt;/div&gt;
-  &lt;div class=<span class="s">"c-2 r-2"</span>&gt;c-2 r-2&lt;/div&gt;
-  &lt;div class=<span class="s">"c-4-5"</span>&gt;c-4-5&lt;/div&gt;
-  &lt;div class=<span class="s">"c-3"</span>&gt;c-3&lt;/div&gt;
-  &lt;div class=<span class="s">"row"</span>&gt;row&lt;/div&gt;
-&lt;/div&gt;</code></pre>
+    {% highlight html %}
+    <div class="grid columns-6 demo">
+      <div class="c-2">c-2</div>
+      <div></div>
+      <div class="c-3">c-3</div>
+      <div class="c-2--3">c-2--3</div>
+      <div></div>
+      <div class="r-3">r-3</div>
+      <div class="c-2 r-2">c-2 r-2</div>
+      <div class="c-4-5">c-4-5</div>
+      <div class="c-3">c-3</div>
+      <div class="row">row</div>
+    </div>
+    {% endhighlight %}
   </div>
 
   <h4 class="row">Grid control</h4>
@@ -96,7 +97,7 @@ permalink: /
     <a href="#responsiveness">Responsiveness</a>
   </h3>
 
-  <p class="c-3 row-s">{{ site.title }} has a desktop-first approach with its responsive breakpoints selectors.
+  <p class="c-3 row-s">{{ site.title }} uses a mobile first breakpoint system, similar to other popular CSS frameworks.
     Set a responsive selector among <code class="highlighter-rouge">l</code>,
     <code class="highlighter-rouge">m</code> and
     <code class="highlighter-rouge">s</code>.
