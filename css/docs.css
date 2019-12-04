@@ -1,0 +1,359 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 2rem 0 0;
+  font-family: "Inter", sans-serif;
+  line-height: 1.5;
+  color: #111;
+  background-color: #fff;
+}
+
+main, footer {
+  width: 90%;
+  max-width: 900px;
+  margin: auto;
+}
+
+section {
+  margin-bottom: 2rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0 0 0.8rem;
+  font-weight: 600;
+  line-height: 1.2;
+}
+h1 > a, h2 > a, h3 > a, h4 > a, h5 > a, h6 > a {
+  display: block;
+  color: inherit;
+  text-decoration: none !important;
+  text-shadow: none;
+  background: none;
+  outline: none;
+}
+h1 > a[href^="#"]:hover, h2 > a[href^="#"]:hover, h3 > a[href^="#"]:hover, h4 > a[href^="#"]:hover, h5 > a[href^="#"]:hover, h6 > a[href^="#"]:hover {
+  color: #0084ff;
+}
+.grid > h1, .grid > h2, .grid > h3, .grid > h4, .grid > h5, .grid > h6 {
+  margin: 0;
+}
+h1:not(:first-of-type), h2:not(:first-of-type), h3:not(:first-of-type), h4:not(:first-of-type), h5:not(:first-of-type), h6:not(:first-of-type) {
+  margin-top: 0.5rem;
+}
+
+h1 {
+  font-size: 3.3rem;
+  letter-spacing: -0.04em;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 2.5rem;
+  letter-spacing: -0.035em;
+}
+
+h3 {
+  font-size: 2rem;
+  letter-spacing: -0.03em;
+}
+
+h4 {
+  font-size: 1.75rem;
+  letter-spacing: -0.02em;
+}
+
+h5 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+}
+
+h6 {
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+a {
+  color: #0084ff;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline #0084ff;
+}
+
+.grid.demo {
+  position: relative;
+  grid-template-rows: 2rem;
+  margin-bottom: 3rem;
+}
+.grid.demo > * {
+  padding: 0.75rem 1rem;
+  color: #111;
+  background-color: #e6e6e6;
+  border: 2px solid #cccccc;
+  border-radius: 0.3rem;
+}
+.grid.demo > *:nth-child(100n+1),
+.grid.demo > *:nth-child(100n+2),
+.grid.demo > *:nth-child(100n+3),
+.grid.demo > *:nth-child(100n+4),
+.grid.demo > *:nth-child(100n+5),
+.grid.demo > *:nth-child(100n+6) {
+  padding: 0;
+  text-align: center;
+  color: rgba(17, 17, 17, 0.3);
+  background: none;
+  border: 0;
+}
+.grid.demo .grid.guides {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: -1.5rem;
+  grid-template-rows: minmax(1rem, 100rem);
+  padding: 0;
+  background: none;
+  border: 0;
+  opacity: 0.2;
+  overflow: hidden;
+  pointer-events: none;
+  z-index: -1;
+}
+.grid.demo .grid.guides > * {
+  margin-top: -1px;
+  margin-bottom: -1px;
+  grid-row: 1/-1;
+  background-color: transparent;
+  border: 1px dashed #111;
+}
+
+.grid.example > * {
+  padding: 0.75rem 1rem;
+  background-color: #d9d9d9;
+  border-radius: 0.3rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+footer {
+  padding: 2rem 0 4rem;
+  font-size: 0.9rem;
+}
+footer p:last-child {
+  text-align: right;
+}
+
+code[class*=language-],
+pre[class*=language-] {
+  text-align: left;
+  white-space: pre;
+  word-spacing: normal;
+  word-break: normal;
+  word-wrap: normal;
+  color: #90a4ae;
+  background: #fafafa;
+  font-family: "IBM Plex Mono", Menlo, "DejaVu Sans Mono", monospace;
+  font-size: 1em;
+  line-height: 1.5em;
+  tab-size: 4;
+  hyphens: none;
+}
+
+code[class*=language-]::-moz-selection,
+pre[class*=language-]::-moz-selection,
+code[class*=language-] ::-moz-selection,
+pre[class*=language-] ::-moz-selection {
+  background: #cceae7;
+  color: #263238;
+}
+
+code[class*=language-]::selection,
+pre[class*=language-]::selection,
+code[class*=language-] ::selection,
+pre[class*=language-] ::selection {
+  background: #cceae7;
+  color: #263238;
+}
+
+:not(pre) > code[class*=language-] {
+  white-space: normal;
+  border-radius: 0.2em;
+  padding: 0.1em;
+}
+
+pre[class*=language-] {
+  overflow: auto;
+  position: relative;
+  margin: 0.5em 0;
+  padding: 1.25em 1em;
+}
+
+.language-css > code,
+.language-sass > code,
+.language-scss > code {
+  color: #f76d47;
+}
+
+[class*=language-] .namespace {
+  opacity: 0.7;
+}
+
+.token.atrule {
+  color: #7c4dff;
+}
+
+.token.attr-name {
+  color: #39adb5;
+}
+
+.token.attr-value {
+  color: #f6a434;
+}
+
+.token.attribute {
+  color: #f6a434;
+}
+
+.token.boolean {
+  color: #7c4dff;
+}
+
+.token.builtin {
+  color: #39adb5;
+}
+
+.token.cdata {
+  color: #39adb5;
+}
+
+.token.char {
+  color: #39adb5;
+}
+
+.token.class {
+  color: #39adb5;
+}
+
+.token.class-name {
+  color: #6182b8;
+}
+
+.token.comment {
+  color: #aabfc9;
+}
+
+.token.constant {
+  color: #7c4dff;
+}
+
+.token.deleted {
+  color: #e53935;
+}
+
+.token.doctype {
+  color: #aabfc9;
+}
+
+.token.entity {
+  color: #e53935;
+}
+
+.token.function {
+  color: #7c4dff;
+}
+
+.token.hexcode {
+  color: #f76d47;
+}
+
+.token.id {
+  color: #7c4dff;
+  font-weight: bold;
+}
+
+.token.important {
+  color: #7c4dff;
+  font-weight: bold;
+}
+
+.token.inserted {
+  color: #39adb5;
+}
+
+.token.keyword {
+  color: #7c4dff;
+}
+
+.token.number {
+  color: #f76d47;
+}
+
+.token.operator {
+  color: #39adb5;
+}
+
+.token.prolog {
+  color: #aabfc9;
+}
+
+.token.property {
+  color: #39adb5;
+}
+
+.token.pseudo-class {
+  color: #f6a434;
+}
+
+.token.pseudo-element {
+  color: #f6a434;
+}
+
+.token.punctuation {
+  color: #39adb5;
+}
+
+.token.regex {
+  color: #6182b8;
+}
+
+.token.selector {
+  color: #e53935;
+}
+
+.token.string {
+  color: #f6a434;
+}
+
+.token.symbol {
+  color: #7c4dff;
+}
+
+.token.tag {
+  color: #e53935;
+}
+
+.token.unit {
+  color: #f76d47;
+}
+
+.token.url {
+  color: #e53935;
+}
+
+.token.variable {
+  color: #e53935;
+}
+
+/*# sourceMappingURL=docs.css.map */
