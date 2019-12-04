@@ -1,0 +1,29 @@
+{
+  "name": "matrix",
+  "version": "1.0.0",
+  "description": "Matrix is a CSS framework based on the CSS Grid Layout.",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "serve": "npx @11ty/eleventy --serve",
+    "build": "npx @11ty/eleventy",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Glascode/grid-system.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Glascode/grid-system/issues"
+  },
+  "homepage": "https://github.com/Glascode/grid-system#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "@11ty/eleventy": "^0.9.0"
+  }
+}

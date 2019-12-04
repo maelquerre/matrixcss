@@ -1,13 +1,11 @@
-# Grid System
+# Matrix
 
-Grid System is a CSS framework based on the CSS Grid Layout.
+Matrix is a CSS framework based on the CSS Grid Layout.
 
-## Getting started
+## Usage
 
-### Usage
-
-#### Using Grid System via CDN
+### Using Matrix via CDN
 
 ```html
-<link href="https://cdn.jsdelivr.net/gh/glascode/grid-system@master/css/grid-system.min.css" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/gh/glascode/matrix@master/css/matrix.min.css" rel="stylesheet">
 ```
