@@ -1,4 +1,5 @@
 {
   "title": "Matrix",
-  "description": "A minimal CSS grid framework. Based on CSS Grid Layout."
+  "description": "A minimal CSS grid framework. Based on CSS Grid Layout.",
+  "repository": "https://github.com/Glascode/matrix"
 }
