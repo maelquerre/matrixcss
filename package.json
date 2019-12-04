@@ -7,8 +7,9 @@
     "doc": "docs"
   },
   "scripts": {
-    "docs": "npx @11ty/eleventy",
-    "docs-serve": "npx @11ty/eleventy --serve",
+    "build": "eleventy --pathprefix='/matrix/'",
+    "docs": "eleventy",
+    "docs-serve": "eleventy --serve",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
