@@ -12,7 +12,7 @@
 
   <title>{{ site.title }}</title>
 
-  <link rel="icon" type="image/png" href="images/favicon.png">
+  <link rel="icon" type="image/png" href="{{ 'images/favicon.png' | url }}">
 
   <!-- Fonts -->
   <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
@@ -20,5 +20,5 @@
 
   <!-- Styles -->
   <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/glascode/matrix@master/css/matrix.min.css">
-  <link rel="stylesheet" type="text/css" href="/css/docs.css">
+  <link rel="stylesheet" type="text/css" href="{{ '/css/docs.css' | url }}">
 </head>
