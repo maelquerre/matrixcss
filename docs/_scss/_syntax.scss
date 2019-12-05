@@ -2,11 +2,6 @@
 
 // Variables
 
-$comment: #6a737d;
-$name-attribute: #000;
-$name-tag: #000;
-$string: $accent;
-
 // Layout
 code[class*="language-"],
 pre[class*="language-"] {
@@ -15,11 +10,11 @@ pre[class*="language-"] {
   word-spacing: normal;
   word-break: normal;
   word-wrap: normal;
-  color: #90a4ae;
-  background: #fafafa;
   font-family: 'IBM Plex Mono', Menlo, 'DejaVu Sans Mono', monospace;
-  font-size: 1em;
-  line-height: 1.5em;
+  font-size: .9rem;
+  color: #7e8f98;
+  background: $gray-1;
+  border-radius: $border-radius;
   tab-size: 4;
   hyphens: none;
 }
