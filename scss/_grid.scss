@@ -4,6 +4,10 @@
   grid-gap: $gap;
 }
 
+.contents {
+  display: contents;
+}
+
 @each $breakpoint in map_keys($breakpoints) {
   @include media($breakpoint, $breakpoints) {
     $infix: infix($breakpoint, $breakpoints);
