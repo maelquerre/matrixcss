@@ -3,8 +3,8 @@ node_js:
   - 10
 before_script:
   - npm install
-  - npm run scss
-script: npm run docs
+  - npm run build:scss
+script: npm run build:docs
 deploy:
   local-dir: docs/_site
   provider: pages

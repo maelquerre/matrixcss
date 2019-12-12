@@ -1,14 +1,15 @@
 {
   "name": "matrix",
-  "version": "1.0.0",
+  "version": "2.1.1",
   "description": "Matrix is a CSS framework based on the CSS Grid Layout.",
   "directories": {
     "doc": "docs"
   },
   "scripts": {
-    "scss": "node-sass scss/ -o css/",
-    "docs": "eleventy --pathprefix=matrix",
-    "docs-serve": "eleventy --serve",
+    "minify:scss": "node-sass scss/matrix.scss css/matrix.min.css --output-style compressed",
+    "build:scss": "node-sass scss/matrix.scss css/matrix.css --source-map css/matrix.css.map && npm run minify:scss",
+    "build:docs": "eleventy --pathprefix=matrix",
+    "serve:docs": "eleventy --serve",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -16,7 +17,7 @@
     "url": "git+https://github.com/Glascode/matrix.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Maël Querré & Alex Dean",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Glascode/matrix/issues"

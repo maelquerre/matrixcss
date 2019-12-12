@@ -1,5 +1,5 @@
 /**
- * Matrix v2.1 (https://glascode.github.io/matrix)
+ * Matrix v2.1.1 (https://glascode.github.io/matrix)
  */
 .grid {
   display: grid;
@@ -3250,3 +3250,5 @@
     order: -999; }
   .o-s-last {
     order: 999; } }
+
+/*# sourceMappingURL=matrix.css.map */
