@@ -1,10 +1,10 @@
-const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
+const syntaxHighlight = require('@11ty/eleventy-plugin-syntaxhighlight');
 
 module.exports = function (eleventyConfig) {
   eleventyConfig.addPlugin(syntaxHighlight);
 
-  eleventyConfig.addPassthroughCopy("docs/css")
-  eleventyConfig.addPassthroughCopy("docs/images")
+  eleventyConfig.addPassthroughCopy('docs/css')
+  eleventyConfig.addPassthroughCopy('docs/images')
 
   return {
     templateFormats: ['html'],
