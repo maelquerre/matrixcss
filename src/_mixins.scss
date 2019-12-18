@@ -3,14 +3,14 @@
   @return if($width != 0, $width, null);
 }
 
-@function infix($name, $breakpoints: $breakpoints) {
-  @return if(breakpoint($name, $breakpoints) == null, "", "-#{$name}");
+@function prefix($name, $breakpoints: $breakpoints) {
+  @return if(breakpoint($name, $breakpoints) == null, "", "#{$name}\\:");
 }
 
 @mixin media($name, $breakpoints: $breakpoints) {
   $width: breakpoint($name, $breakpoints);
   @if $width {
-    @media (max-width: $width) {
+    @media (min-width: $width) {
       @content;
     }
   } @else {

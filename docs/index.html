@@ -7,125 +7,118 @@ permalink: /
 <h1>{{ site.title }}</h1>
 <p>{{ site.description }}</p>
 
-<section id="grid" class="grid columns-6" style="column-gap: 3rem;">
-  <h2 class="row"><a href="#grid">Grid</a></h2>
+<section id="grid">
+  <h2><a href="#grid">Grid</a></h2>
 
-  <h3 id="overview" class="row"><a href="#overview">Overview</a></h3>
+  <h3 id="overview"><a href="#overview">Overview</a></h3>
 
-  <div class="row">
-    <div class="grid columns-6 demo">
-      <div>1</div>
-      <div>2</div>
-      <div>3</div>
-      <div>4</div>
-      <div>5</div>
-      <div>6</div>
+  <div class="grid columns-6 demo">
+    <div>1</div>
+    <div>2</div>
+    <div>3</div>
+    <div>4</div>
+    <div>5</div>
+    <div>6</div>
 
-      <div class="c-2">c-2</div>
+    <div class="span-2">span-2</div>
+    <div></div>
+    <div class="span-4..">span-4..</div>
+
+    <div class="span-2+3">span-2+3</div>
+    <div></div>
+    <div class="r-3">r-3</div>
+
+    <div class="span-2 r-2">span-2 r-2</div>
+    <div class="span-4-5">span-4-5</div>
+
+    <div class="span-3">span-3</div>
+
+    <div class="row">row</div>
+    <div class="grid columns-6 guides">
       <div></div>
-      <div class="c-3">c-3</div>
-
-      <div class="c-2--3">c-2--3</div>
       <div></div>
-      <div class="r-3">r-3</div>
-
-      <div class="c-2 r-2">c-2 r-2</div>
-      <div class="c-4-5">c-4-5</div>
-
-      <div class="c-3">c-3</div>
-
-      <div class="row">row</div>
-      <div class="grid columns-6 guides">
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-      </div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
     </div>
   </div>
 
-  <div class="row">
-    {% highlight html %}
-<div class="grid columns-6 demo">
-  <div class="c-2">c-2</div>
-  <div></div>
-  <div class="c-3">c-3</div>
-  <div class="c-2--3">c-2--3</div>
-  <div></div>
-  <div class="r-3">r-3</div>
-  <div class="c-2 r-2">c-2 r-2</div>
-  <div class="c-4-5">c-4-5</div>
-  <div class="c-3">c-3</div>
-  <div class="row">row</div>
-</div>
-    {% endhighlight %}
+  {% highlight html %}
+  <div class="grid columns-6 demo">
+    <div class="span-2">span-2</div>
+    <div></div>
+    <div class="span-3">span-3</div>
+    <div class="span-2+3">span-2+3</div>
+    <div></div>
+    <div class="r-3">r-3</div>
+    <div class="span-2 r-2">span-2 r-2</div>
+    <div class="span-4-5">span-4-5</div>
+    <div class="span-3">span-3</div>
+    <div class="row">row</div>
+  </div>
+  {% endhighlight %}
+
+  <h4>Grid control</h4>
+
+  <h5>Columns control</h5>
+
+  <div class="grid columns-4">
+    <div><code class="language-">span-2</code></div>
+    <div class="span-2..">start at next column,<br>span 2 columns.</div>
+
+    <div><code class="language-">span-2-5</code></div>
+    <div class="span-2..">start at column 2,<br>end at column 5.</div>
+
+    <div><code class="language-">span-2..</code></div>
+    <div class="span-2..">start column 2,<br>end at last column.</div>
+
+    <div><code class="language-">span-2+3</code></div>
+    <div class="span-2..">start at column 2,<br>span 3 columns.</div>
   </div>
 
-  <h4 class="row">Grid control</h4>
+  <div class="grid columns-4">
+    <h5 class="row">Rows control</h5>
+    <div><code class="language-">r-2</code></div>
+    <div class="span-2..">start at current row,<br>span 2 rows.</div>
 
-  <div class="c-3 row-m">
-    <h5>Columns control</h5>
-    <div class="grid columns-4">
-      <div><code class="language-">c-2</code></div>
-      <div class="c-2-e">start at next column,<br>span 2 columns.</div>
-
-      <div><code class="language-">c-2-5</code></div>
-      <div class="c-2-e">start at column 2,<br>end at column 5.</div>
-
-      <div><code class="language-">c-2-e</code></div>
-      <div class="c-2-e">start column 2,<br>end at last column.</div>
-
-      <div><code class="language-">c-2--3</code></div>
-      <div class="c-2-e">start at column 2,<br>span 3 columns.</div>
-    </div>
+    <div><code class="language-">row</code></div>
+    <div class="span-2..">span a full row.</div>
   </div>
 
-  <div class="c-3 row-m">
-    <div class="grid columns-4">
-      <h5 class="row">Rows control</h5>
-      <div><code class="language-">r-2</code></div>
-      <div class="c-2-e">start at current row,<br>span 2 rows.</div>
-
-      <div><code class="language-">row</code></div>
-      <div class="c-2-e">span a full row.</div>
-    </div>
-  </div>
-
-  <h3 id="responsiveness" class="row">
+  <h3 id="responsiveness">
     <a href="#responsiveness">Responsiveness</a>
   </h3>
 
-  <p class="c-3 row-s">{{ site.title }} uses a mobile first breakpoint system, similar to other popular CSS frameworks.
-    Set a responsive selector among <code class="highlighter-rouge">l</code>,
-    <code class="highlighter-rouge">m</code> and
-    <code class="highlighter-rouge">s</code>.
+  <p class="span-3 row-s">{{ site.title }} uses a mobile first breakpoint system, similar to other popular CSS frameworks.
+    Set a responsive selector among <code class="language-css">l</code>,
+    <code class="language-">m</code> and
+    <code class="language-">s</code>.
   </p>
 
-  <div class="c-1-3 row-s">
+  <div class="span-1-3 row-s">
     {% highlight html %}
-<div class="grid columns-3 example">
-  <div class="row-m">Grid</div>
-  <div class="c-2 row-m">Home &nbsp; About &nbsp; Contact</div>
-  <div class="row-m">Menu</div>
-  <div class="c-2 row-m">Welcome</div>
-</div>
+    <div class="grid columns-3 example">
+      <div class="md:row">Grid</div>
+      <div class="span-2 md:row">Home &nbsp; About &nbsp; Contact</div>
+      <div class="md:row">Menu</div>
+      <div class="span-2 md:row">Welcome</div>
+    </div>
     {% endhighlight %}
   </div>
 
-  <div class="c-3 row-s">
+  <div class="span-3 row-s">
     <div class="grid columns-3 example">
-      <div class="row-m">Grid</div>
-      <div class="c-2 row-m">Home &nbsp; About &nbsp; Contact</div>
+      <div class="row md:span-1">Grid</div>
+      <div class="row md:span-2">Home &nbsp; About &nbsp; Contact</div>
 
-      <div class="row-m">Menu</div>
-      <div class="c-2 row-m">Welcome</div>
+      <div class="row md:span-1">Menu</div>
+      <div class="row md:span-2">Welcome</div>
     </div>
   </div>
 
   <h3 id="example" class="row"><a href="#example">Example</a></h3>
-  <p class="c-3 row-s">Try resizing the window to see how the grid arranges.</p>
+  <p class="span-3 sm:row">Try resizing the window to see how the grid arranges.</p>
 
   <div class="row">
     <div class="grid columns-6 demo">
@@ -136,12 +129,12 @@ permalink: /
       <div>5</div>
       <div>6</div>
       <div class="row">A</div>
-      <div class="row c-m-4 row-s o-2">B</div>
-      <div class="c-3 c-m-2 row-s o-3 o-m-4">C</div>
-      <div class="c-3 c-m-2 row-s o-5">D</div>
-      <div class="c-3 c-m-2 row-s o-6">E</div>
-      <div class="c-3 c-m-2 row-s r-3 r-m-1 o-4 o-m-3 o-s-last">F</div>
-      <div class="row o-last">G</div>
+      <div class="row md:span-4 lg:row lg:order-2">B</div>
+      <div class="row md:span-2 lg:span-3 lg:order-3">C</div>
+      <div class="row md:span-2 lg:span-3 order-5">D</div>
+      <div class="row md:span-2 lg:span-3 order-6">E</div>
+      <div class="row md:span-2 lg:span-3 md:r-1 lg:r-3 md:order-3 lg:order-3">F</div>
+      <div class="row order-last">G</div>
       <div class="grid columns-6 guides">
         <div>&nbsp;</div>
         <div>&nbsp;</div>
@@ -155,15 +148,15 @@ permalink: /
 
   <div class="row">
     {% highlight html %}
-<div class="grid columns-6">
-  <div class="row">A</div>
-  <div class="row c-m-4 row-s o-2">B</div>
-  <div class="c-3 c-m-2 row-s o-3 o-m-4">C</div>
-  <div class="c-3 c-m-2 row-s o-5">D</div>
-  <div class="c-3 c-m-2 row-s o-6">E</div>
-  <div class="c-3 c-m-2 row-s r-3 r-m-1 o-4 o-m-3 o-s-last">F</div>
-  <div class="row o-last">G</div>
-</div>
+    <div class="grid columns-6">
+      <div class="row">A</div>
+      <div class="row c-m-4 sm:row order-2">B</div>
+      <div class="md:span-2 span-3 sm:row order-3 order-m-4">C</div>
+      <div class="md:span-2 span-3 sm:row order-5">D</div>
+      <div class="md:span-2 span-3 sm:row order-6">E</div>
+      <div class="md:span-2 span-3 sm:row r-3 md:r-1 sm:order-last md:order-3 order-4">F</div>
+      <div class="row order-last">G</div>
+    </div>
     {% endhighlight %}
   </div>
 </section>

@@ -30,6 +30,10 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 600;
   line-height: 1.2;
 
+  &:not(:first-child) {
+    margin-top: 1rem;
+  }
+
   > a {
     display: block;
     color: inherit;
@@ -45,10 +49,6 @@ h1, h2, h3, h4, h5, h6 {
 
   .grid > & {
     margin: 0;
-  }
-
-  &:not(:first-of-type) {
-    margin-top: .5rem;
   }
 }
 

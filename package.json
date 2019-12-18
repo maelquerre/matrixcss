@@ -6,12 +6,12 @@
     "doc": "docs"
   },
   "scripts": {
-    "build": "node-sass src/matrix.scss dist/matrix.css --source-map css/matrix.css.map && npm run minify:scss",
+    "build": "node-sass src/matrix.scss dist/matrix.css --source-map dist/matrix.css.map && npm run minify",
     "minify": "node-sass src/matrix.scss dist/matrix.min.css --output-style compressed",
     "docs": "npm run docs:sass && eleventy --pathprefix=matrix",
     "serve": "npm run serve:sass & eleventy --serve",
     "docs:sass": "node-sass src/matrix.scss docs/css/matrix.css && node-sass docs/_scss/docs.scss docs/css/docs.css",
-    "serve:sass": "node-sass --watch src/matrix.scss docs/css/matrix.css && node-sass --watch docs/_scss/docs.scss docs/css/docs.css",
+    "serve:sass": "node-sass --watch src/matrix.scss docs/css/matrix.css & node-sass --watch docs/_scss/docs.scss docs/css/docs.css",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {

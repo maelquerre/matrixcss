@@ -10,16 +10,16 @@
 
 @each $breakpoint in map_keys($breakpoints) {
   @include media($breakpoint, $breakpoints) {
-    $infix: infix($breakpoint, $breakpoints);
+    $prefix: prefix($breakpoint, $breakpoints);
 
     @for $number from 1 through $columns {
-      .grid.columns#{$infix}-#{$number} {
+      .#{$prefix}grid.columns-#{$number} {
         grid-template-columns: repeat($number, 1fr);
       }
     }
 
     @each $size, $length in $spacers {
-      .gap#{$infix}-#{$size} {
+      .#{$prefix}gap-#{$size} {
         grid-gap: $length;
       }
     }
@@ -27,62 +27,66 @@
     // Columns control
 
     @for $size from 1 through $columns {
-      .c#{$infix}-#{$size} {
-        grid-column-end: span $size;
+      .#{$prefix}span-#{$size} {
+        grid-column: auto / span $size;
       }
     }
 
     @for $start from 1 through $columns {
       @for $end from $start through $columns {
-        .c#{$infix}-#{$start}-#{$end} {
+        .#{$prefix}span-#{$start}-#{$end} {
           grid-column: #{$start} / #{$end + 1};
         }
       }
 
-      .c#{$infix}-#{$start}-e {
+      .#{$prefix}span-#{$start}\.\. {
         grid-column: #{$start} / -1;
       }
     }
 
     @for $start from 1 through $columns {
       @for $span from 1 through $columns - $start {
-        .c#{$infix}-#{$start}--#{$span} {
+        .#{$prefix}span-#{$start}\+#{$span} {
           grid-column-start: $start;
           grid-column-end: span $span;
         }
       }
     }
 
-    .row#{$infix} {
+    .#{$prefix}row {
       grid-column: 1 / -1;
     }
 
     // Rows control
 
     @for $size from 1 through $columns {
-      .r#{$infix}-#{$size} {
+      .#{$prefix}r-#{$size} {
         grid-row-end: span $size;
       }
     }
 
-    .col#{$infix} {
+    .#{$prefix}col {
       grid-row: 1 / -1;
     }
 
     // Order control
 
+    .#{$prefix}order-first {
+      order: -9999;
+    }
+
+    .#{$prefix}order-last {
+      order: 9999;
+    }
+
+    .#{$prefix}order-none {
+      order: 0;
+    }
+
     @for $order from 1 through $orders {
-      .o#{$infix}-#{$order} {
+      .#{$prefix}order-#{$order} {
         order: $order;
       }
-    }
-
-    .o#{$infix}-first {
-      order: -999;
-    }
-
-    .o#{$infix}-last {
-      order: 999;
     }
   }
 }
