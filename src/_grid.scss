@@ -1,26 +1,39 @@
 .grid {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
-  grid-gap: $gap;
 }
 
 .contents {
   display: contents;
 }
 
-@each $breakpoint in map_keys($breakpoints) {
+@each $breakpoint in map-keys($breakpoints) {
   @include media($breakpoint, $breakpoints) {
     $prefix: prefix($breakpoint, $breakpoints);
 
-    @for $number from 1 through $columns {
-      .#{$prefix}grid.columns-#{$number} {
-        grid-template-columns: repeat($number, 1fr);
+    @for $column from 1 through $columns {
+      .#{$prefix}columns-#{$column} {
+        grid-template-columns: repeat($column, 1fr);
       }
     }
 
-    @each $size, $length in $spacers {
+    @for $column from 1 through $columns {
+      [class*='columns-#{$column}'].columns-#{$column}.#{$prefix}max-content-first {
+        grid-template-columns: max-content-first($column);
+      }
+    }
+
+    @each $size, $length in $spacings {
       .#{$prefix}gap-#{$size} {
         grid-gap: $length;
+      }
+
+      .#{$prefix}hgap-#{$size} {
+        grid-column-gap: $length;
+      }
+
+      .#{$prefix}vgap-#{$size} {
+        grid-row-gap: $length;
       }
     }
 
@@ -47,13 +60,12 @@
     @for $start from 1 through $columns {
       @for $span from 1 through $columns - $start {
         .#{$prefix}span-#{$start}\+#{$span} {
-          grid-column-start: $start;
-          grid-column-end: span $span;
+          grid-column: #{$start} / span $span;
         }
       }
     }
 
-    .#{$prefix}row {
+    .#{$prefix}span-row {
       grid-column: 1 / -1;
     }
 

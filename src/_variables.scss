@@ -3,26 +3,31 @@
 // Grid
 
 $columns: 15 !default;
-$gap: 1rem;
 
 
 // Spacing
 
-$spacer: 1rem !default;
-$spacers: (
+$spacing: 1rem !default;
+$spacings: (
   0: 0,
-  1: ($spacer * .25),
-  2: ($spacer * .5),
-  3: $spacer,
-  4: ($spacer * 1.5),
-  5: ($spacer * 3)
+  1: ($spacing * .25),
+  2: ($spacing * .5),
+  3: ($spacing * .75),
+  4: $spacing,
+  5: ($spacing * 1.25),
+  6: ($spacing * 1.5),
+  8: ($spacing * 2),
+  10: ($spacing * 2.5),
+  12: ($spacing * 3),
+  16: ($spacing * 4),
+  20: ($spacing * 5),
 ) !default;
 
 
 // Breakpoints
 
 $breakpoints: (
-  default: 0,
+  all: 0,
   sm: 640px,
   md: 768px,
   lg: 1024px,

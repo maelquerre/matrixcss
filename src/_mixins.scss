@@ -1,5 +1,19 @@
+// Mixins
+
+// Grid
+
+@function max-content-first($columns) {
+  $result: max-content;
+  @for $columns from 1 to $columns {
+    $result: $result + ' ' + 1fr;
+  }
+  @return $result;
+}
+
+// Media breakpoints
+
 @function breakpoint($name, $breakpoints: $breakpoints) {
-  $width: map_get($breakpoints, $name);
+  $width: map-get($breakpoints, $name);
   @return if($width != 0, $width, null);
 }
 
