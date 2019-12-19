@@ -21,133 +21,131 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=IBM+Plex+Mono&display=swap">
 
   <!-- Styles -->
-  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/glascode/matrix@master/css/matrix.min.css">
+  <link rel="stylesheet" type="text/css" href="/matrix/css/matrix.css">
   <link rel="stylesheet" type="text/css" href="/matrix/css/docs.css">
 </head>
 
 
 <body>
 
-<main>
+<header class="container">
+  <div class="logo"><svg width="683" height="73" viewBox="0 0 683 73" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M1.80689 0.272725C1.2546 0.272725 0.806885 0.72044 0.806885 1.27273V72C0.806885 72.5523 1.2546 73 1.80688 73H8.04552C8.59781 73 9.04552 72.5523 9.04552 72V18.1696C9.04552 17.9347 9.23593 17.7443 9.47081 17.7443V17.7443C9.64321 17.7443 9.79856 17.8484 9.86414 18.0078L32.2282 72.3804C32.3824 72.7553 32.7476 73 33.153 73H39.7676C40.173 73 40.5382 72.7553 40.6924 72.3804L63.0565 18.0078C63.122 17.8484 63.2774 17.7443 63.4498 17.7443V17.7443C63.6847 17.7443 63.8751 17.9347 63.8751 18.1696V72C63.8751 72.5523 64.3228 73 64.8751 73H71.1137C71.666 73 72.1137 72.5523 72.1137 72V1.27273C72.1137 0.720442 71.666 0.272725 71.1137 0.272725H62.2735C61.8675 0.272725 61.5019 0.518148 61.348 0.893838L37.0479 60.2477C36.9502 60.4862 36.7181 60.642 36.4603 60.642V60.642C36.2025 60.642 35.9704 60.4862 35.8727 60.2477L11.5725 0.893837C11.4187 0.518147 11.0531 0.272725 10.6471 0.272725H1.80689Z" fill="black"/>
+<path d="M277.123 7.08522C277.123 7.63751 277.57 8.08523 278.123 8.08523H298.992C299.544 8.08523 299.992 8.53294 299.992 9.08523V72C299.992 72.5523 300.44 73 300.992 73H307.799C308.351 73 308.799 72.5523 308.799 72V9.08523C308.799 8.53294 309.246 8.08523 309.799 8.08523H330.668C331.22 8.08523 331.668 7.63751 331.668 7.08523V1.27273C331.668 0.720441 331.22 0.272725 330.668 0.272725H278.123C277.57 0.272725 277.123 0.72044 277.123 1.27273V7.08522Z" fill="black"/>
+<path d="M410.26 72C410.26 72.5523 410.708 73 411.26 73H418.067C418.619 73 419.067 72.5523 419.067 72V45.5909C419.067 45.0386 419.515 44.5909 420.067 44.5909H434.976C435.391 44.5909 435.791 44.5909 436.186 44.5812C436.574 44.5716 436.941 44.7742 437.125 45.1164L451.88 72.4747C452.055 72.7983 452.393 73 452.76 73H460.703C461.463 73 461.945 72.1863 461.581 71.5199L446.52 44.0003C446.222 43.4557 446.489 42.7748 447.066 42.5458C455.566 39.1719 459.55 31.8362 459.55 22.5739C459.55 9.71875 451.879 0.272725 434.834 0.272725H411.26C410.708 0.272725 410.26 0.72044 410.26 1.27273V72ZM420.067 36.6364C419.515 36.6364 419.067 36.1886 419.067 35.6364V9.08523C419.067 8.53294 419.515 8.08523 420.067 8.08523H434.55C446.34 8.08523 450.885 13.8381 450.885 22.5739C450.885 31.3097 446.34 36.6364 434.692 36.6364H420.067Z" fill="black"/>
+<path d="M548.032 1.27273C548.032 0.720442 547.584 0.272725 547.032 0.272725H540.225C539.673 0.272725 539.225 0.72044 539.225 1.27273V72C539.225 72.5523 539.673 73 540.225 73H547.032C547.584 73 548.032 72.5523 548.032 72V1.27273Z" fill="black"/>
+<path d="M635.244 0.745961C635.062 0.451735 634.74 0.272725 634.394 0.272725H626.416C625.624 0.272725 625.147 1.14902 625.575 1.81448L647.67 36.0946C647.883 36.4245 647.883 36.8482 647.67 37.1781L625.575 71.4582C625.147 72.1237 625.624 73 626.416 73H634.4C634.743 73 635.062 72.8241 635.245 72.534L653.549 43.5527C653.644 43.4032 653.808 43.3125 653.985 43.3125V43.3125C654.162 43.3125 654.326 43.4032 654.421 43.5527L672.725 72.534C672.908 72.8241 673.227 73 673.57 73H681.578C682.365 73 682.844 72.1336 682.425 71.4676L660.854 37.1687C660.649 36.8433 660.649 36.4294 660.854 36.104L682.425 1.8051C682.844 1.13916 682.365 0.272725 681.578 0.272725H673.576C673.23 0.272725 672.908 0.451732 672.726 0.745958L654.419 30.2869C654.326 30.4371 654.162 30.5284 653.985 30.5284V30.5284C653.809 30.5284 653.644 30.4371 653.551 30.2869L635.244 0.745961Z" fill="black"/>
+<path d="M203.799 72.3345C203.94 72.7335 204.318 73 204.741 73H211.835C212.531 73 213.014 72.308 212.774 71.6553L186.804 0.928042C186.659 0.534383 186.285 0.272725 185.865 0.272725H178.17C177.751 0.272725 177.376 0.53438 177.232 0.92804L151.262 71.6553C151.022 72.308 151.505 73 152.2 73H159.295C159.718 73 160.095 72.7335 160.237 72.3345L181.639 12.0461C181.696 11.8856 181.848 11.7784 182.018 11.7784V11.7784C182.188 11.7784 182.34 11.8856 182.397 12.0461L203.799 72.3345Z" fill="black"/>
+</svg>
+</div>
+  <p>A minimal CSS grid framework. Based on CSS Grid Layout.</p>
+</header>
+
+
+<main class="container">
   
-<h1>Matrix</h1>
-<p>A minimal CSS grid framework. Based on CSS Grid Layout.</p>
+<section id="overview">
+  <h2><a href="#overview">Overview</a></h2>
 
-<section id="grid" class="grid columns-6" style="column-gap: 3rem;">
-  <h2 class="row"><a href="#grid">Grid</a></h2>
+  <h3 id="grid"><a href="#grid">Grid</a></h3>
 
-  <h3 id="overview" class="row"><a href="#overview">Overview</a></h3>
+  <div class="grid columns-6 gap-4 demo expand">
+    <div>1</div>
+    <div>2</div>
+    <div>3</div>
+    <div>4</div>
+    <div>5</div>
+    <div>6</div>
 
-  <div class="row">
-    <div class="grid columns-6 demo">
-      <div>1</div>
-      <div>2</div>
-      <div>3</div>
-      <div>4</div>
-      <div>5</div>
-      <div>6</div>
+    <div class="spanx-2"><code>spanx-2</code></div>
+    <div></div>
+    <div class="spanx-4.."><code>spanx-4..</code></div>
 
-      <div class="c-2">c-2</div>
+    <div class="spanx-2+3"><code>spanx-2+3</code></div>
+    <div></div>
+    <div class="spany-3"><code>spany-3</code></div>
+
+    <div class="spanx-2 spany-2"><code>spanx-2 spany-2</code></div>
+    <div class="spanx-4-5"><code>spanx-4-5</code></div>
+
+    <div class="spanx-3"><code>spanx-3</code></div>
+
+    <div class="spanx-row"><code>spanx-row</code></div>
+    <div class="grid columns-6 guides">
       <div></div>
-      <div class="c-3">c-3</div>
-
-      <div class="c-2--3">c-2--3</div>
       <div></div>
-      <div class="r-3">r-3</div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+  </div>
 
-      <div class="c-2 r-2">c-2 r-2</div>
-      <div class="c-4-5">c-4-5</div>
+  <pre class="language-html"><code class="language-html"><span class="highlight-line"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>grid columns-6 demo<span class="token punctuation">"</span></span><span class="token punctuation">></span></span></span><br><span class="highlight-line">    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>spanx-2<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>spanx-2<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span></span><br><span class="highlight-line">    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span><span class="token punctuation">></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span></span><br><span class="highlight-line">    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>spanx-4..<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>spanx-4..<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span></span><br><span class="highlight-line">    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>spanx-2+3<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>spanx-2+3<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span></span><br><span class="highlight-line">    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span><span class="token punctuation">></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span></span><br><span class="highlight-line">    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>spany-3<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>r-3<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span></span><br><span class="highlight-line">    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>spanx-2 r-2<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>spanx-2 r-2<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span></span><br><span class="highlight-line">    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>spanx-4-5<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>spanx-4-5<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span></span><br><span class="highlight-line">    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>spanx-3<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>spanx-3<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span></span><br><span class="highlight-line">    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>spanx-row<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>spanx-row<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span></span><br><span class="highlight-line">  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span></span></code></pre>
 
-      <div class="c-3">c-3</div>
+  <h2 id="grid-control">
+    <a href="#grid-control">Grid control</a>
+  </h2>
 
-      <div class="row">row</div>
-      <div class="grid columns-6 guides">
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
+  <div class="grid columns-2 gapx-8 gapy-8">
+    <div class="spanx-row md:spanx-1">
+      <h3>Columns control</h3>
+
+      <div class="grid columns-2 max-content-first gapx-10 gapy-4">
+        <div><code class="language-">spanx-2</code></div>
+        <div class="spanx-2..">start at next column,<br>span 2 columns.</div>
+
+        <div><code class="language-">spanx-2-5</code></div>
+        <div class="spanx-2..">start at column 2,<br>end at column 5.</div>
+
+        <div><code class="language-">spanx-2..</code></div>
+        <div class="spanx-2..">start column 2,<br>end at last column.</div>
+
+        <div><code class="language-">spanx-2+3</code></div>
+        <div class="spanx-2..">start at column 2,<br>span 3 columns.</div>
+
+        <div><code class="language-">spanx-row</code></div>
+        <div class="spanx-2..">span a full row.</div>
+      </div>
+    </div>
+
+    <div class="spanx-row md:spanx-1">
+      <h3 class="spanx-row">Rows control</h3>
+
+      <div class="grid columns-2 max-content-first gap-4">
+        <div><code class="language-">vspanx-2</code></div>
+        <div class="spanx-2..">start at current row,<br>span 2 rows.</div>
       </div>
     </div>
   </div>
 
-  <div class="row">
-    <pre class="language-html"><code class="language-html"><span class="highlight-line"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>grid columns-6 demo<span class="token punctuation">"</span></span><span class="token punctuation">></span></span></span><br><span class="highlight-line">  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>c-2<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>c-2<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span></span><br><span class="highlight-line">  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span><span class="token punctuation">></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span></span><br><span class="highlight-line">  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>c-3<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>c-3<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span></span><br><span class="highlight-line">  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>c-2--3<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>c-2--3<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span></span><br><span class="highlight-line">  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span><span class="token punctuation">></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span></span><br><span class="highlight-line">  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>r-3<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>r-3<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span></span><br><span class="highlight-line">  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>c-2 r-2<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>c-2 r-2<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span></span><br><span class="highlight-line">  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>c-4-5<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>c-4-5<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span></span><br><span class="highlight-line">  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>c-3<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>c-3<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span></span><br><span class="highlight-line">  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>row<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>row<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span></span><br><span class="highlight-line"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span></span></code></pre>
-  </div>
-
-  <h4 class="row">Grid control</h4>
-
-  <div class="c-3 row-m">
-    <h5>Columns control</h5>
-    <div class="grid columns-4">
-      <div><code class="language-">c-2</code></div>
-      <div class="c-2-e">start at next column,<br>span 2 columns.</div>
-
-      <div><code class="language-">c-2-5</code></div>
-      <div class="c-2-e">start at column 2,<br>end at column 5.</div>
-
-      <div><code class="language-">c-2-e</code></div>
-      <div class="c-2-e">start column 2,<br>end at last column.</div>
-
-      <div><code class="language-">c-2--3</code></div>
-      <div class="c-2-e">start at column 2,<br>span 3 columns.</div>
-    </div>
-  </div>
-
-  <div class="c-3 row-m">
-    <div class="grid columns-4">
-      <h5 class="row">Rows control</h5>
-      <div><code class="language-">r-2</code></div>
-      <div class="c-2-e">start at current row,<br>span 2 rows.</div>
-
-      <div><code class="language-">row</code></div>
-      <div class="c-2-e">span a full row.</div>
-    </div>
-  </div>
-
-  <h3 id="responsiveness" class="row">
+  <h2 id="responsiveness">
     <a href="#responsiveness">Responsiveness</a>
-  </h3>
+  </h2>
 
-  <p class="c-3 row-s">Matrix uses a mobile first breakpoint system, similar to other popular CSS frameworks.
-    Set a responsive selector among <code class="highlighter-rouge">l</code>,
-    <code class="highlighter-rouge">m</code> and
-    <code class="highlighter-rouge">s</code>.
+  <p class="spanx-3 row-s">Matrix uses a mobile first breakpoint system, similar to other popular CSS frameworks. Set a responsive behavior with a selector prefix followed by
+    <code class="language-">:</code>, the defaults are <code class="language-css">sm</code>,
+    <code class="language-">md</code> and <code class="language-">lg</code>.
   </p>
 
-  <div class="c-1-3 row-s">
-    <pre class="language-html"><code class="language-html"><span class="highlight-line"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>grid columns-3 example<span class="token punctuation">"</span></span><span class="token punctuation">></span></span></span><br><span class="highlight-line">  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>row-m<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>Grid<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span></span><br><span class="highlight-line">  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>c-2 row-m<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>Home <span class="token entity" title="&nbsp;">&amp;nbsp;</span> About <span class="token entity" title="&nbsp;">&amp;nbsp;</span> Contact<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span></span><br><span class="highlight-line">  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>row-m<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>Menu<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span></span><br><span class="highlight-line">  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>c-2 row-m<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>Welcome<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span></span><br><span class="highlight-line"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span></span></code></pre>
-  </div>
+  <h2 id="example" class="spanx-row"><a href="#example">Example</a></h2>
+  <p class="spanx-3 sm:row">Try resizing the window to see how the grid arranges.</p>
 
-  <div class="c-3 row-s">
-    <div class="grid columns-3 example">
-      <div class="row-m">Grid</div>
-      <div class="c-2 row-m">Home &nbsp; About &nbsp; Contact</div>
-
-      <div class="row-m">Menu</div>
-      <div class="c-2 row-m">Welcome</div>
-    </div>
-  </div>
-
-  <h3 id="example" class="row"><a href="#example">Example</a></h3>
-  <p class="c-3 row-s">Try resizing the window to see how the grid arranges.</p>
-
-  <div class="row">
-    <div class="grid columns-6 demo">
+  <div class="spanx-row">
+    <div class="grid columns-6 gap-4 demo">
       <div>1</div>
       <div>2</div>
       <div>3</div>
       <div>4</div>
       <div>5</div>
       <div>6</div>
-      <div class="row">A</div>
-      <div class="row c-m-4 row-s o-2">B</div>
-      <div class="c-3 c-m-2 row-s o-3 o-m-4">C</div>
-      <div class="c-3 c-m-2 row-s o-5">D</div>
-      <div class="c-3 c-m-2 row-s o-6">E</div>
-      <div class="c-3 c-m-2 row-s r-3 r-m-1 o-4 o-m-3 o-s-last">F</div>
-      <div class="row o-last">G</div>
+      <div class="spanx-row">A</div>
+      <div class="spanx-row md:spanx-4 lg:spanx-row lg:order-2">B</div>
+      <div class="spanx-row md:spanx-2 lg:spanx-3 lg:order-3">C</div>
+      <div class="spanx-row md:spanx-2 lg:spanx-3 order-5">D</div>
+      <div class="spanx-row md:spanx-2 lg:spanx-3 order-6">E</div>
+      <div class="spanx-row md:spanx-2 lg:spanx-3 md:r-1 lg:spany-3 md:order-3 lg:order-3">F</div>
+      <div class="spanx-row order-last">G</div>
       <div class="grid columns-6 guides">
         <div>&nbsp;</div>
         <div>&nbsp;</div>
@@ -159,14 +157,14 @@
     </div>
   </div>
 
-  <div class="row">
-    <pre class="language-html"><code class="language-html"><span class="highlight-line"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>grid columns-6<span class="token punctuation">"</span></span><span class="token punctuation">></span></span></span><br><span class="highlight-line">  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>row<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>A<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span></span><br><span class="highlight-line">  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>row c-m-4 row-s o-2<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>B<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span></span><br><span class="highlight-line">  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>c-3 c-m-2 row-s o-3 o-m-4<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>C<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span></span><br><span class="highlight-line">  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>c-3 c-m-2 row-s o-5<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>D<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span></span><br><span class="highlight-line">  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>c-3 c-m-2 row-s o-6<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>E<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span></span><br><span class="highlight-line">  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>c-3 c-m-2 row-s r-3 r-m-1 o-4 o-m-3 o-s-last<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>F<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span></span><br><span class="highlight-line">  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>row o-last<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>G<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span></span><br><span class="highlight-line"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span></span></code></pre>
+  <div class="spanx-row">
+    <pre class="language-html"><code class="language-html"><span class="highlight-line"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>grid columns-6<span class="token punctuation">"</span></span><span class="token punctuation">></span></span></span><br><span class="highlight-line">      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>spanx-row<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>A<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span></span><br><span class="highlight-line">      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>spanx-row md:spanx-4 lg:spanx-row lg:order-2<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>B<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span></span><br><span class="highlight-line">      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>spanx-row md:spanx-2 lg:spanx-3 lg:order-3<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>C<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span></span><br><span class="highlight-line">      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>spanx-row md:spanx-2 lg:spanx-3 order-5<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>D<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span></span><br><span class="highlight-line">      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>spanx-row md:spanx-2 lg:spanx-3 order-6<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>E<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span></span><br><span class="highlight-line">      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>spanx-row md:spanx-2 lg:spanx-3 md:r-1 lg:r-3 md:order-3 lg:order-3<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>F<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span></span><br><span class="highlight-line">      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>spanx-row order-last<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>G<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span></span><br><span class="highlight-line">    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span></span></code></pre>
   </div>
 </section>
 
 </main>
 
-<footer class="grid columns-2">
+<footer class="container flex justify-between">
   <p>Designed and developed by Alex Dean and Maël Querré</p>
   <p><a href="https://github.com/Glascode/matrix">Source</a></p>
 </footer>
