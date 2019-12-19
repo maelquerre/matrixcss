@@ -28,11 +28,11 @@
         grid-gap: $length;
       }
 
-      .#{$prefix}hgap-#{$size} {
+      .#{$prefix}gapx-#{$size} {
         grid-column-gap: $length;
       }
 
-      .#{$prefix}vgap-#{$size} {
+      .#{$prefix}gapy-#{$size} {
         grid-row-gap: $length;
       }
     }
@@ -40,39 +40,39 @@
     // Columns control
 
     @for $size from 1 through $columns {
-      .#{$prefix}span-#{$size} {
+      .#{$prefix}spanx-#{$size} {
         grid-column: auto / span $size;
       }
     }
 
     @for $start from 1 through $columns {
       @for $end from $start through $columns {
-        .#{$prefix}span-#{$start}-#{$end} {
+        .#{$prefix}spanx-#{$start}-#{$end} {
           grid-column: #{$start} / #{$end + 1};
         }
       }
 
-      .#{$prefix}span-#{$start}\.\. {
+      .#{$prefix}spanx-#{$start}\.\. {
         grid-column: #{$start} / -1;
       }
     }
 
     @for $start from 1 through $columns {
       @for $span from 1 through $columns - $start {
-        .#{$prefix}span-#{$start}\+#{$span} {
+        .#{$prefix}spanx-#{$start}\+#{$span} {
           grid-column: #{$start} / span $span;
         }
       }
     }
 
-    .#{$prefix}span-row {
+    .#{$prefix}spanx-row {
       grid-column: 1 / -1;
     }
 
     // Rows control
 
     @for $size from 1 through $columns {
-      .#{$prefix}r-#{$size} {
+      .#{$prefix}spany-#{$size} {
         grid-row-end: span $size;
       }
     }

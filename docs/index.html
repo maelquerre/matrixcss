@@ -17,20 +17,20 @@ permalink: /
     <div>5</div>
     <div>6</div>
 
-    <div class="span-2"><code>span-2</code></div>
+    <div class="spanx-2"><code>spanx-2</code></div>
     <div></div>
-    <div class="span-4.."><code>span-4..</code></div>
+    <div class="spanx-4.."><code>spanx-4..</code></div>
 
-    <div class="span-2+3"><code>span-2+3</code></div>
+    <div class="spanx-2+3"><code>spanx-2+3</code></div>
     <div></div>
-    <div class="r-3"><code>vspan-3</code></div>
+    <div class="spany-3"><code>spany-3</code></div>
 
-    <div class="span-2 r-2"><code>span-2 vspan-2</code></div>
-    <div class="span-4-5"><code>span-4-5</code></div>
+    <div class="spanx-2 spany-2"><code>spanx-2 spany-2</code></div>
+    <div class="spanx-4-5"><code>spanx-4-5</code></div>
 
-    <div class="span-3"><code>span-3</code></div>
+    <div class="spanx-3"><code>spanx-3</code></div>
 
-    <div class="span-row"><code>row</code></div>
+    <div class="spanx-row"><code>spanx-row</code></div>
     <div class="grid columns-6 guides">
       <div></div>
       <div></div>
@@ -42,52 +42,52 @@ permalink: /
   </div>
 
   {% highlight html %}
-<div class="grid columns-6 demo">
-  <div class="span-2">span-2</div>
-  <div></div>
-  <div class="span-4..">span-4..</div>
-  <div class="span-2+3">span-2+3</div>
-  <div></div>
-  <div class="r-3">r-3</div>
-  <div class="span-2 r-2">span-2 r-2</div>
-  <div class="span-4-5">span-4-5</div>
-  <div class="span-3">span-3</div>
-  <div class="span-row">row</div>
-</div>
+  <div class="grid columns-6 demo">
+    <div class="spanx-2">spanx-2</div>
+    <div></div>
+    <div class="spanx-4..">spanx-4..</div>
+    <div class="spanx-2+3">spanx-2+3</div>
+    <div></div>
+    <div class="spany-3">r-3</div>
+    <div class="spanx-2 r-2">spanx-2 r-2</div>
+    <div class="spanx-4-5">spanx-4-5</div>
+    <div class="spanx-3">spanx-3</div>
+    <div class="spanx-row">spanx-row</div>
+  </div>
   {% endhighlight %}
 
   <h2 id="grid-control">
     <a href="#grid-control">Grid control</a>
   </h2>
 
-  <div class="grid columns-2 hgap-8 vgap-8">
-    <div class="span-row md:span-1">
+  <div class="grid columns-2 gapx-8 gapy-8">
+    <div class="spanx-row md:spanx-1">
       <h3>Columns control</h3>
 
-      <div class="grid columns-2 max-content-first hgap-10 vgap-4">
-        <div><code class="language-">span-2</code></div>
-        <div class="span-2..">start at next column,<br>span 2 columns.</div>
+      <div class="grid columns-2 max-content-first gapx-10 gapy-4">
+        <div><code class="language-">spanx-2</code></div>
+        <div class="spanx-2..">start at next column,<br>span 2 columns.</div>
 
-        <div><code class="language-">span-2-5</code></div>
-        <div class="span-2..">start at column 2,<br>end at column 5.</div>
+        <div><code class="language-">spanx-2-5</code></div>
+        <div class="spanx-2..">start at column 2,<br>end at column 5.</div>
 
-        <div><code class="language-">span-2..</code></div>
-        <div class="span-2..">start column 2,<br>end at last column.</div>
+        <div><code class="language-">spanx-2..</code></div>
+        <div class="spanx-2..">start column 2,<br>end at last column.</div>
 
-        <div><code class="language-">span-2+3</code></div>
-        <div class="span-2..">start at column 2,<br>span 3 columns.</div>
+        <div><code class="language-">spanx-2+3</code></div>
+        <div class="spanx-2..">start at column 2,<br>span 3 columns.</div>
 
-        <div><code class="language-">span-row</code></div>
-        <div class="span-2..">span a full row.</div>
+        <div><code class="language-">spanx-row</code></div>
+        <div class="spanx-2..">span a full row.</div>
       </div>
     </div>
 
-    <div class="span-row md:span-1">
-      <h3 class="span-row">Rows control</h3>
+    <div class="spanx-row md:spanx-1">
+      <h3 class="spanx-row">Rows control</h3>
 
       <div class="grid columns-2 max-content-first gap-4">
-        <div><code class="language-">vspan-2</code></div>
-        <div class="span-2..">start at current row,<br>span 2 rows.</div>
+        <div><code class="language-">vspanx-2</code></div>
+        <div class="spanx-2..">start at current row,<br>span 2 rows.</div>
       </div>
     </div>
   </div>
@@ -96,16 +96,15 @@ permalink: /
     <a href="#responsiveness">Responsiveness</a>
   </h2>
 
-  <p class="span-3 row-s">{{ site.title }} uses a mobile first breakpoint system, similar to other popular CSS frameworks. Set a responsive behavior with a selector prefix followed by
-    <code class="language-">:</code>, the defaults are
-    <code class="language-css">sm</code>, <code class="language-">md</code> and
-    <code class="language-">lg</code>.
+  <p class="spanx-3 row-s">{{ site.title }} uses a mobile first breakpoint system, similar to other popular CSS frameworks. Set a responsive behavior with a selector prefix followed by
+    <code class="language-">:</code>, the defaults are <code class="language-css">sm</code>,
+    <code class="language-">md</code> and <code class="language-">lg</code>.
   </p>
 
-  <h2 id="example" class="span-row"><a href="#example">Example</a></h2>
-  <p class="span-3 sm:row">Try resizing the window to see how the grid arranges.</p>
+  <h2 id="example" class="spanx-row"><a href="#example">Example</a></h2>
+  <p class="spanx-3 sm:row">Try resizing the window to see how the grid arranges.</p>
 
-  <div class="span-row">
+  <div class="spanx-row">
     <div class="grid columns-6 gap-4 demo">
       <div>1</div>
       <div>2</div>
@@ -113,13 +112,13 @@ permalink: /
       <div>4</div>
       <div>5</div>
       <div>6</div>
-      <div class="span-row">A</div>
-      <div class="span-row md:span-4 lg:span-row lg:order-2">B</div>
-      <div class="span-row md:span-2 lg:span-3 lg:order-3">C</div>
-      <div class="span-row md:span-2 lg:span-3 order-5">D</div>
-      <div class="span-row md:span-2 lg:span-3 order-6">E</div>
-      <div class="span-row md:span-2 lg:span-3 md:r-1 lg:r-3 md:order-3 lg:order-3">F</div>
-      <div class="span-row order-last">G</div>
+      <div class="spanx-row">A</div>
+      <div class="spanx-row md:spanx-4 lg:spanx-row lg:order-2">B</div>
+      <div class="spanx-row md:spanx-2 lg:spanx-3 lg:order-3">C</div>
+      <div class="spanx-row md:spanx-2 lg:spanx-3 order-5">D</div>
+      <div class="spanx-row md:spanx-2 lg:spanx-3 order-6">E</div>
+      <div class="spanx-row md:spanx-2 lg:spanx-3 md:r-1 lg:spany-3 md:order-3 lg:order-3">F</div>
+      <div class="spanx-row order-last">G</div>
       <div class="grid columns-6 guides">
         <div>&nbsp;</div>
         <div>&nbsp;</div>
@@ -131,17 +130,17 @@ permalink: /
     </div>
   </div>
 
-  <div class="span-row">
+  <div class="spanx-row">
     {% highlight html %}
-<div class="grid columns-6">
-  <div class="span-row">A</div>
-  <div class="span-row md:span-4 lg:span-row lg:order-2">B</div>
-  <div class="span-row md:span-2 lg:span-3 lg:order-3">C</div>
-  <div class="span-row md:span-2 lg:span-3 order-5">D</div>
-  <div class="span-row md:span-2 lg:span-3 order-6">E</div>
-  <div class="span-row md:span-2 lg:span-3 md:r-1 lg:r-3 md:order-3 lg:order-3">F</div>
-  <div class="span-row order-last">G</div>
-</div>
+    <div class="grid columns-6">
+      <div class="spanx-row">A</div>
+      <div class="spanx-row md:spanx-4 lg:spanx-row lg:order-2">B</div>
+      <div class="spanx-row md:spanx-2 lg:spanx-3 lg:order-3">C</div>
+      <div class="spanx-row md:spanx-2 lg:spanx-3 order-5">D</div>
+      <div class="spanx-row md:spanx-2 lg:spanx-3 order-6">E</div>
+      <div class="spanx-row md:spanx-2 lg:spanx-3 md:r-1 lg:r-3 md:order-3 lg:order-3">F</div>
+      <div class="spanx-row order-last">G</div>
+    </div>
     {% endhighlight %}
   </div>
 </section>

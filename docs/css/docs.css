@@ -70,15 +70,20 @@ a {
   a:hover {
     text-decoration: underline #0084ff; }
 
+footer {
+  padding: 2rem 0 4rem;
+  font-size: .9rem; }
+  footer p:last-child {
+    text-align: right; }
+
 .grid.demo {
   position: relative;
   grid-template-rows: 2rem;
   margin-bottom: 3rem; }
   .grid.demo > * {
     padding: .75rem 1rem;
-    color: #000;
-    background-color: #e6e6e6;
-    border-radius: 0.3rem; }
+    color: white;
+    background-color: black; }
   .grid.demo > *:nth-child(1),
   .grid.demo > *:nth-child(2),
   .grid.demo > *:nth-child(3),
@@ -117,12 +122,6 @@ a {
   background-color: #d9d9d9;
   border-radius: 0.3rem;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15); }
-
-footer {
-  padding: 2rem 0 4rem;
-  font-size: .9rem; }
-  footer p:last-child {
-    text-align: right; }
 
 .flex {
   display: flex; }

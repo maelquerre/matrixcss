@@ -101,928 +101,928 @@
 .gap-0 {
   grid-gap: 0; }
 
-.hgap-0 {
+.gapx-0 {
   grid-column-gap: 0; }
 
-.vgap-0 {
+.gapy-0 {
   grid-row-gap: 0; }
 
 .gap-1 {
   grid-gap: 0.25rem; }
 
-.hgap-1 {
+.gapx-1 {
   grid-column-gap: 0.25rem; }
 
-.vgap-1 {
+.gapy-1 {
   grid-row-gap: 0.25rem; }
 
 .gap-2 {
   grid-gap: 0.5rem; }
 
-.hgap-2 {
+.gapx-2 {
   grid-column-gap: 0.5rem; }
 
-.vgap-2 {
+.gapy-2 {
   grid-row-gap: 0.5rem; }
 
 .gap-3 {
   grid-gap: 0.75rem; }
 
-.hgap-3 {
+.gapx-3 {
   grid-column-gap: 0.75rem; }
 
-.vgap-3 {
+.gapy-3 {
   grid-row-gap: 0.75rem; }
 
 .gap-4 {
   grid-gap: 1rem; }
 
-.hgap-4 {
+.gapx-4 {
   grid-column-gap: 1rem; }
 
-.vgap-4 {
+.gapy-4 {
   grid-row-gap: 1rem; }
 
 .gap-5 {
   grid-gap: 1.25rem; }
 
-.hgap-5 {
+.gapx-5 {
   grid-column-gap: 1.25rem; }
 
-.vgap-5 {
+.gapy-5 {
   grid-row-gap: 1.25rem; }
 
 .gap-6 {
   grid-gap: 1.5rem; }
 
-.hgap-6 {
+.gapx-6 {
   grid-column-gap: 1.5rem; }
 
-.vgap-6 {
+.gapy-6 {
   grid-row-gap: 1.5rem; }
 
 .gap-8 {
   grid-gap: 2rem; }
 
-.hgap-8 {
+.gapx-8 {
   grid-column-gap: 2rem; }
 
-.vgap-8 {
+.gapy-8 {
   grid-row-gap: 2rem; }
 
 .gap-10 {
   grid-gap: 2.5rem; }
 
-.hgap-10 {
+.gapx-10 {
   grid-column-gap: 2.5rem; }
 
-.vgap-10 {
+.gapy-10 {
   grid-row-gap: 2.5rem; }
 
 .gap-12 {
   grid-gap: 3rem; }
 
-.hgap-12 {
+.gapx-12 {
   grid-column-gap: 3rem; }
 
-.vgap-12 {
+.gapy-12 {
   grid-row-gap: 3rem; }
 
 .gap-16 {
   grid-gap: 4rem; }
 
-.hgap-16 {
+.gapx-16 {
   grid-column-gap: 4rem; }
 
-.vgap-16 {
+.gapy-16 {
   grid-row-gap: 4rem; }
 
 .gap-20 {
   grid-gap: 5rem; }
 
-.hgap-20 {
+.gapx-20 {
   grid-column-gap: 5rem; }
 
-.vgap-20 {
+.gapy-20 {
   grid-row-gap: 5rem; }
 
-.span-1 {
+.spanx-1 {
   grid-column: auto/span 1; }
 
-.span-2 {
+.spanx-2 {
   grid-column: auto/span 2; }
 
-.span-3 {
+.spanx-3 {
   grid-column: auto/span 3; }
 
-.span-4 {
+.spanx-4 {
   grid-column: auto/span 4; }
 
-.span-5 {
+.spanx-5 {
   grid-column: auto/span 5; }
 
-.span-6 {
+.spanx-6 {
   grid-column: auto/span 6; }
 
-.span-7 {
+.spanx-7 {
   grid-column: auto/span 7; }
 
-.span-8 {
+.spanx-8 {
   grid-column: auto/span 8; }
 
-.span-9 {
+.spanx-9 {
   grid-column: auto/span 9; }
 
-.span-10 {
+.spanx-10 {
   grid-column: auto/span 10; }
 
-.span-11 {
+.spanx-11 {
   grid-column: auto/span 11; }
 
-.span-12 {
+.spanx-12 {
   grid-column: auto/span 12; }
 
-.span-13 {
+.spanx-13 {
   grid-column: auto/span 13; }
 
-.span-14 {
+.spanx-14 {
   grid-column: auto/span 14; }
 
-.span-15 {
+.spanx-15 {
   grid-column: auto/span 15; }
 
-.span-1-1 {
+.spanx-1-1 {
   grid-column: 1 / 2; }
 
-.span-1-2 {
+.spanx-1-2 {
   grid-column: 1 / 3; }
 
-.span-1-3 {
+.spanx-1-3 {
   grid-column: 1 / 4; }
 
-.span-1-4 {
+.spanx-1-4 {
   grid-column: 1 / 5; }
 
-.span-1-5 {
+.spanx-1-5 {
   grid-column: 1 / 6; }
 
-.span-1-6 {
+.spanx-1-6 {
   grid-column: 1 / 7; }
 
-.span-1-7 {
+.spanx-1-7 {
   grid-column: 1 / 8; }
 
-.span-1-8 {
+.spanx-1-8 {
   grid-column: 1 / 9; }
 
-.span-1-9 {
+.spanx-1-9 {
   grid-column: 1 / 10; }
 
-.span-1-10 {
+.spanx-1-10 {
   grid-column: 1 / 11; }
 
-.span-1-11 {
+.spanx-1-11 {
   grid-column: 1 / 12; }
 
-.span-1-12 {
+.spanx-1-12 {
   grid-column: 1 / 13; }
 
-.span-1-13 {
+.spanx-1-13 {
   grid-column: 1 / 14; }
 
-.span-1-14 {
+.spanx-1-14 {
   grid-column: 1 / 15; }
 
-.span-1-15 {
+.spanx-1-15 {
   grid-column: 1 / 16; }
 
-.span-1\.\. {
+.spanx-1\.\. {
   grid-column: 1 / -1; }
 
-.span-2-2 {
+.spanx-2-2 {
   grid-column: 2 / 3; }
 
-.span-2-3 {
+.spanx-2-3 {
   grid-column: 2 / 4; }
 
-.span-2-4 {
+.spanx-2-4 {
   grid-column: 2 / 5; }
 
-.span-2-5 {
+.spanx-2-5 {
   grid-column: 2 / 6; }
 
-.span-2-6 {
+.spanx-2-6 {
   grid-column: 2 / 7; }
 
-.span-2-7 {
+.spanx-2-7 {
   grid-column: 2 / 8; }
 
-.span-2-8 {
+.spanx-2-8 {
   grid-column: 2 / 9; }
 
-.span-2-9 {
+.spanx-2-9 {
   grid-column: 2 / 10; }
 
-.span-2-10 {
+.spanx-2-10 {
   grid-column: 2 / 11; }
 
-.span-2-11 {
+.spanx-2-11 {
   grid-column: 2 / 12; }
 
-.span-2-12 {
+.spanx-2-12 {
   grid-column: 2 / 13; }
 
-.span-2-13 {
+.spanx-2-13 {
   grid-column: 2 / 14; }
 
-.span-2-14 {
+.spanx-2-14 {
   grid-column: 2 / 15; }
 
-.span-2-15 {
+.spanx-2-15 {
   grid-column: 2 / 16; }
 
-.span-2\.\. {
+.spanx-2\.\. {
   grid-column: 2 / -1; }
 
-.span-3-3 {
+.spanx-3-3 {
   grid-column: 3 / 4; }
 
-.span-3-4 {
+.spanx-3-4 {
   grid-column: 3 / 5; }
 
-.span-3-5 {
+.spanx-3-5 {
   grid-column: 3 / 6; }
 
-.span-3-6 {
+.spanx-3-6 {
   grid-column: 3 / 7; }
 
-.span-3-7 {
+.spanx-3-7 {
   grid-column: 3 / 8; }
 
-.span-3-8 {
+.spanx-3-8 {
   grid-column: 3 / 9; }
 
-.span-3-9 {
+.spanx-3-9 {
   grid-column: 3 / 10; }
 
-.span-3-10 {
+.spanx-3-10 {
   grid-column: 3 / 11; }
 
-.span-3-11 {
+.spanx-3-11 {
   grid-column: 3 / 12; }
 
-.span-3-12 {
+.spanx-3-12 {
   grid-column: 3 / 13; }
 
-.span-3-13 {
+.spanx-3-13 {
   grid-column: 3 / 14; }
 
-.span-3-14 {
+.spanx-3-14 {
   grid-column: 3 / 15; }
 
-.span-3-15 {
+.spanx-3-15 {
   grid-column: 3 / 16; }
 
-.span-3\.\. {
+.spanx-3\.\. {
   grid-column: 3 / -1; }
 
-.span-4-4 {
+.spanx-4-4 {
   grid-column: 4 / 5; }
 
-.span-4-5 {
+.spanx-4-5 {
   grid-column: 4 / 6; }
 
-.span-4-6 {
+.spanx-4-6 {
   grid-column: 4 / 7; }
 
-.span-4-7 {
+.spanx-4-7 {
   grid-column: 4 / 8; }
 
-.span-4-8 {
+.spanx-4-8 {
   grid-column: 4 / 9; }
 
-.span-4-9 {
+.spanx-4-9 {
   grid-column: 4 / 10; }
 
-.span-4-10 {
+.spanx-4-10 {
   grid-column: 4 / 11; }
 
-.span-4-11 {
+.spanx-4-11 {
   grid-column: 4 / 12; }
 
-.span-4-12 {
+.spanx-4-12 {
   grid-column: 4 / 13; }
 
-.span-4-13 {
+.spanx-4-13 {
   grid-column: 4 / 14; }
 
-.span-4-14 {
+.spanx-4-14 {
   grid-column: 4 / 15; }
 
-.span-4-15 {
+.spanx-4-15 {
   grid-column: 4 / 16; }
 
-.span-4\.\. {
+.spanx-4\.\. {
   grid-column: 4 / -1; }
 
-.span-5-5 {
+.spanx-5-5 {
   grid-column: 5 / 6; }
 
-.span-5-6 {
+.spanx-5-6 {
   grid-column: 5 / 7; }
 
-.span-5-7 {
+.spanx-5-7 {
   grid-column: 5 / 8; }
 
-.span-5-8 {
+.spanx-5-8 {
   grid-column: 5 / 9; }
 
-.span-5-9 {
+.spanx-5-9 {
   grid-column: 5 / 10; }
 
-.span-5-10 {
+.spanx-5-10 {
   grid-column: 5 / 11; }
 
-.span-5-11 {
+.spanx-5-11 {
   grid-column: 5 / 12; }
 
-.span-5-12 {
+.spanx-5-12 {
   grid-column: 5 / 13; }
 
-.span-5-13 {
+.spanx-5-13 {
   grid-column: 5 / 14; }
 
-.span-5-14 {
+.spanx-5-14 {
   grid-column: 5 / 15; }
 
-.span-5-15 {
+.spanx-5-15 {
   grid-column: 5 / 16; }
 
-.span-5\.\. {
+.spanx-5\.\. {
   grid-column: 5 / -1; }
 
-.span-6-6 {
+.spanx-6-6 {
   grid-column: 6 / 7; }
 
-.span-6-7 {
+.spanx-6-7 {
   grid-column: 6 / 8; }
 
-.span-6-8 {
+.spanx-6-8 {
   grid-column: 6 / 9; }
 
-.span-6-9 {
+.spanx-6-9 {
   grid-column: 6 / 10; }
 
-.span-6-10 {
+.spanx-6-10 {
   grid-column: 6 / 11; }
 
-.span-6-11 {
+.spanx-6-11 {
   grid-column: 6 / 12; }
 
-.span-6-12 {
+.spanx-6-12 {
   grid-column: 6 / 13; }
 
-.span-6-13 {
+.spanx-6-13 {
   grid-column: 6 / 14; }
 
-.span-6-14 {
+.spanx-6-14 {
   grid-column: 6 / 15; }
 
-.span-6-15 {
+.spanx-6-15 {
   grid-column: 6 / 16; }
 
-.span-6\.\. {
+.spanx-6\.\. {
   grid-column: 6 / -1; }
 
-.span-7-7 {
+.spanx-7-7 {
   grid-column: 7 / 8; }
 
-.span-7-8 {
+.spanx-7-8 {
   grid-column: 7 / 9; }
 
-.span-7-9 {
+.spanx-7-9 {
   grid-column: 7 / 10; }
 
-.span-7-10 {
+.spanx-7-10 {
   grid-column: 7 / 11; }
 
-.span-7-11 {
+.spanx-7-11 {
   grid-column: 7 / 12; }
 
-.span-7-12 {
+.spanx-7-12 {
   grid-column: 7 / 13; }
 
-.span-7-13 {
+.spanx-7-13 {
   grid-column: 7 / 14; }
 
-.span-7-14 {
+.spanx-7-14 {
   grid-column: 7 / 15; }
 
-.span-7-15 {
+.spanx-7-15 {
   grid-column: 7 / 16; }
 
-.span-7\.\. {
+.spanx-7\.\. {
   grid-column: 7 / -1; }
 
-.span-8-8 {
+.spanx-8-8 {
   grid-column: 8 / 9; }
 
-.span-8-9 {
+.spanx-8-9 {
   grid-column: 8 / 10; }
 
-.span-8-10 {
+.spanx-8-10 {
   grid-column: 8 / 11; }
 
-.span-8-11 {
+.spanx-8-11 {
   grid-column: 8 / 12; }
 
-.span-8-12 {
+.spanx-8-12 {
   grid-column: 8 / 13; }
 
-.span-8-13 {
+.spanx-8-13 {
   grid-column: 8 / 14; }
 
-.span-8-14 {
+.spanx-8-14 {
   grid-column: 8 / 15; }
 
-.span-8-15 {
+.spanx-8-15 {
   grid-column: 8 / 16; }
 
-.span-8\.\. {
+.spanx-8\.\. {
   grid-column: 8 / -1; }
 
-.span-9-9 {
+.spanx-9-9 {
   grid-column: 9 / 10; }
 
-.span-9-10 {
+.spanx-9-10 {
   grid-column: 9 / 11; }
 
-.span-9-11 {
+.spanx-9-11 {
   grid-column: 9 / 12; }
 
-.span-9-12 {
+.spanx-9-12 {
   grid-column: 9 / 13; }
 
-.span-9-13 {
+.spanx-9-13 {
   grid-column: 9 / 14; }
 
-.span-9-14 {
+.spanx-9-14 {
   grid-column: 9 / 15; }
 
-.span-9-15 {
+.spanx-9-15 {
   grid-column: 9 / 16; }
 
-.span-9\.\. {
+.spanx-9\.\. {
   grid-column: 9 / -1; }
 
-.span-10-10 {
+.spanx-10-10 {
   grid-column: 10 / 11; }
 
-.span-10-11 {
+.spanx-10-11 {
   grid-column: 10 / 12; }
 
-.span-10-12 {
+.spanx-10-12 {
   grid-column: 10 / 13; }
 
-.span-10-13 {
+.spanx-10-13 {
   grid-column: 10 / 14; }
 
-.span-10-14 {
+.spanx-10-14 {
   grid-column: 10 / 15; }
 
-.span-10-15 {
+.spanx-10-15 {
   grid-column: 10 / 16; }
 
-.span-10\.\. {
+.spanx-10\.\. {
   grid-column: 10 / -1; }
 
-.span-11-11 {
+.spanx-11-11 {
   grid-column: 11 / 12; }
 
-.span-11-12 {
+.spanx-11-12 {
   grid-column: 11 / 13; }
 
-.span-11-13 {
+.spanx-11-13 {
   grid-column: 11 / 14; }
 
-.span-11-14 {
+.spanx-11-14 {
   grid-column: 11 / 15; }
 
-.span-11-15 {
+.spanx-11-15 {
   grid-column: 11 / 16; }
 
-.span-11\.\. {
+.spanx-11\.\. {
   grid-column: 11 / -1; }
 
-.span-12-12 {
+.spanx-12-12 {
   grid-column: 12 / 13; }
 
-.span-12-13 {
+.spanx-12-13 {
   grid-column: 12 / 14; }
 
-.span-12-14 {
+.spanx-12-14 {
   grid-column: 12 / 15; }
 
-.span-12-15 {
+.spanx-12-15 {
   grid-column: 12 / 16; }
 
-.span-12\.\. {
+.spanx-12\.\. {
   grid-column: 12 / -1; }
 
-.span-13-13 {
+.spanx-13-13 {
   grid-column: 13 / 14; }
 
-.span-13-14 {
+.spanx-13-14 {
   grid-column: 13 / 15; }
 
-.span-13-15 {
+.spanx-13-15 {
   grid-column: 13 / 16; }
 
-.span-13\.\. {
+.spanx-13\.\. {
   grid-column: 13 / -1; }
 
-.span-14-14 {
+.spanx-14-14 {
   grid-column: 14 / 15; }
 
-.span-14-15 {
+.spanx-14-15 {
   grid-column: 14 / 16; }
 
-.span-14\.\. {
+.spanx-14\.\. {
   grid-column: 14 / -1; }
 
-.span-15-15 {
+.spanx-15-15 {
   grid-column: 15 / 16; }
 
-.span-15\.\. {
+.spanx-15\.\. {
   grid-column: 15 / -1; }
 
-.span-1\+1 {
+.spanx-1\+1 {
   grid-column: 1 / span 1; }
 
-.span-1\+2 {
+.spanx-1\+2 {
   grid-column: 1 / span 2; }
 
-.span-1\+3 {
+.spanx-1\+3 {
   grid-column: 1 / span 3; }
 
-.span-1\+4 {
+.spanx-1\+4 {
   grid-column: 1 / span 4; }
 
-.span-1\+5 {
+.spanx-1\+5 {
   grid-column: 1 / span 5; }
 
-.span-1\+6 {
+.spanx-1\+6 {
   grid-column: 1 / span 6; }
 
-.span-1\+7 {
+.spanx-1\+7 {
   grid-column: 1 / span 7; }
 
-.span-1\+8 {
+.spanx-1\+8 {
   grid-column: 1 / span 8; }
 
-.span-1\+9 {
+.spanx-1\+9 {
   grid-column: 1 / span 9; }
 
-.span-1\+10 {
+.spanx-1\+10 {
   grid-column: 1 / span 10; }
 
-.span-1\+11 {
+.spanx-1\+11 {
   grid-column: 1 / span 11; }
 
-.span-1\+12 {
+.spanx-1\+12 {
   grid-column: 1 / span 12; }
 
-.span-1\+13 {
+.spanx-1\+13 {
   grid-column: 1 / span 13; }
 
-.span-1\+14 {
+.spanx-1\+14 {
   grid-column: 1 / span 14; }
 
-.span-2\+1 {
+.spanx-2\+1 {
   grid-column: 2 / span 1; }
 
-.span-2\+2 {
+.spanx-2\+2 {
   grid-column: 2 / span 2; }
 
-.span-2\+3 {
+.spanx-2\+3 {
   grid-column: 2 / span 3; }
 
-.span-2\+4 {
+.spanx-2\+4 {
   grid-column: 2 / span 4; }
 
-.span-2\+5 {
+.spanx-2\+5 {
   grid-column: 2 / span 5; }
 
-.span-2\+6 {
+.spanx-2\+6 {
   grid-column: 2 / span 6; }
 
-.span-2\+7 {
+.spanx-2\+7 {
   grid-column: 2 / span 7; }
 
-.span-2\+8 {
+.spanx-2\+8 {
   grid-column: 2 / span 8; }
 
-.span-2\+9 {
+.spanx-2\+9 {
   grid-column: 2 / span 9; }
 
-.span-2\+10 {
+.spanx-2\+10 {
   grid-column: 2 / span 10; }
 
-.span-2\+11 {
+.spanx-2\+11 {
   grid-column: 2 / span 11; }
 
-.span-2\+12 {
+.spanx-2\+12 {
   grid-column: 2 / span 12; }
 
-.span-2\+13 {
+.spanx-2\+13 {
   grid-column: 2 / span 13; }
 
-.span-3\+1 {
+.spanx-3\+1 {
   grid-column: 3 / span 1; }
 
-.span-3\+2 {
+.spanx-3\+2 {
   grid-column: 3 / span 2; }
 
-.span-3\+3 {
+.spanx-3\+3 {
   grid-column: 3 / span 3; }
 
-.span-3\+4 {
+.spanx-3\+4 {
   grid-column: 3 / span 4; }
 
-.span-3\+5 {
+.spanx-3\+5 {
   grid-column: 3 / span 5; }
 
-.span-3\+6 {
+.spanx-3\+6 {
   grid-column: 3 / span 6; }
 
-.span-3\+7 {
+.spanx-3\+7 {
   grid-column: 3 / span 7; }
 
-.span-3\+8 {
+.spanx-3\+8 {
   grid-column: 3 / span 8; }
 
-.span-3\+9 {
+.spanx-3\+9 {
   grid-column: 3 / span 9; }
 
-.span-3\+10 {
+.spanx-3\+10 {
   grid-column: 3 / span 10; }
 
-.span-3\+11 {
+.spanx-3\+11 {
   grid-column: 3 / span 11; }
 
-.span-3\+12 {
+.spanx-3\+12 {
   grid-column: 3 / span 12; }
 
-.span-4\+1 {
+.spanx-4\+1 {
   grid-column: 4 / span 1; }
 
-.span-4\+2 {
+.spanx-4\+2 {
   grid-column: 4 / span 2; }
 
-.span-4\+3 {
+.spanx-4\+3 {
   grid-column: 4 / span 3; }
 
-.span-4\+4 {
+.spanx-4\+4 {
   grid-column: 4 / span 4; }
 
-.span-4\+5 {
+.spanx-4\+5 {
   grid-column: 4 / span 5; }
 
-.span-4\+6 {
+.spanx-4\+6 {
   grid-column: 4 / span 6; }
 
-.span-4\+7 {
+.spanx-4\+7 {
   grid-column: 4 / span 7; }
 
-.span-4\+8 {
+.spanx-4\+8 {
   grid-column: 4 / span 8; }
 
-.span-4\+9 {
+.spanx-4\+9 {
   grid-column: 4 / span 9; }
 
-.span-4\+10 {
+.spanx-4\+10 {
   grid-column: 4 / span 10; }
 
-.span-4\+11 {
+.spanx-4\+11 {
   grid-column: 4 / span 11; }
 
-.span-5\+1 {
+.spanx-5\+1 {
   grid-column: 5 / span 1; }
 
-.span-5\+2 {
+.spanx-5\+2 {
   grid-column: 5 / span 2; }
 
-.span-5\+3 {
+.spanx-5\+3 {
   grid-column: 5 / span 3; }
 
-.span-5\+4 {
+.spanx-5\+4 {
   grid-column: 5 / span 4; }
 
-.span-5\+5 {
+.spanx-5\+5 {
   grid-column: 5 / span 5; }
 
-.span-5\+6 {
+.spanx-5\+6 {
   grid-column: 5 / span 6; }
 
-.span-5\+7 {
+.spanx-5\+7 {
   grid-column: 5 / span 7; }
 
-.span-5\+8 {
+.spanx-5\+8 {
   grid-column: 5 / span 8; }
 
-.span-5\+9 {
+.spanx-5\+9 {
   grid-column: 5 / span 9; }
 
-.span-5\+10 {
+.spanx-5\+10 {
   grid-column: 5 / span 10; }
 
-.span-6\+1 {
+.spanx-6\+1 {
   grid-column: 6 / span 1; }
 
-.span-6\+2 {
+.spanx-6\+2 {
   grid-column: 6 / span 2; }
 
-.span-6\+3 {
+.spanx-6\+3 {
   grid-column: 6 / span 3; }
 
-.span-6\+4 {
+.spanx-6\+4 {
   grid-column: 6 / span 4; }
 
-.span-6\+5 {
+.spanx-6\+5 {
   grid-column: 6 / span 5; }
 
-.span-6\+6 {
+.spanx-6\+6 {
   grid-column: 6 / span 6; }
 
-.span-6\+7 {
+.spanx-6\+7 {
   grid-column: 6 / span 7; }
 
-.span-6\+8 {
+.spanx-6\+8 {
   grid-column: 6 / span 8; }
 
-.span-6\+9 {
+.spanx-6\+9 {
   grid-column: 6 / span 9; }
 
-.span-7\+1 {
+.spanx-7\+1 {
   grid-column: 7 / span 1; }
 
-.span-7\+2 {
+.spanx-7\+2 {
   grid-column: 7 / span 2; }
 
-.span-7\+3 {
+.spanx-7\+3 {
   grid-column: 7 / span 3; }
 
-.span-7\+4 {
+.spanx-7\+4 {
   grid-column: 7 / span 4; }
 
-.span-7\+5 {
+.spanx-7\+5 {
   grid-column: 7 / span 5; }
 
-.span-7\+6 {
+.spanx-7\+6 {
   grid-column: 7 / span 6; }
 
-.span-7\+7 {
+.spanx-7\+7 {
   grid-column: 7 / span 7; }
 
-.span-7\+8 {
+.spanx-7\+8 {
   grid-column: 7 / span 8; }
 
-.span-8\+1 {
+.spanx-8\+1 {
   grid-column: 8 / span 1; }
 
-.span-8\+2 {
+.spanx-8\+2 {
   grid-column: 8 / span 2; }
 
-.span-8\+3 {
+.spanx-8\+3 {
   grid-column: 8 / span 3; }
 
-.span-8\+4 {
+.spanx-8\+4 {
   grid-column: 8 / span 4; }
 
-.span-8\+5 {
+.spanx-8\+5 {
   grid-column: 8 / span 5; }
 
-.span-8\+6 {
+.spanx-8\+6 {
   grid-column: 8 / span 6; }
 
-.span-8\+7 {
+.spanx-8\+7 {
   grid-column: 8 / span 7; }
 
-.span-9\+1 {
+.spanx-9\+1 {
   grid-column: 9 / span 1; }
 
-.span-9\+2 {
+.spanx-9\+2 {
   grid-column: 9 / span 2; }
 
-.span-9\+3 {
+.spanx-9\+3 {
   grid-column: 9 / span 3; }
 
-.span-9\+4 {
+.spanx-9\+4 {
   grid-column: 9 / span 4; }
 
-.span-9\+5 {
+.spanx-9\+5 {
   grid-column: 9 / span 5; }
 
-.span-9\+6 {
+.spanx-9\+6 {
   grid-column: 9 / span 6; }
 
-.span-10\+1 {
+.spanx-10\+1 {
   grid-column: 10 / span 1; }
 
-.span-10\+2 {
+.spanx-10\+2 {
   grid-column: 10 / span 2; }
 
-.span-10\+3 {
+.spanx-10\+3 {
   grid-column: 10 / span 3; }
 
-.span-10\+4 {
+.spanx-10\+4 {
   grid-column: 10 / span 4; }
 
-.span-10\+5 {
+.spanx-10\+5 {
   grid-column: 10 / span 5; }
 
-.span-11\+1 {
+.spanx-11\+1 {
   grid-column: 11 / span 1; }
 
-.span-11\+2 {
+.spanx-11\+2 {
   grid-column: 11 / span 2; }
 
-.span-11\+3 {
+.spanx-11\+3 {
   grid-column: 11 / span 3; }
 
-.span-11\+4 {
+.spanx-11\+4 {
   grid-column: 11 / span 4; }
 
-.span-12\+1 {
+.spanx-12\+1 {
   grid-column: 12 / span 1; }
 
-.span-12\+2 {
+.spanx-12\+2 {
   grid-column: 12 / span 2; }
 
-.span-12\+3 {
+.spanx-12\+3 {
   grid-column: 12 / span 3; }
 
-.span-13\+1 {
+.spanx-13\+1 {
   grid-column: 13 / span 1; }
 
-.span-13\+2 {
+.spanx-13\+2 {
   grid-column: 13 / span 2; }
 
-.span-14\+1 {
+.spanx-14\+1 {
   grid-column: 14 / span 1; }
 
-.span-15\+1 {
+.spanx-15\+1 {
   grid-column: 15 / span 1; }
 
-.span-15\+0 {
+.spanx-15\+0 {
   grid-column: 15 / span 0; }
 
-.span-row {
+.spanx-row {
   grid-column: 1 / -1; }
 
-.r-1 {
+.spany-1 {
   grid-row-end: span 1; }
 
-.r-2 {
+.spany-2 {
   grid-row-end: span 2; }
 
-.r-3 {
+.spany-3 {
   grid-row-end: span 3; }
 
-.r-4 {
+.spany-4 {
   grid-row-end: span 4; }
 
-.r-5 {
+.spany-5 {
   grid-row-end: span 5; }
 
-.r-6 {
+.spany-6 {
   grid-row-end: span 6; }
 
-.r-7 {
+.spany-7 {
   grid-row-end: span 7; }
 
-.r-8 {
+.spany-8 {
   grid-row-end: span 8; }
 
-.r-9 {
+.spany-9 {
   grid-row-end: span 9; }
 
-.r-10 {
+.spany-10 {
   grid-row-end: span 10; }
 
-.r-11 {
+.spany-11 {
   grid-row-end: span 11; }
 
-.r-12 {
+.spany-12 {
   grid-row-end: span 12; }
 
-.r-13 {
+.spany-13 {
   grid-row-end: span 13; }
 
-.r-14 {
+.spany-14 {
   grid-row-end: span 14; }
 
-.r-15 {
+.spany-15 {
   grid-row-end: span 15; }
 
 .col {
@@ -1145,621 +1145,621 @@
     grid-template-columns: max-content 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr; }
   .sm\:gap-0 {
     grid-gap: 0; }
-  .sm\:hgap-0 {
+  .sm\:gapx-0 {
     grid-column-gap: 0; }
-  .sm\:vgap-0 {
+  .sm\:gapy-0 {
     grid-row-gap: 0; }
   .sm\:gap-1 {
     grid-gap: 0.25rem; }
-  .sm\:hgap-1 {
+  .sm\:gapx-1 {
     grid-column-gap: 0.25rem; }
-  .sm\:vgap-1 {
+  .sm\:gapy-1 {
     grid-row-gap: 0.25rem; }
   .sm\:gap-2 {
     grid-gap: 0.5rem; }
-  .sm\:hgap-2 {
+  .sm\:gapx-2 {
     grid-column-gap: 0.5rem; }
-  .sm\:vgap-2 {
+  .sm\:gapy-2 {
     grid-row-gap: 0.5rem; }
   .sm\:gap-3 {
     grid-gap: 0.75rem; }
-  .sm\:hgap-3 {
+  .sm\:gapx-3 {
     grid-column-gap: 0.75rem; }
-  .sm\:vgap-3 {
+  .sm\:gapy-3 {
     grid-row-gap: 0.75rem; }
   .sm\:gap-4 {
     grid-gap: 1rem; }
-  .sm\:hgap-4 {
+  .sm\:gapx-4 {
     grid-column-gap: 1rem; }
-  .sm\:vgap-4 {
+  .sm\:gapy-4 {
     grid-row-gap: 1rem; }
   .sm\:gap-5 {
     grid-gap: 1.25rem; }
-  .sm\:hgap-5 {
+  .sm\:gapx-5 {
     grid-column-gap: 1.25rem; }
-  .sm\:vgap-5 {
+  .sm\:gapy-5 {
     grid-row-gap: 1.25rem; }
   .sm\:gap-6 {
     grid-gap: 1.5rem; }
-  .sm\:hgap-6 {
+  .sm\:gapx-6 {
     grid-column-gap: 1.5rem; }
-  .sm\:vgap-6 {
+  .sm\:gapy-6 {
     grid-row-gap: 1.5rem; }
   .sm\:gap-8 {
     grid-gap: 2rem; }
-  .sm\:hgap-8 {
+  .sm\:gapx-8 {
     grid-column-gap: 2rem; }
-  .sm\:vgap-8 {
+  .sm\:gapy-8 {
     grid-row-gap: 2rem; }
   .sm\:gap-10 {
     grid-gap: 2.5rem; }
-  .sm\:hgap-10 {
+  .sm\:gapx-10 {
     grid-column-gap: 2.5rem; }
-  .sm\:vgap-10 {
+  .sm\:gapy-10 {
     grid-row-gap: 2.5rem; }
   .sm\:gap-12 {
     grid-gap: 3rem; }
-  .sm\:hgap-12 {
+  .sm\:gapx-12 {
     grid-column-gap: 3rem; }
-  .sm\:vgap-12 {
+  .sm\:gapy-12 {
     grid-row-gap: 3rem; }
   .sm\:gap-16 {
     grid-gap: 4rem; }
-  .sm\:hgap-16 {
+  .sm\:gapx-16 {
     grid-column-gap: 4rem; }
-  .sm\:vgap-16 {
+  .sm\:gapy-16 {
     grid-row-gap: 4rem; }
   .sm\:gap-20 {
     grid-gap: 5rem; }
-  .sm\:hgap-20 {
+  .sm\:gapx-20 {
     grid-column-gap: 5rem; }
-  .sm\:vgap-20 {
+  .sm\:gapy-20 {
     grid-row-gap: 5rem; }
-  .sm\:span-1 {
+  .sm\:spanx-1 {
     grid-column: auto/span 1; }
-  .sm\:span-2 {
+  .sm\:spanx-2 {
     grid-column: auto/span 2; }
-  .sm\:span-3 {
+  .sm\:spanx-3 {
     grid-column: auto/span 3; }
-  .sm\:span-4 {
+  .sm\:spanx-4 {
     grid-column: auto/span 4; }
-  .sm\:span-5 {
+  .sm\:spanx-5 {
     grid-column: auto/span 5; }
-  .sm\:span-6 {
+  .sm\:spanx-6 {
     grid-column: auto/span 6; }
-  .sm\:span-7 {
+  .sm\:spanx-7 {
     grid-column: auto/span 7; }
-  .sm\:span-8 {
+  .sm\:spanx-8 {
     grid-column: auto/span 8; }
-  .sm\:span-9 {
+  .sm\:spanx-9 {
     grid-column: auto/span 9; }
-  .sm\:span-10 {
+  .sm\:spanx-10 {
     grid-column: auto/span 10; }
-  .sm\:span-11 {
+  .sm\:spanx-11 {
     grid-column: auto/span 11; }
-  .sm\:span-12 {
+  .sm\:spanx-12 {
     grid-column: auto/span 12; }
-  .sm\:span-13 {
+  .sm\:spanx-13 {
     grid-column: auto/span 13; }
-  .sm\:span-14 {
+  .sm\:spanx-14 {
     grid-column: auto/span 14; }
-  .sm\:span-15 {
+  .sm\:spanx-15 {
     grid-column: auto/span 15; }
-  .sm\:span-1-1 {
+  .sm\:spanx-1-1 {
     grid-column: 1 / 2; }
-  .sm\:span-1-2 {
+  .sm\:spanx-1-2 {
     grid-column: 1 / 3; }
-  .sm\:span-1-3 {
+  .sm\:spanx-1-3 {
     grid-column: 1 / 4; }
-  .sm\:span-1-4 {
+  .sm\:spanx-1-4 {
     grid-column: 1 / 5; }
-  .sm\:span-1-5 {
+  .sm\:spanx-1-5 {
     grid-column: 1 / 6; }
-  .sm\:span-1-6 {
+  .sm\:spanx-1-6 {
     grid-column: 1 / 7; }
-  .sm\:span-1-7 {
+  .sm\:spanx-1-7 {
     grid-column: 1 / 8; }
-  .sm\:span-1-8 {
+  .sm\:spanx-1-8 {
     grid-column: 1 / 9; }
-  .sm\:span-1-9 {
+  .sm\:spanx-1-9 {
     grid-column: 1 / 10; }
-  .sm\:span-1-10 {
+  .sm\:spanx-1-10 {
     grid-column: 1 / 11; }
-  .sm\:span-1-11 {
+  .sm\:spanx-1-11 {
     grid-column: 1 / 12; }
-  .sm\:span-1-12 {
+  .sm\:spanx-1-12 {
     grid-column: 1 / 13; }
-  .sm\:span-1-13 {
+  .sm\:spanx-1-13 {
     grid-column: 1 / 14; }
-  .sm\:span-1-14 {
+  .sm\:spanx-1-14 {
     grid-column: 1 / 15; }
-  .sm\:span-1-15 {
+  .sm\:spanx-1-15 {
     grid-column: 1 / 16; }
-  .sm\:span-1\.\. {
+  .sm\:spanx-1\.\. {
     grid-column: 1 / -1; }
-  .sm\:span-2-2 {
+  .sm\:spanx-2-2 {
     grid-column: 2 / 3; }
-  .sm\:span-2-3 {
+  .sm\:spanx-2-3 {
     grid-column: 2 / 4; }
-  .sm\:span-2-4 {
+  .sm\:spanx-2-4 {
     grid-column: 2 / 5; }
-  .sm\:span-2-5 {
+  .sm\:spanx-2-5 {
     grid-column: 2 / 6; }
-  .sm\:span-2-6 {
+  .sm\:spanx-2-6 {
     grid-column: 2 / 7; }
-  .sm\:span-2-7 {
+  .sm\:spanx-2-7 {
     grid-column: 2 / 8; }
-  .sm\:span-2-8 {
+  .sm\:spanx-2-8 {
     grid-column: 2 / 9; }
-  .sm\:span-2-9 {
+  .sm\:spanx-2-9 {
     grid-column: 2 / 10; }
-  .sm\:span-2-10 {
+  .sm\:spanx-2-10 {
     grid-column: 2 / 11; }
-  .sm\:span-2-11 {
+  .sm\:spanx-2-11 {
     grid-column: 2 / 12; }
-  .sm\:span-2-12 {
+  .sm\:spanx-2-12 {
     grid-column: 2 / 13; }
-  .sm\:span-2-13 {
+  .sm\:spanx-2-13 {
     grid-column: 2 / 14; }
-  .sm\:span-2-14 {
+  .sm\:spanx-2-14 {
     grid-column: 2 / 15; }
-  .sm\:span-2-15 {
+  .sm\:spanx-2-15 {
     grid-column: 2 / 16; }
-  .sm\:span-2\.\. {
+  .sm\:spanx-2\.\. {
     grid-column: 2 / -1; }
-  .sm\:span-3-3 {
+  .sm\:spanx-3-3 {
     grid-column: 3 / 4; }
-  .sm\:span-3-4 {
+  .sm\:spanx-3-4 {
     grid-column: 3 / 5; }
-  .sm\:span-3-5 {
+  .sm\:spanx-3-5 {
     grid-column: 3 / 6; }
-  .sm\:span-3-6 {
+  .sm\:spanx-3-6 {
     grid-column: 3 / 7; }
-  .sm\:span-3-7 {
+  .sm\:spanx-3-7 {
     grid-column: 3 / 8; }
-  .sm\:span-3-8 {
+  .sm\:spanx-3-8 {
     grid-column: 3 / 9; }
-  .sm\:span-3-9 {
+  .sm\:spanx-3-9 {
     grid-column: 3 / 10; }
-  .sm\:span-3-10 {
+  .sm\:spanx-3-10 {
     grid-column: 3 / 11; }
-  .sm\:span-3-11 {
+  .sm\:spanx-3-11 {
     grid-column: 3 / 12; }
-  .sm\:span-3-12 {
+  .sm\:spanx-3-12 {
     grid-column: 3 / 13; }
-  .sm\:span-3-13 {
+  .sm\:spanx-3-13 {
     grid-column: 3 / 14; }
-  .sm\:span-3-14 {
+  .sm\:spanx-3-14 {
     grid-column: 3 / 15; }
-  .sm\:span-3-15 {
+  .sm\:spanx-3-15 {
     grid-column: 3 / 16; }
-  .sm\:span-3\.\. {
+  .sm\:spanx-3\.\. {
     grid-column: 3 / -1; }
-  .sm\:span-4-4 {
+  .sm\:spanx-4-4 {
     grid-column: 4 / 5; }
-  .sm\:span-4-5 {
+  .sm\:spanx-4-5 {
     grid-column: 4 / 6; }
-  .sm\:span-4-6 {
+  .sm\:spanx-4-6 {
     grid-column: 4 / 7; }
-  .sm\:span-4-7 {
+  .sm\:spanx-4-7 {
     grid-column: 4 / 8; }
-  .sm\:span-4-8 {
+  .sm\:spanx-4-8 {
     grid-column: 4 / 9; }
-  .sm\:span-4-9 {
+  .sm\:spanx-4-9 {
     grid-column: 4 / 10; }
-  .sm\:span-4-10 {
+  .sm\:spanx-4-10 {
     grid-column: 4 / 11; }
-  .sm\:span-4-11 {
+  .sm\:spanx-4-11 {
     grid-column: 4 / 12; }
-  .sm\:span-4-12 {
+  .sm\:spanx-4-12 {
     grid-column: 4 / 13; }
-  .sm\:span-4-13 {
+  .sm\:spanx-4-13 {
     grid-column: 4 / 14; }
-  .sm\:span-4-14 {
+  .sm\:spanx-4-14 {
     grid-column: 4 / 15; }
-  .sm\:span-4-15 {
+  .sm\:spanx-4-15 {
     grid-column: 4 / 16; }
-  .sm\:span-4\.\. {
+  .sm\:spanx-4\.\. {
     grid-column: 4 / -1; }
-  .sm\:span-5-5 {
+  .sm\:spanx-5-5 {
     grid-column: 5 / 6; }
-  .sm\:span-5-6 {
+  .sm\:spanx-5-6 {
     grid-column: 5 / 7; }
-  .sm\:span-5-7 {
+  .sm\:spanx-5-7 {
     grid-column: 5 / 8; }
-  .sm\:span-5-8 {
+  .sm\:spanx-5-8 {
     grid-column: 5 / 9; }
-  .sm\:span-5-9 {
+  .sm\:spanx-5-9 {
     grid-column: 5 / 10; }
-  .sm\:span-5-10 {
+  .sm\:spanx-5-10 {
     grid-column: 5 / 11; }
-  .sm\:span-5-11 {
+  .sm\:spanx-5-11 {
     grid-column: 5 / 12; }
-  .sm\:span-5-12 {
+  .sm\:spanx-5-12 {
     grid-column: 5 / 13; }
-  .sm\:span-5-13 {
+  .sm\:spanx-5-13 {
     grid-column: 5 / 14; }
-  .sm\:span-5-14 {
+  .sm\:spanx-5-14 {
     grid-column: 5 / 15; }
-  .sm\:span-5-15 {
+  .sm\:spanx-5-15 {
     grid-column: 5 / 16; }
-  .sm\:span-5\.\. {
+  .sm\:spanx-5\.\. {
     grid-column: 5 / -1; }
-  .sm\:span-6-6 {
+  .sm\:spanx-6-6 {
     grid-column: 6 / 7; }
-  .sm\:span-6-7 {
+  .sm\:spanx-6-7 {
     grid-column: 6 / 8; }
-  .sm\:span-6-8 {
+  .sm\:spanx-6-8 {
     grid-column: 6 / 9; }
-  .sm\:span-6-9 {
+  .sm\:spanx-6-9 {
     grid-column: 6 / 10; }
-  .sm\:span-6-10 {
+  .sm\:spanx-6-10 {
     grid-column: 6 / 11; }
-  .sm\:span-6-11 {
+  .sm\:spanx-6-11 {
     grid-column: 6 / 12; }
-  .sm\:span-6-12 {
+  .sm\:spanx-6-12 {
     grid-column: 6 / 13; }
-  .sm\:span-6-13 {
+  .sm\:spanx-6-13 {
     grid-column: 6 / 14; }
-  .sm\:span-6-14 {
+  .sm\:spanx-6-14 {
     grid-column: 6 / 15; }
-  .sm\:span-6-15 {
+  .sm\:spanx-6-15 {
     grid-column: 6 / 16; }
-  .sm\:span-6\.\. {
+  .sm\:spanx-6\.\. {
     grid-column: 6 / -1; }
-  .sm\:span-7-7 {
+  .sm\:spanx-7-7 {
     grid-column: 7 / 8; }
-  .sm\:span-7-8 {
+  .sm\:spanx-7-8 {
     grid-column: 7 / 9; }
-  .sm\:span-7-9 {
+  .sm\:spanx-7-9 {
     grid-column: 7 / 10; }
-  .sm\:span-7-10 {
+  .sm\:spanx-7-10 {
     grid-column: 7 / 11; }
-  .sm\:span-7-11 {
+  .sm\:spanx-7-11 {
     grid-column: 7 / 12; }
-  .sm\:span-7-12 {
+  .sm\:spanx-7-12 {
     grid-column: 7 / 13; }
-  .sm\:span-7-13 {
+  .sm\:spanx-7-13 {
     grid-column: 7 / 14; }
-  .sm\:span-7-14 {
+  .sm\:spanx-7-14 {
     grid-column: 7 / 15; }
-  .sm\:span-7-15 {
+  .sm\:spanx-7-15 {
     grid-column: 7 / 16; }
-  .sm\:span-7\.\. {
+  .sm\:spanx-7\.\. {
     grid-column: 7 / -1; }
-  .sm\:span-8-8 {
+  .sm\:spanx-8-8 {
     grid-column: 8 / 9; }
-  .sm\:span-8-9 {
+  .sm\:spanx-8-9 {
     grid-column: 8 / 10; }
-  .sm\:span-8-10 {
+  .sm\:spanx-8-10 {
     grid-column: 8 / 11; }
-  .sm\:span-8-11 {
+  .sm\:spanx-8-11 {
     grid-column: 8 / 12; }
-  .sm\:span-8-12 {
+  .sm\:spanx-8-12 {
     grid-column: 8 / 13; }
-  .sm\:span-8-13 {
+  .sm\:spanx-8-13 {
     grid-column: 8 / 14; }
-  .sm\:span-8-14 {
+  .sm\:spanx-8-14 {
     grid-column: 8 / 15; }
-  .sm\:span-8-15 {
+  .sm\:spanx-8-15 {
     grid-column: 8 / 16; }
-  .sm\:span-8\.\. {
+  .sm\:spanx-8\.\. {
     grid-column: 8 / -1; }
-  .sm\:span-9-9 {
+  .sm\:spanx-9-9 {
     grid-column: 9 / 10; }
-  .sm\:span-9-10 {
+  .sm\:spanx-9-10 {
     grid-column: 9 / 11; }
-  .sm\:span-9-11 {
+  .sm\:spanx-9-11 {
     grid-column: 9 / 12; }
-  .sm\:span-9-12 {
+  .sm\:spanx-9-12 {
     grid-column: 9 / 13; }
-  .sm\:span-9-13 {
+  .sm\:spanx-9-13 {
     grid-column: 9 / 14; }
-  .sm\:span-9-14 {
+  .sm\:spanx-9-14 {
     grid-column: 9 / 15; }
-  .sm\:span-9-15 {
+  .sm\:spanx-9-15 {
     grid-column: 9 / 16; }
-  .sm\:span-9\.\. {
+  .sm\:spanx-9\.\. {
     grid-column: 9 / -1; }
-  .sm\:span-10-10 {
+  .sm\:spanx-10-10 {
     grid-column: 10 / 11; }
-  .sm\:span-10-11 {
+  .sm\:spanx-10-11 {
     grid-column: 10 / 12; }
-  .sm\:span-10-12 {
+  .sm\:spanx-10-12 {
     grid-column: 10 / 13; }
-  .sm\:span-10-13 {
+  .sm\:spanx-10-13 {
     grid-column: 10 / 14; }
-  .sm\:span-10-14 {
+  .sm\:spanx-10-14 {
     grid-column: 10 / 15; }
-  .sm\:span-10-15 {
+  .sm\:spanx-10-15 {
     grid-column: 10 / 16; }
-  .sm\:span-10\.\. {
+  .sm\:spanx-10\.\. {
     grid-column: 10 / -1; }
-  .sm\:span-11-11 {
+  .sm\:spanx-11-11 {
     grid-column: 11 / 12; }
-  .sm\:span-11-12 {
+  .sm\:spanx-11-12 {
     grid-column: 11 / 13; }
-  .sm\:span-11-13 {
+  .sm\:spanx-11-13 {
     grid-column: 11 / 14; }
-  .sm\:span-11-14 {
+  .sm\:spanx-11-14 {
     grid-column: 11 / 15; }
-  .sm\:span-11-15 {
+  .sm\:spanx-11-15 {
     grid-column: 11 / 16; }
-  .sm\:span-11\.\. {
+  .sm\:spanx-11\.\. {
     grid-column: 11 / -1; }
-  .sm\:span-12-12 {
+  .sm\:spanx-12-12 {
     grid-column: 12 / 13; }
-  .sm\:span-12-13 {
+  .sm\:spanx-12-13 {
     grid-column: 12 / 14; }
-  .sm\:span-12-14 {
+  .sm\:spanx-12-14 {
     grid-column: 12 / 15; }
-  .sm\:span-12-15 {
+  .sm\:spanx-12-15 {
     grid-column: 12 / 16; }
-  .sm\:span-12\.\. {
+  .sm\:spanx-12\.\. {
     grid-column: 12 / -1; }
-  .sm\:span-13-13 {
+  .sm\:spanx-13-13 {
     grid-column: 13 / 14; }
-  .sm\:span-13-14 {
+  .sm\:spanx-13-14 {
     grid-column: 13 / 15; }
-  .sm\:span-13-15 {
+  .sm\:spanx-13-15 {
     grid-column: 13 / 16; }
-  .sm\:span-13\.\. {
+  .sm\:spanx-13\.\. {
     grid-column: 13 / -1; }
-  .sm\:span-14-14 {
+  .sm\:spanx-14-14 {
     grid-column: 14 / 15; }
-  .sm\:span-14-15 {
+  .sm\:spanx-14-15 {
     grid-column: 14 / 16; }
-  .sm\:span-14\.\. {
+  .sm\:spanx-14\.\. {
     grid-column: 14 / -1; }
-  .sm\:span-15-15 {
+  .sm\:spanx-15-15 {
     grid-column: 15 / 16; }
-  .sm\:span-15\.\. {
+  .sm\:spanx-15\.\. {
     grid-column: 15 / -1; }
-  .sm\:span-1\+1 {
+  .sm\:spanx-1\+1 {
     grid-column: 1 / span 1; }
-  .sm\:span-1\+2 {
+  .sm\:spanx-1\+2 {
     grid-column: 1 / span 2; }
-  .sm\:span-1\+3 {
+  .sm\:spanx-1\+3 {
     grid-column: 1 / span 3; }
-  .sm\:span-1\+4 {
+  .sm\:spanx-1\+4 {
     grid-column: 1 / span 4; }
-  .sm\:span-1\+5 {
+  .sm\:spanx-1\+5 {
     grid-column: 1 / span 5; }
-  .sm\:span-1\+6 {
+  .sm\:spanx-1\+6 {
     grid-column: 1 / span 6; }
-  .sm\:span-1\+7 {
+  .sm\:spanx-1\+7 {
     grid-column: 1 / span 7; }
-  .sm\:span-1\+8 {
+  .sm\:spanx-1\+8 {
     grid-column: 1 / span 8; }
-  .sm\:span-1\+9 {
+  .sm\:spanx-1\+9 {
     grid-column: 1 / span 9; }
-  .sm\:span-1\+10 {
+  .sm\:spanx-1\+10 {
     grid-column: 1 / span 10; }
-  .sm\:span-1\+11 {
+  .sm\:spanx-1\+11 {
     grid-column: 1 / span 11; }
-  .sm\:span-1\+12 {
+  .sm\:spanx-1\+12 {
     grid-column: 1 / span 12; }
-  .sm\:span-1\+13 {
+  .sm\:spanx-1\+13 {
     grid-column: 1 / span 13; }
-  .sm\:span-1\+14 {
+  .sm\:spanx-1\+14 {
     grid-column: 1 / span 14; }
-  .sm\:span-2\+1 {
+  .sm\:spanx-2\+1 {
     grid-column: 2 / span 1; }
-  .sm\:span-2\+2 {
+  .sm\:spanx-2\+2 {
     grid-column: 2 / span 2; }
-  .sm\:span-2\+3 {
+  .sm\:spanx-2\+3 {
     grid-column: 2 / span 3; }
-  .sm\:span-2\+4 {
+  .sm\:spanx-2\+4 {
     grid-column: 2 / span 4; }
-  .sm\:span-2\+5 {
+  .sm\:spanx-2\+5 {
     grid-column: 2 / span 5; }
-  .sm\:span-2\+6 {
+  .sm\:spanx-2\+6 {
     grid-column: 2 / span 6; }
-  .sm\:span-2\+7 {
+  .sm\:spanx-2\+7 {
     grid-column: 2 / span 7; }
-  .sm\:span-2\+8 {
+  .sm\:spanx-2\+8 {
     grid-column: 2 / span 8; }
-  .sm\:span-2\+9 {
+  .sm\:spanx-2\+9 {
     grid-column: 2 / span 9; }
-  .sm\:span-2\+10 {
+  .sm\:spanx-2\+10 {
     grid-column: 2 / span 10; }
-  .sm\:span-2\+11 {
+  .sm\:spanx-2\+11 {
     grid-column: 2 / span 11; }
-  .sm\:span-2\+12 {
+  .sm\:spanx-2\+12 {
     grid-column: 2 / span 12; }
-  .sm\:span-2\+13 {
+  .sm\:spanx-2\+13 {
     grid-column: 2 / span 13; }
-  .sm\:span-3\+1 {
+  .sm\:spanx-3\+1 {
     grid-column: 3 / span 1; }
-  .sm\:span-3\+2 {
+  .sm\:spanx-3\+2 {
     grid-column: 3 / span 2; }
-  .sm\:span-3\+3 {
+  .sm\:spanx-3\+3 {
     grid-column: 3 / span 3; }
-  .sm\:span-3\+4 {
+  .sm\:spanx-3\+4 {
     grid-column: 3 / span 4; }
-  .sm\:span-3\+5 {
+  .sm\:spanx-3\+5 {
     grid-column: 3 / span 5; }
-  .sm\:span-3\+6 {
+  .sm\:spanx-3\+6 {
     grid-column: 3 / span 6; }
-  .sm\:span-3\+7 {
+  .sm\:spanx-3\+7 {
     grid-column: 3 / span 7; }
-  .sm\:span-3\+8 {
+  .sm\:spanx-3\+8 {
     grid-column: 3 / span 8; }
-  .sm\:span-3\+9 {
+  .sm\:spanx-3\+9 {
     grid-column: 3 / span 9; }
-  .sm\:span-3\+10 {
+  .sm\:spanx-3\+10 {
     grid-column: 3 / span 10; }
-  .sm\:span-3\+11 {
+  .sm\:spanx-3\+11 {
     grid-column: 3 / span 11; }
-  .sm\:span-3\+12 {
+  .sm\:spanx-3\+12 {
     grid-column: 3 / span 12; }
-  .sm\:span-4\+1 {
+  .sm\:spanx-4\+1 {
     grid-column: 4 / span 1; }
-  .sm\:span-4\+2 {
+  .sm\:spanx-4\+2 {
     grid-column: 4 / span 2; }
-  .sm\:span-4\+3 {
+  .sm\:spanx-4\+3 {
     grid-column: 4 / span 3; }
-  .sm\:span-4\+4 {
+  .sm\:spanx-4\+4 {
     grid-column: 4 / span 4; }
-  .sm\:span-4\+5 {
+  .sm\:spanx-4\+5 {
     grid-column: 4 / span 5; }
-  .sm\:span-4\+6 {
+  .sm\:spanx-4\+6 {
     grid-column: 4 / span 6; }
-  .sm\:span-4\+7 {
+  .sm\:spanx-4\+7 {
     grid-column: 4 / span 7; }
-  .sm\:span-4\+8 {
+  .sm\:spanx-4\+8 {
     grid-column: 4 / span 8; }
-  .sm\:span-4\+9 {
+  .sm\:spanx-4\+9 {
     grid-column: 4 / span 9; }
-  .sm\:span-4\+10 {
+  .sm\:spanx-4\+10 {
     grid-column: 4 / span 10; }
-  .sm\:span-4\+11 {
+  .sm\:spanx-4\+11 {
     grid-column: 4 / span 11; }
-  .sm\:span-5\+1 {
+  .sm\:spanx-5\+1 {
     grid-column: 5 / span 1; }
-  .sm\:span-5\+2 {
+  .sm\:spanx-5\+2 {
     grid-column: 5 / span 2; }
-  .sm\:span-5\+3 {
+  .sm\:spanx-5\+3 {
     grid-column: 5 / span 3; }
-  .sm\:span-5\+4 {
+  .sm\:spanx-5\+4 {
     grid-column: 5 / span 4; }
-  .sm\:span-5\+5 {
+  .sm\:spanx-5\+5 {
     grid-column: 5 / span 5; }
-  .sm\:span-5\+6 {
+  .sm\:spanx-5\+6 {
     grid-column: 5 / span 6; }
-  .sm\:span-5\+7 {
+  .sm\:spanx-5\+7 {
     grid-column: 5 / span 7; }
-  .sm\:span-5\+8 {
+  .sm\:spanx-5\+8 {
     grid-column: 5 / span 8; }
-  .sm\:span-5\+9 {
+  .sm\:spanx-5\+9 {
     grid-column: 5 / span 9; }
-  .sm\:span-5\+10 {
+  .sm\:spanx-5\+10 {
     grid-column: 5 / span 10; }
-  .sm\:span-6\+1 {
+  .sm\:spanx-6\+1 {
     grid-column: 6 / span 1; }
-  .sm\:span-6\+2 {
+  .sm\:spanx-6\+2 {
     grid-column: 6 / span 2; }
-  .sm\:span-6\+3 {
+  .sm\:spanx-6\+3 {
     grid-column: 6 / span 3; }
-  .sm\:span-6\+4 {
+  .sm\:spanx-6\+4 {
     grid-column: 6 / span 4; }
-  .sm\:span-6\+5 {
+  .sm\:spanx-6\+5 {
     grid-column: 6 / span 5; }
-  .sm\:span-6\+6 {
+  .sm\:spanx-6\+6 {
     grid-column: 6 / span 6; }
-  .sm\:span-6\+7 {
+  .sm\:spanx-6\+7 {
     grid-column: 6 / span 7; }
-  .sm\:span-6\+8 {
+  .sm\:spanx-6\+8 {
     grid-column: 6 / span 8; }
-  .sm\:span-6\+9 {
+  .sm\:spanx-6\+9 {
     grid-column: 6 / span 9; }
-  .sm\:span-7\+1 {
+  .sm\:spanx-7\+1 {
     grid-column: 7 / span 1; }
-  .sm\:span-7\+2 {
+  .sm\:spanx-7\+2 {
     grid-column: 7 / span 2; }
-  .sm\:span-7\+3 {
+  .sm\:spanx-7\+3 {
     grid-column: 7 / span 3; }
-  .sm\:span-7\+4 {
+  .sm\:spanx-7\+4 {
     grid-column: 7 / span 4; }
-  .sm\:span-7\+5 {
+  .sm\:spanx-7\+5 {
     grid-column: 7 / span 5; }
-  .sm\:span-7\+6 {
+  .sm\:spanx-7\+6 {
     grid-column: 7 / span 6; }
-  .sm\:span-7\+7 {
+  .sm\:spanx-7\+7 {
     grid-column: 7 / span 7; }
-  .sm\:span-7\+8 {
+  .sm\:spanx-7\+8 {
     grid-column: 7 / span 8; }
-  .sm\:span-8\+1 {
+  .sm\:spanx-8\+1 {
     grid-column: 8 / span 1; }
-  .sm\:span-8\+2 {
+  .sm\:spanx-8\+2 {
     grid-column: 8 / span 2; }
-  .sm\:span-8\+3 {
+  .sm\:spanx-8\+3 {
     grid-column: 8 / span 3; }
-  .sm\:span-8\+4 {
+  .sm\:spanx-8\+4 {
     grid-column: 8 / span 4; }
-  .sm\:span-8\+5 {
+  .sm\:spanx-8\+5 {
     grid-column: 8 / span 5; }
-  .sm\:span-8\+6 {
+  .sm\:spanx-8\+6 {
     grid-column: 8 / span 6; }
-  .sm\:span-8\+7 {
+  .sm\:spanx-8\+7 {
     grid-column: 8 / span 7; }
-  .sm\:span-9\+1 {
+  .sm\:spanx-9\+1 {
     grid-column: 9 / span 1; }
-  .sm\:span-9\+2 {
+  .sm\:spanx-9\+2 {
     grid-column: 9 / span 2; }
-  .sm\:span-9\+3 {
+  .sm\:spanx-9\+3 {
     grid-column: 9 / span 3; }
-  .sm\:span-9\+4 {
+  .sm\:spanx-9\+4 {
     grid-column: 9 / span 4; }
-  .sm\:span-9\+5 {
+  .sm\:spanx-9\+5 {
     grid-column: 9 / span 5; }
-  .sm\:span-9\+6 {
+  .sm\:spanx-9\+6 {
     grid-column: 9 / span 6; }
-  .sm\:span-10\+1 {
+  .sm\:spanx-10\+1 {
     grid-column: 10 / span 1; }
-  .sm\:span-10\+2 {
+  .sm\:spanx-10\+2 {
     grid-column: 10 / span 2; }
-  .sm\:span-10\+3 {
+  .sm\:spanx-10\+3 {
     grid-column: 10 / span 3; }
-  .sm\:span-10\+4 {
+  .sm\:spanx-10\+4 {
     grid-column: 10 / span 4; }
-  .sm\:span-10\+5 {
+  .sm\:spanx-10\+5 {
     grid-column: 10 / span 5; }
-  .sm\:span-11\+1 {
+  .sm\:spanx-11\+1 {
     grid-column: 11 / span 1; }
-  .sm\:span-11\+2 {
+  .sm\:spanx-11\+2 {
     grid-column: 11 / span 2; }
-  .sm\:span-11\+3 {
+  .sm\:spanx-11\+3 {
     grid-column: 11 / span 3; }
-  .sm\:span-11\+4 {
+  .sm\:spanx-11\+4 {
     grid-column: 11 / span 4; }
-  .sm\:span-12\+1 {
+  .sm\:spanx-12\+1 {
     grid-column: 12 / span 1; }
-  .sm\:span-12\+2 {
+  .sm\:spanx-12\+2 {
     grid-column: 12 / span 2; }
-  .sm\:span-12\+3 {
+  .sm\:spanx-12\+3 {
     grid-column: 12 / span 3; }
-  .sm\:span-13\+1 {
+  .sm\:spanx-13\+1 {
     grid-column: 13 / span 1; }
-  .sm\:span-13\+2 {
+  .sm\:spanx-13\+2 {
     grid-column: 13 / span 2; }
-  .sm\:span-14\+1 {
+  .sm\:spanx-14\+1 {
     grid-column: 14 / span 1; }
-  .sm\:span-15\+1 {
+  .sm\:spanx-15\+1 {
     grid-column: 15 / span 1; }
-  .sm\:span-15\+0 {
+  .sm\:spanx-15\+0 {
     grid-column: 15 / span 0; }
-  .sm\:span-row {
+  .sm\:spanx-row {
     grid-column: 1 / -1; }
-  .sm\:r-1 {
+  .sm\:spany-1 {
     grid-row-end: span 1; }
-  .sm\:r-2 {
+  .sm\:spany-2 {
     grid-row-end: span 2; }
-  .sm\:r-3 {
+  .sm\:spany-3 {
     grid-row-end: span 3; }
-  .sm\:r-4 {
+  .sm\:spany-4 {
     grid-row-end: span 4; }
-  .sm\:r-5 {
+  .sm\:spany-5 {
     grid-row-end: span 5; }
-  .sm\:r-6 {
+  .sm\:spany-6 {
     grid-row-end: span 6; }
-  .sm\:r-7 {
+  .sm\:spany-7 {
     grid-row-end: span 7; }
-  .sm\:r-8 {
+  .sm\:spany-8 {
     grid-row-end: span 8; }
-  .sm\:r-9 {
+  .sm\:spany-9 {
     grid-row-end: span 9; }
-  .sm\:r-10 {
+  .sm\:spany-10 {
     grid-row-end: span 10; }
-  .sm\:r-11 {
+  .sm\:spany-11 {
     grid-row-end: span 11; }
-  .sm\:r-12 {
+  .sm\:spany-12 {
     grid-row-end: span 12; }
-  .sm\:r-13 {
+  .sm\:spany-13 {
     grid-row-end: span 13; }
-  .sm\:r-14 {
+  .sm\:spany-14 {
     grid-row-end: span 14; }
-  .sm\:r-15 {
+  .sm\:spany-15 {
     grid-row-end: span 15; }
   .sm\:col {
     grid-row: 1 / -1; }
@@ -1863,621 +1863,621 @@
     grid-template-columns: max-content 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr; }
   .md\:gap-0 {
     grid-gap: 0; }
-  .md\:hgap-0 {
+  .md\:gapx-0 {
     grid-column-gap: 0; }
-  .md\:vgap-0 {
+  .md\:gapy-0 {
     grid-row-gap: 0; }
   .md\:gap-1 {
     grid-gap: 0.25rem; }
-  .md\:hgap-1 {
+  .md\:gapx-1 {
     grid-column-gap: 0.25rem; }
-  .md\:vgap-1 {
+  .md\:gapy-1 {
     grid-row-gap: 0.25rem; }
   .md\:gap-2 {
     grid-gap: 0.5rem; }
-  .md\:hgap-2 {
+  .md\:gapx-2 {
     grid-column-gap: 0.5rem; }
-  .md\:vgap-2 {
+  .md\:gapy-2 {
     grid-row-gap: 0.5rem; }
   .md\:gap-3 {
     grid-gap: 0.75rem; }
-  .md\:hgap-3 {
+  .md\:gapx-3 {
     grid-column-gap: 0.75rem; }
-  .md\:vgap-3 {
+  .md\:gapy-3 {
     grid-row-gap: 0.75rem; }
   .md\:gap-4 {
     grid-gap: 1rem; }
-  .md\:hgap-4 {
+  .md\:gapx-4 {
     grid-column-gap: 1rem; }
-  .md\:vgap-4 {
+  .md\:gapy-4 {
     grid-row-gap: 1rem; }
   .md\:gap-5 {
     grid-gap: 1.25rem; }
-  .md\:hgap-5 {
+  .md\:gapx-5 {
     grid-column-gap: 1.25rem; }
-  .md\:vgap-5 {
+  .md\:gapy-5 {
     grid-row-gap: 1.25rem; }
   .md\:gap-6 {
     grid-gap: 1.5rem; }
-  .md\:hgap-6 {
+  .md\:gapx-6 {
     grid-column-gap: 1.5rem; }
-  .md\:vgap-6 {
+  .md\:gapy-6 {
     grid-row-gap: 1.5rem; }
   .md\:gap-8 {
     grid-gap: 2rem; }
-  .md\:hgap-8 {
+  .md\:gapx-8 {
     grid-column-gap: 2rem; }
-  .md\:vgap-8 {
+  .md\:gapy-8 {
     grid-row-gap: 2rem; }
   .md\:gap-10 {
     grid-gap: 2.5rem; }
-  .md\:hgap-10 {
+  .md\:gapx-10 {
     grid-column-gap: 2.5rem; }
-  .md\:vgap-10 {
+  .md\:gapy-10 {
     grid-row-gap: 2.5rem; }
   .md\:gap-12 {
     grid-gap: 3rem; }
-  .md\:hgap-12 {
+  .md\:gapx-12 {
     grid-column-gap: 3rem; }
-  .md\:vgap-12 {
+  .md\:gapy-12 {
     grid-row-gap: 3rem; }
   .md\:gap-16 {
     grid-gap: 4rem; }
-  .md\:hgap-16 {
+  .md\:gapx-16 {
     grid-column-gap: 4rem; }
-  .md\:vgap-16 {
+  .md\:gapy-16 {
     grid-row-gap: 4rem; }
   .md\:gap-20 {
     grid-gap: 5rem; }
-  .md\:hgap-20 {
+  .md\:gapx-20 {
     grid-column-gap: 5rem; }
-  .md\:vgap-20 {
+  .md\:gapy-20 {
     grid-row-gap: 5rem; }
-  .md\:span-1 {
+  .md\:spanx-1 {
     grid-column: auto/span 1; }
-  .md\:span-2 {
+  .md\:spanx-2 {
     grid-column: auto/span 2; }
-  .md\:span-3 {
+  .md\:spanx-3 {
     grid-column: auto/span 3; }
-  .md\:span-4 {
+  .md\:spanx-4 {
     grid-column: auto/span 4; }
-  .md\:span-5 {
+  .md\:spanx-5 {
     grid-column: auto/span 5; }
-  .md\:span-6 {
+  .md\:spanx-6 {
     grid-column: auto/span 6; }
-  .md\:span-7 {
+  .md\:spanx-7 {
     grid-column: auto/span 7; }
-  .md\:span-8 {
+  .md\:spanx-8 {
     grid-column: auto/span 8; }
-  .md\:span-9 {
+  .md\:spanx-9 {
     grid-column: auto/span 9; }
-  .md\:span-10 {
+  .md\:spanx-10 {
     grid-column: auto/span 10; }
-  .md\:span-11 {
+  .md\:spanx-11 {
     grid-column: auto/span 11; }
-  .md\:span-12 {
+  .md\:spanx-12 {
     grid-column: auto/span 12; }
-  .md\:span-13 {
+  .md\:spanx-13 {
     grid-column: auto/span 13; }
-  .md\:span-14 {
+  .md\:spanx-14 {
     grid-column: auto/span 14; }
-  .md\:span-15 {
+  .md\:spanx-15 {
     grid-column: auto/span 15; }
-  .md\:span-1-1 {
+  .md\:spanx-1-1 {
     grid-column: 1 / 2; }
-  .md\:span-1-2 {
+  .md\:spanx-1-2 {
     grid-column: 1 / 3; }
-  .md\:span-1-3 {
+  .md\:spanx-1-3 {
     grid-column: 1 / 4; }
-  .md\:span-1-4 {
+  .md\:spanx-1-4 {
     grid-column: 1 / 5; }
-  .md\:span-1-5 {
+  .md\:spanx-1-5 {
     grid-column: 1 / 6; }
-  .md\:span-1-6 {
+  .md\:spanx-1-6 {
     grid-column: 1 / 7; }
-  .md\:span-1-7 {
+  .md\:spanx-1-7 {
     grid-column: 1 / 8; }
-  .md\:span-1-8 {
+  .md\:spanx-1-8 {
     grid-column: 1 / 9; }
-  .md\:span-1-9 {
+  .md\:spanx-1-9 {
     grid-column: 1 / 10; }
-  .md\:span-1-10 {
+  .md\:spanx-1-10 {
     grid-column: 1 / 11; }
-  .md\:span-1-11 {
+  .md\:spanx-1-11 {
     grid-column: 1 / 12; }
-  .md\:span-1-12 {
+  .md\:spanx-1-12 {
     grid-column: 1 / 13; }
-  .md\:span-1-13 {
+  .md\:spanx-1-13 {
     grid-column: 1 / 14; }
-  .md\:span-1-14 {
+  .md\:spanx-1-14 {
     grid-column: 1 / 15; }
-  .md\:span-1-15 {
+  .md\:spanx-1-15 {
     grid-column: 1 / 16; }
-  .md\:span-1\.\. {
+  .md\:spanx-1\.\. {
     grid-column: 1 / -1; }
-  .md\:span-2-2 {
+  .md\:spanx-2-2 {
     grid-column: 2 / 3; }
-  .md\:span-2-3 {
+  .md\:spanx-2-3 {
     grid-column: 2 / 4; }
-  .md\:span-2-4 {
+  .md\:spanx-2-4 {
     grid-column: 2 / 5; }
-  .md\:span-2-5 {
+  .md\:spanx-2-5 {
     grid-column: 2 / 6; }
-  .md\:span-2-6 {
+  .md\:spanx-2-6 {
     grid-column: 2 / 7; }
-  .md\:span-2-7 {
+  .md\:spanx-2-7 {
     grid-column: 2 / 8; }
-  .md\:span-2-8 {
+  .md\:spanx-2-8 {
     grid-column: 2 / 9; }
-  .md\:span-2-9 {
+  .md\:spanx-2-9 {
     grid-column: 2 / 10; }
-  .md\:span-2-10 {
+  .md\:spanx-2-10 {
     grid-column: 2 / 11; }
-  .md\:span-2-11 {
+  .md\:spanx-2-11 {
     grid-column: 2 / 12; }
-  .md\:span-2-12 {
+  .md\:spanx-2-12 {
     grid-column: 2 / 13; }
-  .md\:span-2-13 {
+  .md\:spanx-2-13 {
     grid-column: 2 / 14; }
-  .md\:span-2-14 {
+  .md\:spanx-2-14 {
     grid-column: 2 / 15; }
-  .md\:span-2-15 {
+  .md\:spanx-2-15 {
     grid-column: 2 / 16; }
-  .md\:span-2\.\. {
+  .md\:spanx-2\.\. {
     grid-column: 2 / -1; }
-  .md\:span-3-3 {
+  .md\:spanx-3-3 {
     grid-column: 3 / 4; }
-  .md\:span-3-4 {
+  .md\:spanx-3-4 {
     grid-column: 3 / 5; }
-  .md\:span-3-5 {
+  .md\:spanx-3-5 {
     grid-column: 3 / 6; }
-  .md\:span-3-6 {
+  .md\:spanx-3-6 {
     grid-column: 3 / 7; }
-  .md\:span-3-7 {
+  .md\:spanx-3-7 {
     grid-column: 3 / 8; }
-  .md\:span-3-8 {
+  .md\:spanx-3-8 {
     grid-column: 3 / 9; }
-  .md\:span-3-9 {
+  .md\:spanx-3-9 {
     grid-column: 3 / 10; }
-  .md\:span-3-10 {
+  .md\:spanx-3-10 {
     grid-column: 3 / 11; }
-  .md\:span-3-11 {
+  .md\:spanx-3-11 {
     grid-column: 3 / 12; }
-  .md\:span-3-12 {
+  .md\:spanx-3-12 {
     grid-column: 3 / 13; }
-  .md\:span-3-13 {
+  .md\:spanx-3-13 {
     grid-column: 3 / 14; }
-  .md\:span-3-14 {
+  .md\:spanx-3-14 {
     grid-column: 3 / 15; }
-  .md\:span-3-15 {
+  .md\:spanx-3-15 {
     grid-column: 3 / 16; }
-  .md\:span-3\.\. {
+  .md\:spanx-3\.\. {
     grid-column: 3 / -1; }
-  .md\:span-4-4 {
+  .md\:spanx-4-4 {
     grid-column: 4 / 5; }
-  .md\:span-4-5 {
+  .md\:spanx-4-5 {
     grid-column: 4 / 6; }
-  .md\:span-4-6 {
+  .md\:spanx-4-6 {
     grid-column: 4 / 7; }
-  .md\:span-4-7 {
+  .md\:spanx-4-7 {
     grid-column: 4 / 8; }
-  .md\:span-4-8 {
+  .md\:spanx-4-8 {
     grid-column: 4 / 9; }
-  .md\:span-4-9 {
+  .md\:spanx-4-9 {
     grid-column: 4 / 10; }
-  .md\:span-4-10 {
+  .md\:spanx-4-10 {
     grid-column: 4 / 11; }
-  .md\:span-4-11 {
+  .md\:spanx-4-11 {
     grid-column: 4 / 12; }
-  .md\:span-4-12 {
+  .md\:spanx-4-12 {
     grid-column: 4 / 13; }
-  .md\:span-4-13 {
+  .md\:spanx-4-13 {
     grid-column: 4 / 14; }
-  .md\:span-4-14 {
+  .md\:spanx-4-14 {
     grid-column: 4 / 15; }
-  .md\:span-4-15 {
+  .md\:spanx-4-15 {
     grid-column: 4 / 16; }
-  .md\:span-4\.\. {
+  .md\:spanx-4\.\. {
     grid-column: 4 / -1; }
-  .md\:span-5-5 {
+  .md\:spanx-5-5 {
     grid-column: 5 / 6; }
-  .md\:span-5-6 {
+  .md\:spanx-5-6 {
     grid-column: 5 / 7; }
-  .md\:span-5-7 {
+  .md\:spanx-5-7 {
     grid-column: 5 / 8; }
-  .md\:span-5-8 {
+  .md\:spanx-5-8 {
     grid-column: 5 / 9; }
-  .md\:span-5-9 {
+  .md\:spanx-5-9 {
     grid-column: 5 / 10; }
-  .md\:span-5-10 {
+  .md\:spanx-5-10 {
     grid-column: 5 / 11; }
-  .md\:span-5-11 {
+  .md\:spanx-5-11 {
     grid-column: 5 / 12; }
-  .md\:span-5-12 {
+  .md\:spanx-5-12 {
     grid-column: 5 / 13; }
-  .md\:span-5-13 {
+  .md\:spanx-5-13 {
     grid-column: 5 / 14; }
-  .md\:span-5-14 {
+  .md\:spanx-5-14 {
     grid-column: 5 / 15; }
-  .md\:span-5-15 {
+  .md\:spanx-5-15 {
     grid-column: 5 / 16; }
-  .md\:span-5\.\. {
+  .md\:spanx-5\.\. {
     grid-column: 5 / -1; }
-  .md\:span-6-6 {
+  .md\:spanx-6-6 {
     grid-column: 6 / 7; }
-  .md\:span-6-7 {
+  .md\:spanx-6-7 {
     grid-column: 6 / 8; }
-  .md\:span-6-8 {
+  .md\:spanx-6-8 {
     grid-column: 6 / 9; }
-  .md\:span-6-9 {
+  .md\:spanx-6-9 {
     grid-column: 6 / 10; }
-  .md\:span-6-10 {
+  .md\:spanx-6-10 {
     grid-column: 6 / 11; }
-  .md\:span-6-11 {
+  .md\:spanx-6-11 {
     grid-column: 6 / 12; }
-  .md\:span-6-12 {
+  .md\:spanx-6-12 {
     grid-column: 6 / 13; }
-  .md\:span-6-13 {
+  .md\:spanx-6-13 {
     grid-column: 6 / 14; }
-  .md\:span-6-14 {
+  .md\:spanx-6-14 {
     grid-column: 6 / 15; }
-  .md\:span-6-15 {
+  .md\:spanx-6-15 {
     grid-column: 6 / 16; }
-  .md\:span-6\.\. {
+  .md\:spanx-6\.\. {
     grid-column: 6 / -1; }
-  .md\:span-7-7 {
+  .md\:spanx-7-7 {
     grid-column: 7 / 8; }
-  .md\:span-7-8 {
+  .md\:spanx-7-8 {
     grid-column: 7 / 9; }
-  .md\:span-7-9 {
+  .md\:spanx-7-9 {
     grid-column: 7 / 10; }
-  .md\:span-7-10 {
+  .md\:spanx-7-10 {
     grid-column: 7 / 11; }
-  .md\:span-7-11 {
+  .md\:spanx-7-11 {
     grid-column: 7 / 12; }
-  .md\:span-7-12 {
+  .md\:spanx-7-12 {
     grid-column: 7 / 13; }
-  .md\:span-7-13 {
+  .md\:spanx-7-13 {
     grid-column: 7 / 14; }
-  .md\:span-7-14 {
+  .md\:spanx-7-14 {
     grid-column: 7 / 15; }
-  .md\:span-7-15 {
+  .md\:spanx-7-15 {
     grid-column: 7 / 16; }
-  .md\:span-7\.\. {
+  .md\:spanx-7\.\. {
     grid-column: 7 / -1; }
-  .md\:span-8-8 {
+  .md\:spanx-8-8 {
     grid-column: 8 / 9; }
-  .md\:span-8-9 {
+  .md\:spanx-8-9 {
     grid-column: 8 / 10; }
-  .md\:span-8-10 {
+  .md\:spanx-8-10 {
     grid-column: 8 / 11; }
-  .md\:span-8-11 {
+  .md\:spanx-8-11 {
     grid-column: 8 / 12; }
-  .md\:span-8-12 {
+  .md\:spanx-8-12 {
     grid-column: 8 / 13; }
-  .md\:span-8-13 {
+  .md\:spanx-8-13 {
     grid-column: 8 / 14; }
-  .md\:span-8-14 {
+  .md\:spanx-8-14 {
     grid-column: 8 / 15; }
-  .md\:span-8-15 {
+  .md\:spanx-8-15 {
     grid-column: 8 / 16; }
-  .md\:span-8\.\. {
+  .md\:spanx-8\.\. {
     grid-column: 8 / -1; }
-  .md\:span-9-9 {
+  .md\:spanx-9-9 {
     grid-column: 9 / 10; }
-  .md\:span-9-10 {
+  .md\:spanx-9-10 {
     grid-column: 9 / 11; }
-  .md\:span-9-11 {
+  .md\:spanx-9-11 {
     grid-column: 9 / 12; }
-  .md\:span-9-12 {
+  .md\:spanx-9-12 {
     grid-column: 9 / 13; }
-  .md\:span-9-13 {
+  .md\:spanx-9-13 {
     grid-column: 9 / 14; }
-  .md\:span-9-14 {
+  .md\:spanx-9-14 {
     grid-column: 9 / 15; }
-  .md\:span-9-15 {
+  .md\:spanx-9-15 {
     grid-column: 9 / 16; }
-  .md\:span-9\.\. {
+  .md\:spanx-9\.\. {
     grid-column: 9 / -1; }
-  .md\:span-10-10 {
+  .md\:spanx-10-10 {
     grid-column: 10 / 11; }
-  .md\:span-10-11 {
+  .md\:spanx-10-11 {
     grid-column: 10 / 12; }
-  .md\:span-10-12 {
+  .md\:spanx-10-12 {
     grid-column: 10 / 13; }
-  .md\:span-10-13 {
+  .md\:spanx-10-13 {
     grid-column: 10 / 14; }
-  .md\:span-10-14 {
+  .md\:spanx-10-14 {
     grid-column: 10 / 15; }
-  .md\:span-10-15 {
+  .md\:spanx-10-15 {
     grid-column: 10 / 16; }
-  .md\:span-10\.\. {
+  .md\:spanx-10\.\. {
     grid-column: 10 / -1; }
-  .md\:span-11-11 {
+  .md\:spanx-11-11 {
     grid-column: 11 / 12; }
-  .md\:span-11-12 {
+  .md\:spanx-11-12 {
     grid-column: 11 / 13; }
-  .md\:span-11-13 {
+  .md\:spanx-11-13 {
     grid-column: 11 / 14; }
-  .md\:span-11-14 {
+  .md\:spanx-11-14 {
     grid-column: 11 / 15; }
-  .md\:span-11-15 {
+  .md\:spanx-11-15 {
     grid-column: 11 / 16; }
-  .md\:span-11\.\. {
+  .md\:spanx-11\.\. {
     grid-column: 11 / -1; }
-  .md\:span-12-12 {
+  .md\:spanx-12-12 {
     grid-column: 12 / 13; }
-  .md\:span-12-13 {
+  .md\:spanx-12-13 {
     grid-column: 12 / 14; }
-  .md\:span-12-14 {
+  .md\:spanx-12-14 {
     grid-column: 12 / 15; }
-  .md\:span-12-15 {
+  .md\:spanx-12-15 {
     grid-column: 12 / 16; }
-  .md\:span-12\.\. {
+  .md\:spanx-12\.\. {
     grid-column: 12 / -1; }
-  .md\:span-13-13 {
+  .md\:spanx-13-13 {
     grid-column: 13 / 14; }
-  .md\:span-13-14 {
+  .md\:spanx-13-14 {
     grid-column: 13 / 15; }
-  .md\:span-13-15 {
+  .md\:spanx-13-15 {
     grid-column: 13 / 16; }
-  .md\:span-13\.\. {
+  .md\:spanx-13\.\. {
     grid-column: 13 / -1; }
-  .md\:span-14-14 {
+  .md\:spanx-14-14 {
     grid-column: 14 / 15; }
-  .md\:span-14-15 {
+  .md\:spanx-14-15 {
     grid-column: 14 / 16; }
-  .md\:span-14\.\. {
+  .md\:spanx-14\.\. {
     grid-column: 14 / -1; }
-  .md\:span-15-15 {
+  .md\:spanx-15-15 {
     grid-column: 15 / 16; }
-  .md\:span-15\.\. {
+  .md\:spanx-15\.\. {
     grid-column: 15 / -1; }
-  .md\:span-1\+1 {
+  .md\:spanx-1\+1 {
     grid-column: 1 / span 1; }
-  .md\:span-1\+2 {
+  .md\:spanx-1\+2 {
     grid-column: 1 / span 2; }
-  .md\:span-1\+3 {
+  .md\:spanx-1\+3 {
     grid-column: 1 / span 3; }
-  .md\:span-1\+4 {
+  .md\:spanx-1\+4 {
     grid-column: 1 / span 4; }
-  .md\:span-1\+5 {
+  .md\:spanx-1\+5 {
     grid-column: 1 / span 5; }
-  .md\:span-1\+6 {
+  .md\:spanx-1\+6 {
     grid-column: 1 / span 6; }
-  .md\:span-1\+7 {
+  .md\:spanx-1\+7 {
     grid-column: 1 / span 7; }
-  .md\:span-1\+8 {
+  .md\:spanx-1\+8 {
     grid-column: 1 / span 8; }
-  .md\:span-1\+9 {
+  .md\:spanx-1\+9 {
     grid-column: 1 / span 9; }
-  .md\:span-1\+10 {
+  .md\:spanx-1\+10 {
     grid-column: 1 / span 10; }
-  .md\:span-1\+11 {
+  .md\:spanx-1\+11 {
     grid-column: 1 / span 11; }
-  .md\:span-1\+12 {
+  .md\:spanx-1\+12 {
     grid-column: 1 / span 12; }
-  .md\:span-1\+13 {
+  .md\:spanx-1\+13 {
     grid-column: 1 / span 13; }
-  .md\:span-1\+14 {
+  .md\:spanx-1\+14 {
     grid-column: 1 / span 14; }
-  .md\:span-2\+1 {
+  .md\:spanx-2\+1 {
     grid-column: 2 / span 1; }
-  .md\:span-2\+2 {
+  .md\:spanx-2\+2 {
     grid-column: 2 / span 2; }
-  .md\:span-2\+3 {
+  .md\:spanx-2\+3 {
     grid-column: 2 / span 3; }
-  .md\:span-2\+4 {
+  .md\:spanx-2\+4 {
     grid-column: 2 / span 4; }
-  .md\:span-2\+5 {
+  .md\:spanx-2\+5 {
     grid-column: 2 / span 5; }
-  .md\:span-2\+6 {
+  .md\:spanx-2\+6 {
     grid-column: 2 / span 6; }
-  .md\:span-2\+7 {
+  .md\:spanx-2\+7 {
     grid-column: 2 / span 7; }
-  .md\:span-2\+8 {
+  .md\:spanx-2\+8 {
     grid-column: 2 / span 8; }
-  .md\:span-2\+9 {
+  .md\:spanx-2\+9 {
     grid-column: 2 / span 9; }
-  .md\:span-2\+10 {
+  .md\:spanx-2\+10 {
     grid-column: 2 / span 10; }
-  .md\:span-2\+11 {
+  .md\:spanx-2\+11 {
     grid-column: 2 / span 11; }
-  .md\:span-2\+12 {
+  .md\:spanx-2\+12 {
     grid-column: 2 / span 12; }
-  .md\:span-2\+13 {
+  .md\:spanx-2\+13 {
     grid-column: 2 / span 13; }
-  .md\:span-3\+1 {
+  .md\:spanx-3\+1 {
     grid-column: 3 / span 1; }
-  .md\:span-3\+2 {
+  .md\:spanx-3\+2 {
     grid-column: 3 / span 2; }
-  .md\:span-3\+3 {
+  .md\:spanx-3\+3 {
     grid-column: 3 / span 3; }
-  .md\:span-3\+4 {
+  .md\:spanx-3\+4 {
     grid-column: 3 / span 4; }
-  .md\:span-3\+5 {
+  .md\:spanx-3\+5 {
     grid-column: 3 / span 5; }
-  .md\:span-3\+6 {
+  .md\:spanx-3\+6 {
     grid-column: 3 / span 6; }
-  .md\:span-3\+7 {
+  .md\:spanx-3\+7 {
     grid-column: 3 / span 7; }
-  .md\:span-3\+8 {
+  .md\:spanx-3\+8 {
     grid-column: 3 / span 8; }
-  .md\:span-3\+9 {
+  .md\:spanx-3\+9 {
     grid-column: 3 / span 9; }
-  .md\:span-3\+10 {
+  .md\:spanx-3\+10 {
     grid-column: 3 / span 10; }
-  .md\:span-3\+11 {
+  .md\:spanx-3\+11 {
     grid-column: 3 / span 11; }
-  .md\:span-3\+12 {
+  .md\:spanx-3\+12 {
     grid-column: 3 / span 12; }
-  .md\:span-4\+1 {
+  .md\:spanx-4\+1 {
     grid-column: 4 / span 1; }
-  .md\:span-4\+2 {
+  .md\:spanx-4\+2 {
     grid-column: 4 / span 2; }
-  .md\:span-4\+3 {
+  .md\:spanx-4\+3 {
     grid-column: 4 / span 3; }
-  .md\:span-4\+4 {
+  .md\:spanx-4\+4 {
     grid-column: 4 / span 4; }
-  .md\:span-4\+5 {
+  .md\:spanx-4\+5 {
     grid-column: 4 / span 5; }
-  .md\:span-4\+6 {
+  .md\:spanx-4\+6 {
     grid-column: 4 / span 6; }
-  .md\:span-4\+7 {
+  .md\:spanx-4\+7 {
     grid-column: 4 / span 7; }
-  .md\:span-4\+8 {
+  .md\:spanx-4\+8 {
     grid-column: 4 / span 8; }
-  .md\:span-4\+9 {
+  .md\:spanx-4\+9 {
     grid-column: 4 / span 9; }
-  .md\:span-4\+10 {
+  .md\:spanx-4\+10 {
     grid-column: 4 / span 10; }
-  .md\:span-4\+11 {
+  .md\:spanx-4\+11 {
     grid-column: 4 / span 11; }
-  .md\:span-5\+1 {
+  .md\:spanx-5\+1 {
     grid-column: 5 / span 1; }
-  .md\:span-5\+2 {
+  .md\:spanx-5\+2 {
     grid-column: 5 / span 2; }
-  .md\:span-5\+3 {
+  .md\:spanx-5\+3 {
     grid-column: 5 / span 3; }
-  .md\:span-5\+4 {
+  .md\:spanx-5\+4 {
     grid-column: 5 / span 4; }
-  .md\:span-5\+5 {
+  .md\:spanx-5\+5 {
     grid-column: 5 / span 5; }
-  .md\:span-5\+6 {
+  .md\:spanx-5\+6 {
     grid-column: 5 / span 6; }
-  .md\:span-5\+7 {
+  .md\:spanx-5\+7 {
     grid-column: 5 / span 7; }
-  .md\:span-5\+8 {
+  .md\:spanx-5\+8 {
     grid-column: 5 / span 8; }
-  .md\:span-5\+9 {
+  .md\:spanx-5\+9 {
     grid-column: 5 / span 9; }
-  .md\:span-5\+10 {
+  .md\:spanx-5\+10 {
     grid-column: 5 / span 10; }
-  .md\:span-6\+1 {
+  .md\:spanx-6\+1 {
     grid-column: 6 / span 1; }
-  .md\:span-6\+2 {
+  .md\:spanx-6\+2 {
     grid-column: 6 / span 2; }
-  .md\:span-6\+3 {
+  .md\:spanx-6\+3 {
     grid-column: 6 / span 3; }
-  .md\:span-6\+4 {
+  .md\:spanx-6\+4 {
     grid-column: 6 / span 4; }
-  .md\:span-6\+5 {
+  .md\:spanx-6\+5 {
     grid-column: 6 / span 5; }
-  .md\:span-6\+6 {
+  .md\:spanx-6\+6 {
     grid-column: 6 / span 6; }
-  .md\:span-6\+7 {
+  .md\:spanx-6\+7 {
     grid-column: 6 / span 7; }
-  .md\:span-6\+8 {
+  .md\:spanx-6\+8 {
     grid-column: 6 / span 8; }
-  .md\:span-6\+9 {
+  .md\:spanx-6\+9 {
     grid-column: 6 / span 9; }
-  .md\:span-7\+1 {
+  .md\:spanx-7\+1 {
     grid-column: 7 / span 1; }
-  .md\:span-7\+2 {
+  .md\:spanx-7\+2 {
     grid-column: 7 / span 2; }
-  .md\:span-7\+3 {
+  .md\:spanx-7\+3 {
     grid-column: 7 / span 3; }
-  .md\:span-7\+4 {
+  .md\:spanx-7\+4 {
     grid-column: 7 / span 4; }
-  .md\:span-7\+5 {
+  .md\:spanx-7\+5 {
     grid-column: 7 / span 5; }
-  .md\:span-7\+6 {
+  .md\:spanx-7\+6 {
     grid-column: 7 / span 6; }
-  .md\:span-7\+7 {
+  .md\:spanx-7\+7 {
     grid-column: 7 / span 7; }
-  .md\:span-7\+8 {
+  .md\:spanx-7\+8 {
     grid-column: 7 / span 8; }
-  .md\:span-8\+1 {
+  .md\:spanx-8\+1 {
     grid-column: 8 / span 1; }
-  .md\:span-8\+2 {
+  .md\:spanx-8\+2 {
     grid-column: 8 / span 2; }
-  .md\:span-8\+3 {
+  .md\:spanx-8\+3 {
     grid-column: 8 / span 3; }
-  .md\:span-8\+4 {
+  .md\:spanx-8\+4 {
     grid-column: 8 / span 4; }
-  .md\:span-8\+5 {
+  .md\:spanx-8\+5 {
     grid-column: 8 / span 5; }
-  .md\:span-8\+6 {
+  .md\:spanx-8\+6 {
     grid-column: 8 / span 6; }
-  .md\:span-8\+7 {
+  .md\:spanx-8\+7 {
     grid-column: 8 / span 7; }
-  .md\:span-9\+1 {
+  .md\:spanx-9\+1 {
     grid-column: 9 / span 1; }
-  .md\:span-9\+2 {
+  .md\:spanx-9\+2 {
     grid-column: 9 / span 2; }
-  .md\:span-9\+3 {
+  .md\:spanx-9\+3 {
     grid-column: 9 / span 3; }
-  .md\:span-9\+4 {
+  .md\:spanx-9\+4 {
     grid-column: 9 / span 4; }
-  .md\:span-9\+5 {
+  .md\:spanx-9\+5 {
     grid-column: 9 / span 5; }
-  .md\:span-9\+6 {
+  .md\:spanx-9\+6 {
     grid-column: 9 / span 6; }
-  .md\:span-10\+1 {
+  .md\:spanx-10\+1 {
     grid-column: 10 / span 1; }
-  .md\:span-10\+2 {
+  .md\:spanx-10\+2 {
     grid-column: 10 / span 2; }
-  .md\:span-10\+3 {
+  .md\:spanx-10\+3 {
     grid-column: 10 / span 3; }
-  .md\:span-10\+4 {
+  .md\:spanx-10\+4 {
     grid-column: 10 / span 4; }
-  .md\:span-10\+5 {
+  .md\:spanx-10\+5 {
     grid-column: 10 / span 5; }
-  .md\:span-11\+1 {
+  .md\:spanx-11\+1 {
     grid-column: 11 / span 1; }
-  .md\:span-11\+2 {
+  .md\:spanx-11\+2 {
     grid-column: 11 / span 2; }
-  .md\:span-11\+3 {
+  .md\:spanx-11\+3 {
     grid-column: 11 / span 3; }
-  .md\:span-11\+4 {
+  .md\:spanx-11\+4 {
     grid-column: 11 / span 4; }
-  .md\:span-12\+1 {
+  .md\:spanx-12\+1 {
     grid-column: 12 / span 1; }
-  .md\:span-12\+2 {
+  .md\:spanx-12\+2 {
     grid-column: 12 / span 2; }
-  .md\:span-12\+3 {
+  .md\:spanx-12\+3 {
     grid-column: 12 / span 3; }
-  .md\:span-13\+1 {
+  .md\:spanx-13\+1 {
     grid-column: 13 / span 1; }
-  .md\:span-13\+2 {
+  .md\:spanx-13\+2 {
     grid-column: 13 / span 2; }
-  .md\:span-14\+1 {
+  .md\:spanx-14\+1 {
     grid-column: 14 / span 1; }
-  .md\:span-15\+1 {
+  .md\:spanx-15\+1 {
     grid-column: 15 / span 1; }
-  .md\:span-15\+0 {
+  .md\:spanx-15\+0 {
     grid-column: 15 / span 0; }
-  .md\:span-row {
+  .md\:spanx-row {
     grid-column: 1 / -1; }
-  .md\:r-1 {
+  .md\:spany-1 {
     grid-row-end: span 1; }
-  .md\:r-2 {
+  .md\:spany-2 {
     grid-row-end: span 2; }
-  .md\:r-3 {
+  .md\:spany-3 {
     grid-row-end: span 3; }
-  .md\:r-4 {
+  .md\:spany-4 {
     grid-row-end: span 4; }
-  .md\:r-5 {
+  .md\:spany-5 {
     grid-row-end: span 5; }
-  .md\:r-6 {
+  .md\:spany-6 {
     grid-row-end: span 6; }
-  .md\:r-7 {
+  .md\:spany-7 {
     grid-row-end: span 7; }
-  .md\:r-8 {
+  .md\:spany-8 {
     grid-row-end: span 8; }
-  .md\:r-9 {
+  .md\:spany-9 {
     grid-row-end: span 9; }
-  .md\:r-10 {
+  .md\:spany-10 {
     grid-row-end: span 10; }
-  .md\:r-11 {
+  .md\:spany-11 {
     grid-row-end: span 11; }
-  .md\:r-12 {
+  .md\:spany-12 {
     grid-row-end: span 12; }
-  .md\:r-13 {
+  .md\:spany-13 {
     grid-row-end: span 13; }
-  .md\:r-14 {
+  .md\:spany-14 {
     grid-row-end: span 14; }
-  .md\:r-15 {
+  .md\:spany-15 {
     grid-row-end: span 15; }
   .md\:col {
     grid-row: 1 / -1; }
@@ -2581,621 +2581,621 @@
     grid-template-columns: max-content 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr; }
   .lg\:gap-0 {
     grid-gap: 0; }
-  .lg\:hgap-0 {
+  .lg\:gapx-0 {
     grid-column-gap: 0; }
-  .lg\:vgap-0 {
+  .lg\:gapy-0 {
     grid-row-gap: 0; }
   .lg\:gap-1 {
     grid-gap: 0.25rem; }
-  .lg\:hgap-1 {
+  .lg\:gapx-1 {
     grid-column-gap: 0.25rem; }
-  .lg\:vgap-1 {
+  .lg\:gapy-1 {
     grid-row-gap: 0.25rem; }
   .lg\:gap-2 {
     grid-gap: 0.5rem; }
-  .lg\:hgap-2 {
+  .lg\:gapx-2 {
     grid-column-gap: 0.5rem; }
-  .lg\:vgap-2 {
+  .lg\:gapy-2 {
     grid-row-gap: 0.5rem; }
   .lg\:gap-3 {
     grid-gap: 0.75rem; }
-  .lg\:hgap-3 {
+  .lg\:gapx-3 {
     grid-column-gap: 0.75rem; }
-  .lg\:vgap-3 {
+  .lg\:gapy-3 {
     grid-row-gap: 0.75rem; }
   .lg\:gap-4 {
     grid-gap: 1rem; }
-  .lg\:hgap-4 {
+  .lg\:gapx-4 {
     grid-column-gap: 1rem; }
-  .lg\:vgap-4 {
+  .lg\:gapy-4 {
     grid-row-gap: 1rem; }
   .lg\:gap-5 {
     grid-gap: 1.25rem; }
-  .lg\:hgap-5 {
+  .lg\:gapx-5 {
     grid-column-gap: 1.25rem; }
-  .lg\:vgap-5 {
+  .lg\:gapy-5 {
     grid-row-gap: 1.25rem; }
   .lg\:gap-6 {
     grid-gap: 1.5rem; }
-  .lg\:hgap-6 {
+  .lg\:gapx-6 {
     grid-column-gap: 1.5rem; }
-  .lg\:vgap-6 {
+  .lg\:gapy-6 {
     grid-row-gap: 1.5rem; }
   .lg\:gap-8 {
     grid-gap: 2rem; }
-  .lg\:hgap-8 {
+  .lg\:gapx-8 {
     grid-column-gap: 2rem; }
-  .lg\:vgap-8 {
+  .lg\:gapy-8 {
     grid-row-gap: 2rem; }
   .lg\:gap-10 {
     grid-gap: 2.5rem; }
-  .lg\:hgap-10 {
+  .lg\:gapx-10 {
     grid-column-gap: 2.5rem; }
-  .lg\:vgap-10 {
+  .lg\:gapy-10 {
     grid-row-gap: 2.5rem; }
   .lg\:gap-12 {
     grid-gap: 3rem; }
-  .lg\:hgap-12 {
+  .lg\:gapx-12 {
     grid-column-gap: 3rem; }
-  .lg\:vgap-12 {
+  .lg\:gapy-12 {
     grid-row-gap: 3rem; }
   .lg\:gap-16 {
     grid-gap: 4rem; }
-  .lg\:hgap-16 {
+  .lg\:gapx-16 {
     grid-column-gap: 4rem; }
-  .lg\:vgap-16 {
+  .lg\:gapy-16 {
     grid-row-gap: 4rem; }
   .lg\:gap-20 {
     grid-gap: 5rem; }
-  .lg\:hgap-20 {
+  .lg\:gapx-20 {
     grid-column-gap: 5rem; }
-  .lg\:vgap-20 {
+  .lg\:gapy-20 {
     grid-row-gap: 5rem; }
-  .lg\:span-1 {
+  .lg\:spanx-1 {
     grid-column: auto/span 1; }
-  .lg\:span-2 {
+  .lg\:spanx-2 {
     grid-column: auto/span 2; }
-  .lg\:span-3 {
+  .lg\:spanx-3 {
     grid-column: auto/span 3; }
-  .lg\:span-4 {
+  .lg\:spanx-4 {
     grid-column: auto/span 4; }
-  .lg\:span-5 {
+  .lg\:spanx-5 {
     grid-column: auto/span 5; }
-  .lg\:span-6 {
+  .lg\:spanx-6 {
     grid-column: auto/span 6; }
-  .lg\:span-7 {
+  .lg\:spanx-7 {
     grid-column: auto/span 7; }
-  .lg\:span-8 {
+  .lg\:spanx-8 {
     grid-column: auto/span 8; }
-  .lg\:span-9 {
+  .lg\:spanx-9 {
     grid-column: auto/span 9; }
-  .lg\:span-10 {
+  .lg\:spanx-10 {
     grid-column: auto/span 10; }
-  .lg\:span-11 {
+  .lg\:spanx-11 {
     grid-column: auto/span 11; }
-  .lg\:span-12 {
+  .lg\:spanx-12 {
     grid-column: auto/span 12; }
-  .lg\:span-13 {
+  .lg\:spanx-13 {
     grid-column: auto/span 13; }
-  .lg\:span-14 {
+  .lg\:spanx-14 {
     grid-column: auto/span 14; }
-  .lg\:span-15 {
+  .lg\:spanx-15 {
     grid-column: auto/span 15; }
-  .lg\:span-1-1 {
+  .lg\:spanx-1-1 {
     grid-column: 1 / 2; }
-  .lg\:span-1-2 {
+  .lg\:spanx-1-2 {
     grid-column: 1 / 3; }
-  .lg\:span-1-3 {
+  .lg\:spanx-1-3 {
     grid-column: 1 / 4; }
-  .lg\:span-1-4 {
+  .lg\:spanx-1-4 {
     grid-column: 1 / 5; }
-  .lg\:span-1-5 {
+  .lg\:spanx-1-5 {
     grid-column: 1 / 6; }
-  .lg\:span-1-6 {
+  .lg\:spanx-1-6 {
     grid-column: 1 / 7; }
-  .lg\:span-1-7 {
+  .lg\:spanx-1-7 {
     grid-column: 1 / 8; }
-  .lg\:span-1-8 {
+  .lg\:spanx-1-8 {
     grid-column: 1 / 9; }
-  .lg\:span-1-9 {
+  .lg\:spanx-1-9 {
     grid-column: 1 / 10; }
-  .lg\:span-1-10 {
+  .lg\:spanx-1-10 {
     grid-column: 1 / 11; }
-  .lg\:span-1-11 {
+  .lg\:spanx-1-11 {
     grid-column: 1 / 12; }
-  .lg\:span-1-12 {
+  .lg\:spanx-1-12 {
     grid-column: 1 / 13; }
-  .lg\:span-1-13 {
+  .lg\:spanx-1-13 {
     grid-column: 1 / 14; }
-  .lg\:span-1-14 {
+  .lg\:spanx-1-14 {
     grid-column: 1 / 15; }
-  .lg\:span-1-15 {
+  .lg\:spanx-1-15 {
     grid-column: 1 / 16; }
-  .lg\:span-1\.\. {
+  .lg\:spanx-1\.\. {
     grid-column: 1 / -1; }
-  .lg\:span-2-2 {
+  .lg\:spanx-2-2 {
     grid-column: 2 / 3; }
-  .lg\:span-2-3 {
+  .lg\:spanx-2-3 {
     grid-column: 2 / 4; }
-  .lg\:span-2-4 {
+  .lg\:spanx-2-4 {
     grid-column: 2 / 5; }
-  .lg\:span-2-5 {
+  .lg\:spanx-2-5 {
     grid-column: 2 / 6; }
-  .lg\:span-2-6 {
+  .lg\:spanx-2-6 {
     grid-column: 2 / 7; }
-  .lg\:span-2-7 {
+  .lg\:spanx-2-7 {
     grid-column: 2 / 8; }
-  .lg\:span-2-8 {
+  .lg\:spanx-2-8 {
     grid-column: 2 / 9; }
-  .lg\:span-2-9 {
+  .lg\:spanx-2-9 {
     grid-column: 2 / 10; }
-  .lg\:span-2-10 {
+  .lg\:spanx-2-10 {
     grid-column: 2 / 11; }
-  .lg\:span-2-11 {
+  .lg\:spanx-2-11 {
     grid-column: 2 / 12; }
-  .lg\:span-2-12 {
+  .lg\:spanx-2-12 {
     grid-column: 2 / 13; }
-  .lg\:span-2-13 {
+  .lg\:spanx-2-13 {
     grid-column: 2 / 14; }
-  .lg\:span-2-14 {
+  .lg\:spanx-2-14 {
     grid-column: 2 / 15; }
-  .lg\:span-2-15 {
+  .lg\:spanx-2-15 {
     grid-column: 2 / 16; }
-  .lg\:span-2\.\. {
+  .lg\:spanx-2\.\. {
     grid-column: 2 / -1; }
-  .lg\:span-3-3 {
+  .lg\:spanx-3-3 {
     grid-column: 3 / 4; }
-  .lg\:span-3-4 {
+  .lg\:spanx-3-4 {
     grid-column: 3 / 5; }
-  .lg\:span-3-5 {
+  .lg\:spanx-3-5 {
     grid-column: 3 / 6; }
-  .lg\:span-3-6 {
+  .lg\:spanx-3-6 {
     grid-column: 3 / 7; }
-  .lg\:span-3-7 {
+  .lg\:spanx-3-7 {
     grid-column: 3 / 8; }
-  .lg\:span-3-8 {
+  .lg\:spanx-3-8 {
     grid-column: 3 / 9; }
-  .lg\:span-3-9 {
+  .lg\:spanx-3-9 {
     grid-column: 3 / 10; }
-  .lg\:span-3-10 {
+  .lg\:spanx-3-10 {
     grid-column: 3 / 11; }
-  .lg\:span-3-11 {
+  .lg\:spanx-3-11 {
     grid-column: 3 / 12; }
-  .lg\:span-3-12 {
+  .lg\:spanx-3-12 {
     grid-column: 3 / 13; }
-  .lg\:span-3-13 {
+  .lg\:spanx-3-13 {
     grid-column: 3 / 14; }
-  .lg\:span-3-14 {
+  .lg\:spanx-3-14 {
     grid-column: 3 / 15; }
-  .lg\:span-3-15 {
+  .lg\:spanx-3-15 {
     grid-column: 3 / 16; }
-  .lg\:span-3\.\. {
+  .lg\:spanx-3\.\. {
     grid-column: 3 / -1; }
-  .lg\:span-4-4 {
+  .lg\:spanx-4-4 {
     grid-column: 4 / 5; }
-  .lg\:span-4-5 {
+  .lg\:spanx-4-5 {
     grid-column: 4 / 6; }
-  .lg\:span-4-6 {
+  .lg\:spanx-4-6 {
     grid-column: 4 / 7; }
-  .lg\:span-4-7 {
+  .lg\:spanx-4-7 {
     grid-column: 4 / 8; }
-  .lg\:span-4-8 {
+  .lg\:spanx-4-8 {
     grid-column: 4 / 9; }
-  .lg\:span-4-9 {
+  .lg\:spanx-4-9 {
     grid-column: 4 / 10; }
-  .lg\:span-4-10 {
+  .lg\:spanx-4-10 {
     grid-column: 4 / 11; }
-  .lg\:span-4-11 {
+  .lg\:spanx-4-11 {
     grid-column: 4 / 12; }
-  .lg\:span-4-12 {
+  .lg\:spanx-4-12 {
     grid-column: 4 / 13; }
-  .lg\:span-4-13 {
+  .lg\:spanx-4-13 {
     grid-column: 4 / 14; }
-  .lg\:span-4-14 {
+  .lg\:spanx-4-14 {
     grid-column: 4 / 15; }
-  .lg\:span-4-15 {
+  .lg\:spanx-4-15 {
     grid-column: 4 / 16; }
-  .lg\:span-4\.\. {
+  .lg\:spanx-4\.\. {
     grid-column: 4 / -1; }
-  .lg\:span-5-5 {
+  .lg\:spanx-5-5 {
     grid-column: 5 / 6; }
-  .lg\:span-5-6 {
+  .lg\:spanx-5-6 {
     grid-column: 5 / 7; }
-  .lg\:span-5-7 {
+  .lg\:spanx-5-7 {
     grid-column: 5 / 8; }
-  .lg\:span-5-8 {
+  .lg\:spanx-5-8 {
     grid-column: 5 / 9; }
-  .lg\:span-5-9 {
+  .lg\:spanx-5-9 {
     grid-column: 5 / 10; }
-  .lg\:span-5-10 {
+  .lg\:spanx-5-10 {
     grid-column: 5 / 11; }
-  .lg\:span-5-11 {
+  .lg\:spanx-5-11 {
     grid-column: 5 / 12; }
-  .lg\:span-5-12 {
+  .lg\:spanx-5-12 {
     grid-column: 5 / 13; }
-  .lg\:span-5-13 {
+  .lg\:spanx-5-13 {
     grid-column: 5 / 14; }
-  .lg\:span-5-14 {
+  .lg\:spanx-5-14 {
     grid-column: 5 / 15; }
-  .lg\:span-5-15 {
+  .lg\:spanx-5-15 {
     grid-column: 5 / 16; }
-  .lg\:span-5\.\. {
+  .lg\:spanx-5\.\. {
     grid-column: 5 / -1; }
-  .lg\:span-6-6 {
+  .lg\:spanx-6-6 {
     grid-column: 6 / 7; }
-  .lg\:span-6-7 {
+  .lg\:spanx-6-7 {
     grid-column: 6 / 8; }
-  .lg\:span-6-8 {
+  .lg\:spanx-6-8 {
     grid-column: 6 / 9; }
-  .lg\:span-6-9 {
+  .lg\:spanx-6-9 {
     grid-column: 6 / 10; }
-  .lg\:span-6-10 {
+  .lg\:spanx-6-10 {
     grid-column: 6 / 11; }
-  .lg\:span-6-11 {
+  .lg\:spanx-6-11 {
     grid-column: 6 / 12; }
-  .lg\:span-6-12 {
+  .lg\:spanx-6-12 {
     grid-column: 6 / 13; }
-  .lg\:span-6-13 {
+  .lg\:spanx-6-13 {
     grid-column: 6 / 14; }
-  .lg\:span-6-14 {
+  .lg\:spanx-6-14 {
     grid-column: 6 / 15; }
-  .lg\:span-6-15 {
+  .lg\:spanx-6-15 {
     grid-column: 6 / 16; }
-  .lg\:span-6\.\. {
+  .lg\:spanx-6\.\. {
     grid-column: 6 / -1; }
-  .lg\:span-7-7 {
+  .lg\:spanx-7-7 {
     grid-column: 7 / 8; }
-  .lg\:span-7-8 {
+  .lg\:spanx-7-8 {
     grid-column: 7 / 9; }
-  .lg\:span-7-9 {
+  .lg\:spanx-7-9 {
     grid-column: 7 / 10; }
-  .lg\:span-7-10 {
+  .lg\:spanx-7-10 {
     grid-column: 7 / 11; }
-  .lg\:span-7-11 {
+  .lg\:spanx-7-11 {
     grid-column: 7 / 12; }
-  .lg\:span-7-12 {
+  .lg\:spanx-7-12 {
     grid-column: 7 / 13; }
-  .lg\:span-7-13 {
+  .lg\:spanx-7-13 {
     grid-column: 7 / 14; }
-  .lg\:span-7-14 {
+  .lg\:spanx-7-14 {
     grid-column: 7 / 15; }
-  .lg\:span-7-15 {
+  .lg\:spanx-7-15 {
     grid-column: 7 / 16; }
-  .lg\:span-7\.\. {
+  .lg\:spanx-7\.\. {
     grid-column: 7 / -1; }
-  .lg\:span-8-8 {
+  .lg\:spanx-8-8 {
     grid-column: 8 / 9; }
-  .lg\:span-8-9 {
+  .lg\:spanx-8-9 {
     grid-column: 8 / 10; }
-  .lg\:span-8-10 {
+  .lg\:spanx-8-10 {
     grid-column: 8 / 11; }
-  .lg\:span-8-11 {
+  .lg\:spanx-8-11 {
     grid-column: 8 / 12; }
-  .lg\:span-8-12 {
+  .lg\:spanx-8-12 {
     grid-column: 8 / 13; }
-  .lg\:span-8-13 {
+  .lg\:spanx-8-13 {
     grid-column: 8 / 14; }
-  .lg\:span-8-14 {
+  .lg\:spanx-8-14 {
     grid-column: 8 / 15; }
-  .lg\:span-8-15 {
+  .lg\:spanx-8-15 {
     grid-column: 8 / 16; }
-  .lg\:span-8\.\. {
+  .lg\:spanx-8\.\. {
     grid-column: 8 / -1; }
-  .lg\:span-9-9 {
+  .lg\:spanx-9-9 {
     grid-column: 9 / 10; }
-  .lg\:span-9-10 {
+  .lg\:spanx-9-10 {
     grid-column: 9 / 11; }
-  .lg\:span-9-11 {
+  .lg\:spanx-9-11 {
     grid-column: 9 / 12; }
-  .lg\:span-9-12 {
+  .lg\:spanx-9-12 {
     grid-column: 9 / 13; }
-  .lg\:span-9-13 {
+  .lg\:spanx-9-13 {
     grid-column: 9 / 14; }
-  .lg\:span-9-14 {
+  .lg\:spanx-9-14 {
     grid-column: 9 / 15; }
-  .lg\:span-9-15 {
+  .lg\:spanx-9-15 {
     grid-column: 9 / 16; }
-  .lg\:span-9\.\. {
+  .lg\:spanx-9\.\. {
     grid-column: 9 / -1; }
-  .lg\:span-10-10 {
+  .lg\:spanx-10-10 {
     grid-column: 10 / 11; }
-  .lg\:span-10-11 {
+  .lg\:spanx-10-11 {
     grid-column: 10 / 12; }
-  .lg\:span-10-12 {
+  .lg\:spanx-10-12 {
     grid-column: 10 / 13; }
-  .lg\:span-10-13 {
+  .lg\:spanx-10-13 {
     grid-column: 10 / 14; }
-  .lg\:span-10-14 {
+  .lg\:spanx-10-14 {
     grid-column: 10 / 15; }
-  .lg\:span-10-15 {
+  .lg\:spanx-10-15 {
     grid-column: 10 / 16; }
-  .lg\:span-10\.\. {
+  .lg\:spanx-10\.\. {
     grid-column: 10 / -1; }
-  .lg\:span-11-11 {
+  .lg\:spanx-11-11 {
     grid-column: 11 / 12; }
-  .lg\:span-11-12 {
+  .lg\:spanx-11-12 {
     grid-column: 11 / 13; }
-  .lg\:span-11-13 {
+  .lg\:spanx-11-13 {
     grid-column: 11 / 14; }
-  .lg\:span-11-14 {
+  .lg\:spanx-11-14 {
     grid-column: 11 / 15; }
-  .lg\:span-11-15 {
+  .lg\:spanx-11-15 {
     grid-column: 11 / 16; }
-  .lg\:span-11\.\. {
+  .lg\:spanx-11\.\. {
     grid-column: 11 / -1; }
-  .lg\:span-12-12 {
+  .lg\:spanx-12-12 {
     grid-column: 12 / 13; }
-  .lg\:span-12-13 {
+  .lg\:spanx-12-13 {
     grid-column: 12 / 14; }
-  .lg\:span-12-14 {
+  .lg\:spanx-12-14 {
     grid-column: 12 / 15; }
-  .lg\:span-12-15 {
+  .lg\:spanx-12-15 {
     grid-column: 12 / 16; }
-  .lg\:span-12\.\. {
+  .lg\:spanx-12\.\. {
     grid-column: 12 / -1; }
-  .lg\:span-13-13 {
+  .lg\:spanx-13-13 {
     grid-column: 13 / 14; }
-  .lg\:span-13-14 {
+  .lg\:spanx-13-14 {
     grid-column: 13 / 15; }
-  .lg\:span-13-15 {
+  .lg\:spanx-13-15 {
     grid-column: 13 / 16; }
-  .lg\:span-13\.\. {
+  .lg\:spanx-13\.\. {
     grid-column: 13 / -1; }
-  .lg\:span-14-14 {
+  .lg\:spanx-14-14 {
     grid-column: 14 / 15; }
-  .lg\:span-14-15 {
+  .lg\:spanx-14-15 {
     grid-column: 14 / 16; }
-  .lg\:span-14\.\. {
+  .lg\:spanx-14\.\. {
     grid-column: 14 / -1; }
-  .lg\:span-15-15 {
+  .lg\:spanx-15-15 {
     grid-column: 15 / 16; }
-  .lg\:span-15\.\. {
+  .lg\:spanx-15\.\. {
     grid-column: 15 / -1; }
-  .lg\:span-1\+1 {
+  .lg\:spanx-1\+1 {
     grid-column: 1 / span 1; }
-  .lg\:span-1\+2 {
+  .lg\:spanx-1\+2 {
     grid-column: 1 / span 2; }
-  .lg\:span-1\+3 {
+  .lg\:spanx-1\+3 {
     grid-column: 1 / span 3; }
-  .lg\:span-1\+4 {
+  .lg\:spanx-1\+4 {
     grid-column: 1 / span 4; }
-  .lg\:span-1\+5 {
+  .lg\:spanx-1\+5 {
     grid-column: 1 / span 5; }
-  .lg\:span-1\+6 {
+  .lg\:spanx-1\+6 {
     grid-column: 1 / span 6; }
-  .lg\:span-1\+7 {
+  .lg\:spanx-1\+7 {
     grid-column: 1 / span 7; }
-  .lg\:span-1\+8 {
+  .lg\:spanx-1\+8 {
     grid-column: 1 / span 8; }
-  .lg\:span-1\+9 {
+  .lg\:spanx-1\+9 {
     grid-column: 1 / span 9; }
-  .lg\:span-1\+10 {
+  .lg\:spanx-1\+10 {
     grid-column: 1 / span 10; }
-  .lg\:span-1\+11 {
+  .lg\:spanx-1\+11 {
     grid-column: 1 / span 11; }
-  .lg\:span-1\+12 {
+  .lg\:spanx-1\+12 {
     grid-column: 1 / span 12; }
-  .lg\:span-1\+13 {
+  .lg\:spanx-1\+13 {
     grid-column: 1 / span 13; }
-  .lg\:span-1\+14 {
+  .lg\:spanx-1\+14 {
     grid-column: 1 / span 14; }
-  .lg\:span-2\+1 {
+  .lg\:spanx-2\+1 {
     grid-column: 2 / span 1; }
-  .lg\:span-2\+2 {
+  .lg\:spanx-2\+2 {
     grid-column: 2 / span 2; }
-  .lg\:span-2\+3 {
+  .lg\:spanx-2\+3 {
     grid-column: 2 / span 3; }
-  .lg\:span-2\+4 {
+  .lg\:spanx-2\+4 {
     grid-column: 2 / span 4; }
-  .lg\:span-2\+5 {
+  .lg\:spanx-2\+5 {
     grid-column: 2 / span 5; }
-  .lg\:span-2\+6 {
+  .lg\:spanx-2\+6 {
     grid-column: 2 / span 6; }
-  .lg\:span-2\+7 {
+  .lg\:spanx-2\+7 {
     grid-column: 2 / span 7; }
-  .lg\:span-2\+8 {
+  .lg\:spanx-2\+8 {
     grid-column: 2 / span 8; }
-  .lg\:span-2\+9 {
+  .lg\:spanx-2\+9 {
     grid-column: 2 / span 9; }
-  .lg\:span-2\+10 {
+  .lg\:spanx-2\+10 {
     grid-column: 2 / span 10; }
-  .lg\:span-2\+11 {
+  .lg\:spanx-2\+11 {
     grid-column: 2 / span 11; }
-  .lg\:span-2\+12 {
+  .lg\:spanx-2\+12 {
     grid-column: 2 / span 12; }
-  .lg\:span-2\+13 {
+  .lg\:spanx-2\+13 {
     grid-column: 2 / span 13; }
-  .lg\:span-3\+1 {
+  .lg\:spanx-3\+1 {
     grid-column: 3 / span 1; }
-  .lg\:span-3\+2 {
+  .lg\:spanx-3\+2 {
     grid-column: 3 / span 2; }
-  .lg\:span-3\+3 {
+  .lg\:spanx-3\+3 {
     grid-column: 3 / span 3; }
-  .lg\:span-3\+4 {
+  .lg\:spanx-3\+4 {
     grid-column: 3 / span 4; }
-  .lg\:span-3\+5 {
+  .lg\:spanx-3\+5 {
     grid-column: 3 / span 5; }
-  .lg\:span-3\+6 {
+  .lg\:spanx-3\+6 {
     grid-column: 3 / span 6; }
-  .lg\:span-3\+7 {
+  .lg\:spanx-3\+7 {
     grid-column: 3 / span 7; }
-  .lg\:span-3\+8 {
+  .lg\:spanx-3\+8 {
     grid-column: 3 / span 8; }
-  .lg\:span-3\+9 {
+  .lg\:spanx-3\+9 {
     grid-column: 3 / span 9; }
-  .lg\:span-3\+10 {
+  .lg\:spanx-3\+10 {
     grid-column: 3 / span 10; }
-  .lg\:span-3\+11 {
+  .lg\:spanx-3\+11 {
     grid-column: 3 / span 11; }
-  .lg\:span-3\+12 {
+  .lg\:spanx-3\+12 {
     grid-column: 3 / span 12; }
-  .lg\:span-4\+1 {
+  .lg\:spanx-4\+1 {
     grid-column: 4 / span 1; }
-  .lg\:span-4\+2 {
+  .lg\:spanx-4\+2 {
     grid-column: 4 / span 2; }
-  .lg\:span-4\+3 {
+  .lg\:spanx-4\+3 {
     grid-column: 4 / span 3; }
-  .lg\:span-4\+4 {
+  .lg\:spanx-4\+4 {
     grid-column: 4 / span 4; }
-  .lg\:span-4\+5 {
+  .lg\:spanx-4\+5 {
     grid-column: 4 / span 5; }
-  .lg\:span-4\+6 {
+  .lg\:spanx-4\+6 {
     grid-column: 4 / span 6; }
-  .lg\:span-4\+7 {
+  .lg\:spanx-4\+7 {
     grid-column: 4 / span 7; }
-  .lg\:span-4\+8 {
+  .lg\:spanx-4\+8 {
     grid-column: 4 / span 8; }
-  .lg\:span-4\+9 {
+  .lg\:spanx-4\+9 {
     grid-column: 4 / span 9; }
-  .lg\:span-4\+10 {
+  .lg\:spanx-4\+10 {
     grid-column: 4 / span 10; }
-  .lg\:span-4\+11 {
+  .lg\:spanx-4\+11 {
     grid-column: 4 / span 11; }
-  .lg\:span-5\+1 {
+  .lg\:spanx-5\+1 {
     grid-column: 5 / span 1; }
-  .lg\:span-5\+2 {
+  .lg\:spanx-5\+2 {
     grid-column: 5 / span 2; }
-  .lg\:span-5\+3 {
+  .lg\:spanx-5\+3 {
     grid-column: 5 / span 3; }
-  .lg\:span-5\+4 {
+  .lg\:spanx-5\+4 {
     grid-column: 5 / span 4; }
-  .lg\:span-5\+5 {
+  .lg\:spanx-5\+5 {
     grid-column: 5 / span 5; }
-  .lg\:span-5\+6 {
+  .lg\:spanx-5\+6 {
     grid-column: 5 / span 6; }
-  .lg\:span-5\+7 {
+  .lg\:spanx-5\+7 {
     grid-column: 5 / span 7; }
-  .lg\:span-5\+8 {
+  .lg\:spanx-5\+8 {
     grid-column: 5 / span 8; }
-  .lg\:span-5\+9 {
+  .lg\:spanx-5\+9 {
     grid-column: 5 / span 9; }
-  .lg\:span-5\+10 {
+  .lg\:spanx-5\+10 {
     grid-column: 5 / span 10; }
-  .lg\:span-6\+1 {
+  .lg\:spanx-6\+1 {
     grid-column: 6 / span 1; }
-  .lg\:span-6\+2 {
+  .lg\:spanx-6\+2 {
     grid-column: 6 / span 2; }
-  .lg\:span-6\+3 {
+  .lg\:spanx-6\+3 {
     grid-column: 6 / span 3; }
-  .lg\:span-6\+4 {
+  .lg\:spanx-6\+4 {
     grid-column: 6 / span 4; }
-  .lg\:span-6\+5 {
+  .lg\:spanx-6\+5 {
     grid-column: 6 / span 5; }
-  .lg\:span-6\+6 {
+  .lg\:spanx-6\+6 {
     grid-column: 6 / span 6; }
-  .lg\:span-6\+7 {
+  .lg\:spanx-6\+7 {
     grid-column: 6 / span 7; }
-  .lg\:span-6\+8 {
+  .lg\:spanx-6\+8 {
     grid-column: 6 / span 8; }
-  .lg\:span-6\+9 {
+  .lg\:spanx-6\+9 {
     grid-column: 6 / span 9; }
-  .lg\:span-7\+1 {
+  .lg\:spanx-7\+1 {
     grid-column: 7 / span 1; }
-  .lg\:span-7\+2 {
+  .lg\:spanx-7\+2 {
     grid-column: 7 / span 2; }
-  .lg\:span-7\+3 {
+  .lg\:spanx-7\+3 {
     grid-column: 7 / span 3; }
-  .lg\:span-7\+4 {
+  .lg\:spanx-7\+4 {
     grid-column: 7 / span 4; }
-  .lg\:span-7\+5 {
+  .lg\:spanx-7\+5 {
     grid-column: 7 / span 5; }
-  .lg\:span-7\+6 {
+  .lg\:spanx-7\+6 {
     grid-column: 7 / span 6; }
-  .lg\:span-7\+7 {
+  .lg\:spanx-7\+7 {
     grid-column: 7 / span 7; }
-  .lg\:span-7\+8 {
+  .lg\:spanx-7\+8 {
     grid-column: 7 / span 8; }
-  .lg\:span-8\+1 {
+  .lg\:spanx-8\+1 {
     grid-column: 8 / span 1; }
-  .lg\:span-8\+2 {
+  .lg\:spanx-8\+2 {
     grid-column: 8 / span 2; }
-  .lg\:span-8\+3 {
+  .lg\:spanx-8\+3 {
     grid-column: 8 / span 3; }
-  .lg\:span-8\+4 {
+  .lg\:spanx-8\+4 {
     grid-column: 8 / span 4; }
-  .lg\:span-8\+5 {
+  .lg\:spanx-8\+5 {
     grid-column: 8 / span 5; }
-  .lg\:span-8\+6 {
+  .lg\:spanx-8\+6 {
     grid-column: 8 / span 6; }
-  .lg\:span-8\+7 {
+  .lg\:spanx-8\+7 {
     grid-column: 8 / span 7; }
-  .lg\:span-9\+1 {
+  .lg\:spanx-9\+1 {
     grid-column: 9 / span 1; }
-  .lg\:span-9\+2 {
+  .lg\:spanx-9\+2 {
     grid-column: 9 / span 2; }
-  .lg\:span-9\+3 {
+  .lg\:spanx-9\+3 {
     grid-column: 9 / span 3; }
-  .lg\:span-9\+4 {
+  .lg\:spanx-9\+4 {
     grid-column: 9 / span 4; }
-  .lg\:span-9\+5 {
+  .lg\:spanx-9\+5 {
     grid-column: 9 / span 5; }
-  .lg\:span-9\+6 {
+  .lg\:spanx-9\+6 {
     grid-column: 9 / span 6; }
-  .lg\:span-10\+1 {
+  .lg\:spanx-10\+1 {
     grid-column: 10 / span 1; }
-  .lg\:span-10\+2 {
+  .lg\:spanx-10\+2 {
     grid-column: 10 / span 2; }
-  .lg\:span-10\+3 {
+  .lg\:spanx-10\+3 {
     grid-column: 10 / span 3; }
-  .lg\:span-10\+4 {
+  .lg\:spanx-10\+4 {
     grid-column: 10 / span 4; }
-  .lg\:span-10\+5 {
+  .lg\:spanx-10\+5 {
     grid-column: 10 / span 5; }
-  .lg\:span-11\+1 {
+  .lg\:spanx-11\+1 {
     grid-column: 11 / span 1; }
-  .lg\:span-11\+2 {
+  .lg\:spanx-11\+2 {
     grid-column: 11 / span 2; }
-  .lg\:span-11\+3 {
+  .lg\:spanx-11\+3 {
     grid-column: 11 / span 3; }
-  .lg\:span-11\+4 {
+  .lg\:spanx-11\+4 {
     grid-column: 11 / span 4; }
-  .lg\:span-12\+1 {
+  .lg\:spanx-12\+1 {
     grid-column: 12 / span 1; }
-  .lg\:span-12\+2 {
+  .lg\:spanx-12\+2 {
     grid-column: 12 / span 2; }
-  .lg\:span-12\+3 {
+  .lg\:spanx-12\+3 {
     grid-column: 12 / span 3; }
-  .lg\:span-13\+1 {
+  .lg\:spanx-13\+1 {
     grid-column: 13 / span 1; }
-  .lg\:span-13\+2 {
+  .lg\:spanx-13\+2 {
     grid-column: 13 / span 2; }
-  .lg\:span-14\+1 {
+  .lg\:spanx-14\+1 {
     grid-column: 14 / span 1; }
-  .lg\:span-15\+1 {
+  .lg\:spanx-15\+1 {
     grid-column: 15 / span 1; }
-  .lg\:span-15\+0 {
+  .lg\:spanx-15\+0 {
     grid-column: 15 / span 0; }
-  .lg\:span-row {
+  .lg\:spanx-row {
     grid-column: 1 / -1; }
-  .lg\:r-1 {
+  .lg\:spany-1 {
     grid-row-end: span 1; }
-  .lg\:r-2 {
+  .lg\:spany-2 {
     grid-row-end: span 2; }
-  .lg\:r-3 {
+  .lg\:spany-3 {
     grid-row-end: span 3; }
-  .lg\:r-4 {
+  .lg\:spany-4 {
     grid-row-end: span 4; }
-  .lg\:r-5 {
+  .lg\:spany-5 {
     grid-row-end: span 5; }
-  .lg\:r-6 {
+  .lg\:spany-6 {
     grid-row-end: span 6; }
-  .lg\:r-7 {
+  .lg\:spany-7 {
     grid-row-end: span 7; }
-  .lg\:r-8 {
+  .lg\:spany-8 {
     grid-row-end: span 8; }
-  .lg\:r-9 {
+  .lg\:spany-9 {
     grid-row-end: span 9; }
-  .lg\:r-10 {
+  .lg\:spany-10 {
     grid-row-end: span 10; }
-  .lg\:r-11 {
+  .lg\:spany-11 {
     grid-row-end: span 11; }
-  .lg\:r-12 {
+  .lg\:spany-12 {
     grid-row-end: span 12; }
-  .lg\:r-13 {
+  .lg\:spany-13 {
     grid-row-end: span 13; }
-  .lg\:r-14 {
+  .lg\:spany-14 {
     grid-row-end: span 14; }
-  .lg\:r-15 {
+  .lg\:spany-15 {
     grid-row-end: span 15; }
   .lg\:col {
     grid-row: 1 / -1; }
