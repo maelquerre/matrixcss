@@ -25,7 +25,7 @@ pre[class*="language-"] {
   word-break: normal;
   tab-size: 4;
   hyphens: none;
-  color: #4c4e5b;
+  color: #3e3f4b;
   background: #fafafc;
   border-radius: $border-radius;
 }
@@ -37,19 +37,19 @@ pre > code[class*="language-"] {
 pre[class*="language-"]::-moz-selection, pre[class*="language-"] ::-moz-selection,
 code[class*="language-"]::-moz-selection, code[class*="language-"] ::-moz-selection {
   text-shadow: none;
-  background: rgba(#000, .99);
+  background: rgba(#000, .99); // preserve maximum opacity
 }
 
 pre[class*="language-"]::selection, pre[class*="language-"] ::selection,
 code[class*="language-"]::selection, code[class*="language-"] ::selection {
   text-shadow: none;
-  background: rgba(#000, .99);
+  background: rgba(#000, .99); // preserve maximum opacity
 }
 
 /* Code blocks */
 pre[class*="language-"] {
-  margin: 2rem -5%;
-  padding: 2rem 5%;
+  margin: 2rem 0;
+  padding: 2rem;
   overflow: auto;
 }
 

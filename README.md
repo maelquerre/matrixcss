@@ -26,6 +26,8 @@ Serve docs on a local web server and watch SCSS source files at the same time:
 npm run serve
 ```
 
+Open http://localhost:8080 to view it in the browser.
+
 ### Build docs
 
 Build docs:
