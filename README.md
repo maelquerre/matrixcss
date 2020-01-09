@@ -2,18 +2,33 @@
 
 Matrix is a CSS framework based on the CSS Grid Layout.
 
-## Usage
+## Use
 
-### Using Matrix via CDN
+### Use Matrix via CDN
 
 ```html
-<link href="https://cdn.jsdelivr.net/gh/Glascode/matrix@master/css/matrix.min.css" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/gh/Glascode/matrix@master/dist/matrix.min.css" rel="stylesheet">
 ```
 
 ## Develop
 
-### NPM scripts
+### Build project
 
-- `npm run build`: Build SASS source files
-- `npm run docs`: Build the docs
-- `npm run serve`: Serve the docs
+Build SCSS source files:
+```
+npm run build
+```
+
+### Serve docs
+
+Serve docs on a local web server and watch SCSS source files at the same time:
+```
+npm run serve
+```
+
+### Build docs
+
+Build docs:
+```
+npm run docs
+```
