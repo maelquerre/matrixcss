@@ -38,7 +38,7 @@ header {
 
 h2, h3 {
   margin: 0 0 .8rem;
-  font-weight: 600;
+  font-weight: 700;
   line-height: 1.2; }
   h2 > a, h3 > a {
     color: inherit;
@@ -52,12 +52,12 @@ h2, h3 {
 h2 {
   font-size: 1rem;
   text-transform: uppercase;
-  letter-spacing: .1rem; }
+  letter-spacing: .1em; }
   h2:not(:first-child) {
     margin-top: 2rem; }
 
 h3 {
-  font-size: 1.5rem;
+  font-size: 1.75rem;
   letter-spacing: -.025em; }
 
 p {
@@ -144,7 +144,7 @@ pre[class*="language-"] {
   word-break: normal;
   tab-size: 4;
   hyphens: none;
-  color: #4c4e5b;
+  color: #3e3f4b;
   background: #fafafc;
   border-radius: 0.3rem; }
 
@@ -163,8 +163,8 @@ code[class*="language-"]::selection, code[class*="language-"] ::selection {
 
 /* Code blocks */
 pre[class*="language-"] {
-  margin: 2rem -5%;
-  padding: 2rem 5%;
+  margin: 2rem 0;
+  padding: 2rem;
   overflow: auto; }
 
 /* Inline code */
