@@ -42,18 +42,18 @@ permalink: /
   </div>
 
   {% highlight html %}
-  <div class="grid columns-6">
-    <div class="spanx-2">spanx-2</div>
-    <div></div>
-    <div class="spanx-4..">spanx-4..</div>
-    <div class="spanx-2+3">spanx-2+3</div>
-    <div></div>
-    <div class="spany-3">r-3</div>
-    <div class="spanx-2 r-2">spanx-2 r-2</div>
-    <div class="spanx-4-5">spanx-4-5</div>
-    <div class="spanx-3">spanx-3</div>
-    <div class="spanx-row">spanx-row</div>
-  </div>
+<div class="grid columns-6">
+  <div class="spanx-2">spanx-2</div>
+  <div></div>
+  <div class="spanx-4..">spanx-4..</div>
+  <div class="spanx-2+3">spanx-2+3</div>
+  <div></div>
+  <div class="spany-3">r-3</div>
+  <div class="spanx-2 spany-2">spanx-2 spany-2</div>
+  <div class="spanx-4-5">spanx-4-5</div>
+  <div class="spanx-3">spanx-3</div>
+  <div class="spanx-row">spanx-row</div>
+</div>
   {% endhighlight %}
 
   <h2 id="grid-control">
@@ -117,7 +117,7 @@ permalink: /
       <div class="spanx-row md:spanx-2 lg:spanx-3 lg:order-3">C</div>
       <div class="spanx-row md:spanx-2 lg:spanx-3 order-5">D</div>
       <div class="spanx-row md:spanx-2 lg:spanx-3 order-6">E</div>
-      <div class="spanx-row md:spanx-2 lg:spanx-3 md:r-1 lg:spany-3 md:order-3 lg:order-3">F</div>
+      <div class="spanx-row md:spanx-2 lg:spanx-3 lg:spany-3 md:order-3 lg:order-3">F</div>
       <div class="spanx-row order-last">G</div>
       <div class="grid columns-6 guides">
         <div>&nbsp;</div>
@@ -132,15 +132,15 @@ permalink: /
 
   <div class="spanx-row">
     {% highlight html %}
-    <div class="grid columns-6">
-      <div class="spanx-row">A</div>
-      <div class="spanx-row md:spanx-4 lg:spanx-row lg:order-2">B</div>
-      <div class="spanx-row md:spanx-2 lg:spanx-3 lg:order-3">C</div>
-      <div class="spanx-row md:spanx-2 lg:spanx-3 order-5">D</div>
-      <div class="spanx-row md:spanx-2 lg:spanx-3 order-6">E</div>
-      <div class="spanx-row md:spanx-2 lg:spanx-3 md:r-1 lg:r-3 md:order-3 lg:order-3">F</div>
-      <div class="spanx-row order-last">G</div>
-    </div>
+<div class="grid columns-6">
+  <div class="spanx-row">A</div>
+  <div class="spanx-row md:spanx-4 lg:spanx-row lg:order-2">B</div>
+  <div class="spanx-row md:spanx-2 lg:spanx-3 lg:order-3">C</div>
+  <div class="spanx-row md:spanx-2 lg:spanx-3 order-5">D</div>
+  <div class="spanx-row md:spanx-2 lg:spanx-3 order-6">E</div>
+  <div class="spanx-row md:spanx-2 lg:spanx-3 lg:spany-3 md:order-3 lg:order-3">F</div>
+  <div class="spanx-row order-last">G</div>
+</div>
     {% endhighlight %}
   </div>
 </section>
