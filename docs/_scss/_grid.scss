@@ -6,9 +6,15 @@
   margin-bottom: 3rem;
 
   > * {
-    padding: .75rem 1rem;
+    padding: .3rem .5rem;
+    font-size: .75rem;
     color: invert($foreground);
     background-color: invert($background);
+
+    @media (min-width: 640px) {
+      padding: .75rem 1rem;
+      font-size: .9rem;
+    }
   }
 
   > *:nth-child(1),
@@ -47,14 +53,5 @@
     grid-row: 1 / -1;
     background-color: transparent;
     border: 1px dashed $foreground;
-  }
-}
-
-.grid.example {
-  > * {
-    padding: .75rem 1rem;
-    background-color: darken($background, 15%);
-    border-radius: $border-radius;
-    box-shadow: $box-shadow;
   }
 }

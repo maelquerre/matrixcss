@@ -3,8 +3,9 @@
 // Base styles
 
 @font-face {
-  font-family: "JetBrainsMono";
-  src: url("/fonts/JetBrainsMono-Regular.woff2") format("woff2");
+  font-family: 'JetBrainsMono';
+  src: url('/fonts/JetBrainsMono-Regular.woff2') format('woff2');
+  font-display: swap;
 }
 
 *, *::before, *::after {
@@ -21,7 +22,7 @@ body {
   line-height: 1.5;
   color: $foreground;
   background-color: $background;
-  background-image: url("/matrix/images/dot.png");
+  background-image: url("/images/dot.png");
   background-size: 50px 50px;
   background-position: center;
   -webkit-font-smoothing: antialiased;

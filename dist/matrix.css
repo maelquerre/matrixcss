@@ -3,55 +3,55 @@
  */
 .grid {
   display: grid;
-  grid-template-columns: repeat(12, 1fr); }
+  grid-template-columns: repeat(12, minmax(0, 1fr)); }
 
 .contents {
   display: contents; }
 
 .columns-1 {
-  grid-template-columns: repeat(1, 1fr); }
+  grid-template-columns: repeat(1, minmax(0, 1fr)); }
 
 .columns-2 {
-  grid-template-columns: repeat(2, 1fr); }
+  grid-template-columns: repeat(2, minmax(0, 1fr)); }
 
 .columns-3 {
-  grid-template-columns: repeat(3, 1fr); }
+  grid-template-columns: repeat(3, minmax(0, 1fr)); }
 
 .columns-4 {
-  grid-template-columns: repeat(4, 1fr); }
+  grid-template-columns: repeat(4, minmax(0, 1fr)); }
 
 .columns-5 {
-  grid-template-columns: repeat(5, 1fr); }
+  grid-template-columns: repeat(5, minmax(0, 1fr)); }
 
 .columns-6 {
-  grid-template-columns: repeat(6, 1fr); }
+  grid-template-columns: repeat(6, minmax(0, 1fr)); }
 
 .columns-7 {
-  grid-template-columns: repeat(7, 1fr); }
+  grid-template-columns: repeat(7, minmax(0, 1fr)); }
 
 .columns-8 {
-  grid-template-columns: repeat(8, 1fr); }
+  grid-template-columns: repeat(8, minmax(0, 1fr)); }
 
 .columns-9 {
-  grid-template-columns: repeat(9, 1fr); }
+  grid-template-columns: repeat(9, minmax(0, 1fr)); }
 
 .columns-10 {
-  grid-template-columns: repeat(10, 1fr); }
+  grid-template-columns: repeat(10, minmax(0, 1fr)); }
 
 .columns-11 {
-  grid-template-columns: repeat(11, 1fr); }
+  grid-template-columns: repeat(11, minmax(0, 1fr)); }
 
 .columns-12 {
-  grid-template-columns: repeat(12, 1fr); }
+  grid-template-columns: repeat(12, minmax(0, 1fr)); }
 
 .columns-13 {
-  grid-template-columns: repeat(13, 1fr); }
+  grid-template-columns: repeat(13, minmax(0, 1fr)); }
 
 .columns-14 {
-  grid-template-columns: repeat(14, 1fr); }
+  grid-template-columns: repeat(14, minmax(0, 1fr)); }
 
 .columns-15 {
-  grid-template-columns: repeat(15, 1fr); }
+  grid-template-columns: repeat(15, minmax(0, 1fr)); }
 
 [class*='columns-1'].columns-1.max-content-first {
   grid-template-columns: max-content; }
@@ -1084,35 +1084,35 @@
 
 @media (min-width: 640px) {
   .sm\:columns-1 {
-    grid-template-columns: repeat(1, 1fr); }
+    grid-template-columns: repeat(1, minmax(0, 1fr)); }
   .sm\:columns-2 {
-    grid-template-columns: repeat(2, 1fr); }
+    grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .sm\:columns-3 {
-    grid-template-columns: repeat(3, 1fr); }
+    grid-template-columns: repeat(3, minmax(0, 1fr)); }
   .sm\:columns-4 {
-    grid-template-columns: repeat(4, 1fr); }
+    grid-template-columns: repeat(4, minmax(0, 1fr)); }
   .sm\:columns-5 {
-    grid-template-columns: repeat(5, 1fr); }
+    grid-template-columns: repeat(5, minmax(0, 1fr)); }
   .sm\:columns-6 {
-    grid-template-columns: repeat(6, 1fr); }
+    grid-template-columns: repeat(6, minmax(0, 1fr)); }
   .sm\:columns-7 {
-    grid-template-columns: repeat(7, 1fr); }
+    grid-template-columns: repeat(7, minmax(0, 1fr)); }
   .sm\:columns-8 {
-    grid-template-columns: repeat(8, 1fr); }
+    grid-template-columns: repeat(8, minmax(0, 1fr)); }
   .sm\:columns-9 {
-    grid-template-columns: repeat(9, 1fr); }
+    grid-template-columns: repeat(9, minmax(0, 1fr)); }
   .sm\:columns-10 {
-    grid-template-columns: repeat(10, 1fr); }
+    grid-template-columns: repeat(10, minmax(0, 1fr)); }
   .sm\:columns-11 {
-    grid-template-columns: repeat(11, 1fr); }
+    grid-template-columns: repeat(11, minmax(0, 1fr)); }
   .sm\:columns-12 {
-    grid-template-columns: repeat(12, 1fr); }
+    grid-template-columns: repeat(12, minmax(0, 1fr)); }
   .sm\:columns-13 {
-    grid-template-columns: repeat(13, 1fr); }
+    grid-template-columns: repeat(13, minmax(0, 1fr)); }
   .sm\:columns-14 {
-    grid-template-columns: repeat(14, 1fr); }
+    grid-template-columns: repeat(14, minmax(0, 1fr)); }
   .sm\:columns-15 {
-    grid-template-columns: repeat(15, 1fr); }
+    grid-template-columns: repeat(15, minmax(0, 1fr)); }
   [class*='columns-1'].columns-1.sm\:max-content-first {
     grid-template-columns: max-content; }
   [class*='columns-2'].columns-2.sm\:max-content-first {
@@ -1802,35 +1802,35 @@
 
 @media (min-width: 768px) {
   .md\:columns-1 {
-    grid-template-columns: repeat(1, 1fr); }
+    grid-template-columns: repeat(1, minmax(0, 1fr)); }
   .md\:columns-2 {
-    grid-template-columns: repeat(2, 1fr); }
+    grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .md\:columns-3 {
-    grid-template-columns: repeat(3, 1fr); }
+    grid-template-columns: repeat(3, minmax(0, 1fr)); }
   .md\:columns-4 {
-    grid-template-columns: repeat(4, 1fr); }
+    grid-template-columns: repeat(4, minmax(0, 1fr)); }
   .md\:columns-5 {
-    grid-template-columns: repeat(5, 1fr); }
+    grid-template-columns: repeat(5, minmax(0, 1fr)); }
   .md\:columns-6 {
-    grid-template-columns: repeat(6, 1fr); }
+    grid-template-columns: repeat(6, minmax(0, 1fr)); }
   .md\:columns-7 {
-    grid-template-columns: repeat(7, 1fr); }
+    grid-template-columns: repeat(7, minmax(0, 1fr)); }
   .md\:columns-8 {
-    grid-template-columns: repeat(8, 1fr); }
+    grid-template-columns: repeat(8, minmax(0, 1fr)); }
   .md\:columns-9 {
-    grid-template-columns: repeat(9, 1fr); }
+    grid-template-columns: repeat(9, minmax(0, 1fr)); }
   .md\:columns-10 {
-    grid-template-columns: repeat(10, 1fr); }
+    grid-template-columns: repeat(10, minmax(0, 1fr)); }
   .md\:columns-11 {
-    grid-template-columns: repeat(11, 1fr); }
+    grid-template-columns: repeat(11, minmax(0, 1fr)); }
   .md\:columns-12 {
-    grid-template-columns: repeat(12, 1fr); }
+    grid-template-columns: repeat(12, minmax(0, 1fr)); }
   .md\:columns-13 {
-    grid-template-columns: repeat(13, 1fr); }
+    grid-template-columns: repeat(13, minmax(0, 1fr)); }
   .md\:columns-14 {
-    grid-template-columns: repeat(14, 1fr); }
+    grid-template-columns: repeat(14, minmax(0, 1fr)); }
   .md\:columns-15 {
-    grid-template-columns: repeat(15, 1fr); }
+    grid-template-columns: repeat(15, minmax(0, 1fr)); }
   [class*='columns-1'].columns-1.md\:max-content-first {
     grid-template-columns: max-content; }
   [class*='columns-2'].columns-2.md\:max-content-first {
@@ -2520,35 +2520,35 @@
 
 @media (min-width: 1024px) {
   .lg\:columns-1 {
-    grid-template-columns: repeat(1, 1fr); }
+    grid-template-columns: repeat(1, minmax(0, 1fr)); }
   .lg\:columns-2 {
-    grid-template-columns: repeat(2, 1fr); }
+    grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .lg\:columns-3 {
-    grid-template-columns: repeat(3, 1fr); }
+    grid-template-columns: repeat(3, minmax(0, 1fr)); }
   .lg\:columns-4 {
-    grid-template-columns: repeat(4, 1fr); }
+    grid-template-columns: repeat(4, minmax(0, 1fr)); }
   .lg\:columns-5 {
-    grid-template-columns: repeat(5, 1fr); }
+    grid-template-columns: repeat(5, minmax(0, 1fr)); }
   .lg\:columns-6 {
-    grid-template-columns: repeat(6, 1fr); }
+    grid-template-columns: repeat(6, minmax(0, 1fr)); }
   .lg\:columns-7 {
-    grid-template-columns: repeat(7, 1fr); }
+    grid-template-columns: repeat(7, minmax(0, 1fr)); }
   .lg\:columns-8 {
-    grid-template-columns: repeat(8, 1fr); }
+    grid-template-columns: repeat(8, minmax(0, 1fr)); }
   .lg\:columns-9 {
-    grid-template-columns: repeat(9, 1fr); }
+    grid-template-columns: repeat(9, minmax(0, 1fr)); }
   .lg\:columns-10 {
-    grid-template-columns: repeat(10, 1fr); }
+    grid-template-columns: repeat(10, minmax(0, 1fr)); }
   .lg\:columns-11 {
-    grid-template-columns: repeat(11, 1fr); }
+    grid-template-columns: repeat(11, minmax(0, 1fr)); }
   .lg\:columns-12 {
-    grid-template-columns: repeat(12, 1fr); }
+    grid-template-columns: repeat(12, minmax(0, 1fr)); }
   .lg\:columns-13 {
-    grid-template-columns: repeat(13, 1fr); }
+    grid-template-columns: repeat(13, minmax(0, 1fr)); }
   .lg\:columns-14 {
-    grid-template-columns: repeat(14, 1fr); }
+    grid-template-columns: repeat(14, minmax(0, 1fr)); }
   .lg\:columns-15 {
-    grid-template-columns: repeat(15, 1fr); }
+    grid-template-columns: repeat(15, minmax(0, 1fr)); }
   [class*='columns-1'].columns-1.lg\:max-content-first {
     grid-template-columns: max-content; }
   [class*='columns-2'].columns-2.lg\:max-content-first {
