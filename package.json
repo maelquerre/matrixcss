@@ -9,7 +9,7 @@
     "build": "node-sass src/matrix.scss dist/matrix.css --source-map dist/matrix.css.map && npm run minify",
     "watch": "node-sass --watch src/matrix.scss dist/matrix.css --source-map dist/matrix.css.map & npm run minify",
     "minify": "node-sass src/matrix.scss dist/matrix.min.css --output-style compressed",
-    "docs": "npm run docs:sass && eleventy --pathprefix=matrix",
+    "docs": "npm run docs:sass && eleventy",
     "docs:sass": "node-sass src/matrix.scss docs/css/matrix.css && node-sass docs/_scss/docs.scss docs/css/docs.css",
     "serve": "npm run serve:sass & eleventy --serve",
     "serve:sass": "node-sass --watch src/matrix.scss docs/css/matrix.css & node-sass --watch docs/_scss/docs.scss docs/css/docs.css",

@@ -1,3 +1,7 @@
+@font-face {
+  font-family: "JetBrainsMono";
+  src: url("/fonts/JetBrainsMono-Regular.woff2") format("woff2"); }
+
 *, *::before, *::after {
   box-sizing: border-box; }
 
@@ -133,13 +137,13 @@ footer {
   justify-content: space-between; }
 
 code {
-  font-family: "IBM Plex Mono", Menlo, "DejaVu Sans Mono", monospace; }
+  font-family: JetBrainsMono, Menlo, "DejaVu Sans Mono", monospace; }
 
 code[class*="language-"],
 pre[class*="language-"] {
-  font-family: "IBM Plex Mono", Menlo, "DejaVu Sans Mono", monospace;
+  font-family: JetBrainsMono, Menlo, "DejaVu Sans Mono", monospace;
   font-size: .875rem;
-  line-height: 1.375;
+  line-height: 1.5;
   direction: ltr;
   text-align: left;
   white-space: pre;
@@ -164,13 +168,11 @@ code[class*="language-"]::selection, code[class*="language-"] ::selection {
   text-shadow: none;
   background: rgba(0, 0, 0, 0.99); }
 
-/* Code blocks */
 pre[class*="language-"] {
   margin: 2rem 0;
   padding: 2rem;
   overflow: auto; }
 
-/* Inline code */
 :not(pre) > code[class*="language-"] {
   padding: .2rem;
   border-radius: .2rem; }

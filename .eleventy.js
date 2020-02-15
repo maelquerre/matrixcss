@@ -4,6 +4,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPlugin(syntaxHighlight);
 
   eleventyConfig.addPassthroughCopy('docs/css')
+  eleventyConfig.addPassthroughCopy('docs/fonts')
   eleventyConfig.addPassthroughCopy('docs/images')
 
   return {

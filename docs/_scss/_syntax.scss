@@ -7,7 +7,7 @@
 
 // Layout
 
-$font-mono: 'IBM Plex Mono', Menlo, 'DejaVu Sans Mono', monospace;
+$font-mono: JetBrainsMono, Menlo, 'DejaVu Sans Mono', monospace;
 
 code {
   font-family: $font-mono;
@@ -17,7 +17,7 @@ code[class*="language-"],
 pre[class*="language-"] {
   font-family: $font-mono;
   font-size: .875rem;
-  line-height: 1.375;
+  line-height: 1.5;
   direction: ltr;
   text-align: left;
   white-space: pre;
@@ -46,14 +46,15 @@ code[class*="language-"]::selection, code[class*="language-"] ::selection {
   background: rgba(#000, .99); // preserve maximum opacity
 }
 
-/* Code blocks */
+// Code blocks
 pre[class*="language-"] {
   margin: 2rem 0;
   padding: 2rem;
   overflow: auto;
 }
 
-/* Inline code */
+
+// Inline code
 :not(pre) > code[class*="language-"] {
   padding: .2rem;
   border-radius: .2rem;
