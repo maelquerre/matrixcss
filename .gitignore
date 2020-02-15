@@ -1,5 +1,10 @@
+# System
 .DS_Store
-.idea
+.idea/
 
-node_modules
-_site
+# Site
+node_modules/
+_site/
+
+# ZEIT
+.now/
