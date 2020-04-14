@@ -23,9 +23,9 @@
   "author": "Maël Querré & Alex Dean",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Glascode/matrix/issues"
+    "url": "https://github.com/maelquerre/matrix/issues"
   },
-  "homepage": "https://github.com/Glascode/matrix#readme",
+  "homepage": "https://github.com/maelquerre/matrix#readme",
   "dependencies": {},
   "devDependencies": {
     "@11ty/eleventy": "^0.9.0",
