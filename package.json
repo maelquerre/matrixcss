@@ -17,7 +17,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Glascode/matrix.git"
+    "url": "git+https://github.com/maelquerre/matrix.git"
   },
   "keywords": [],
   "author": "Maël Querré & Alex Dean",
