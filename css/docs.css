@@ -1,3 +1,8 @@
+@font-face {
+  font-family: 'JetBrainsMono';
+  src: url("/fonts/JetBrainsMono-Regular.woff2") format("woff2");
+  font-display: swap; }
+
 *, *::before, *::after {
   box-sizing: border-box; }
 
@@ -10,7 +15,7 @@ body {
   line-height: 1.5;
   color: #000;
   background-color: #fff;
-  background-image: url("/matrix/images/dot.png");
+  background-image: url("/images/dot.png");
   background-size: 50px 50px;
   background-position: center;
   -webkit-font-smoothing: antialiased;
@@ -84,9 +89,14 @@ footer {
   grid-template-rows: 2rem;
   margin-bottom: 3rem; }
   .grid.demo > * {
-    padding: .75rem 1rem;
+    padding: .3rem .5rem;
+    font-size: .75rem;
     color: white;
     background-color: black; }
+    @media (min-width: 640px) {
+      .grid.demo > * {
+        padding: .75rem 1rem;
+        font-size: .9rem; } }
   .grid.demo > *:nth-child(1),
   .grid.demo > *:nth-child(2),
   .grid.demo > *:nth-child(3),
@@ -120,12 +130,6 @@ footer {
     background-color: transparent;
     border: 1px dashed #000; }
 
-.grid.example > * {
-  padding: .75rem 1rem;
-  background-color: #d9d9d9;
-  border-radius: 0.3rem;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15); }
-
 .flex {
   display: flex; }
 
@@ -133,13 +137,13 @@ footer {
   justify-content: space-between; }
 
 code {
-  font-family: "IBM Plex Mono", Menlo, "DejaVu Sans Mono", monospace; }
+  font-family: "JetBrainsMono", monospace; }
 
 code[class*="language-"],
 pre[class*="language-"] {
-  font-family: "IBM Plex Mono", Menlo, "DejaVu Sans Mono", monospace;
+  font-family: "JetBrainsMono", monospace;
   font-size: .875rem;
-  line-height: 1.375;
+  line-height: 1.5;
   direction: ltr;
   text-align: left;
   white-space: pre;
@@ -154,23 +158,11 @@ pre[class*="language-"] {
 pre > code[class*="language-"] {
   font-size: 1em; }
 
-pre[class*="language-"]::-moz-selection, pre[class*="language-"] ::-moz-selection,
-code[class*="language-"]::-moz-selection, code[class*="language-"] ::-moz-selection {
-  text-shadow: none;
-  background: rgba(0, 0, 0, 0.99); }
-
-pre[class*="language-"]::selection, pre[class*="language-"] ::selection,
-code[class*="language-"]::selection, code[class*="language-"] ::selection {
-  text-shadow: none;
-  background: rgba(0, 0, 0, 0.99); }
-
-/* Code blocks */
 pre[class*="language-"] {
   margin: 2rem 0;
   padding: 2rem;
   overflow: auto; }
 
-/* Inline code */
 :not(pre) > code[class*="language-"] {
   padding: .2rem;
   border-radius: .2rem; }
