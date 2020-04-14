@@ -7,7 +7,7 @@ Matrix is a CSS framework based on the CSS Grid Layout.
 ### Use Matrix via CDN
 
 ```html
-<link href="https://cdn.jsdelivr.net/gh/Glascode/matrix@master/dist/matrix.min.css" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/gh/maelquerre/matrix@master/dist/matrix.min.css" rel="stylesheet">
 ```
 
 ## Develop
